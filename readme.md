@@ -1,6 +1,7 @@
 # Getting started
 
 
+### 插件预览图
 ![](https://github.com/xiaowang1314/u-validcode/blob/master/static/preview.png)
 
 #### 使用教程

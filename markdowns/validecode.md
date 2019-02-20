@@ -61,3 +61,7 @@ export default {
 
 
 ```
+
+
+##### 兼容性
+uni-app项目中使用都兼容

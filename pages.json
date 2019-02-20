@@ -1,6 +1,12 @@
 {
 	"pages": [ 
 		{
+			"path": "pages/countUp/countUp",
+			"style": {
+				"navigationBarTitleText": "数字滚动"
+			}
+		},
+		{
 			"path": "pages/validcode/validcode",
 			"style": {
 				"navigationBarTitleText": "自定义验证码、密码输入框"

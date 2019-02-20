@@ -17,6 +17,7 @@ export default {
 	methods: {
 		add() {
 			this.num=++this.num;
+			
 		},
 		reduce(){
 			this.num=--this.num;

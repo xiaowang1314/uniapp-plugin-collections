@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/validcode/validcode",
+    "pages/countUp/countUp"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "autoclose": true
+  },
+  "appname": "u-validcode"
+}

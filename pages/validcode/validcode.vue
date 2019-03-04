@@ -8,24 +8,24 @@
 </template>
 
 <script>
-export default {
-	data() {
-		return {};
-	},
-	onLoad() {},
-	methods: {
-		getCode(val) {
-			console.log(val);
+	export default {
+		data() {
+			return {};
 		},
-		getPwd(val){
-			console.log(val);
+		onLoad() {},
+		methods: {
+			getCode(val) {
+				console.log(val);
+			},
+			getPwd(val) {
+				console.log(val);
+			}
 		}
-	}
-};
+	};
 </script>
 
 <style>
-.content {
-	height: 400upx;
-}
+	.content {
+		height: 400upx;
+	}
 </style>

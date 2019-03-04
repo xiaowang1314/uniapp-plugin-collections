@@ -64,6 +64,22 @@ export default {
 	},
 	watch: {
 		num: function(val, oldVal) {
+			// 处理新老数据长度不一样的情况
+			let arr = Array.prototype.slice.apply(this.indexArr);
+			let newLen = val.toString().length;
+			let oldLen = oldVal.toString().length;
+			if (newLen > oldLen) {
+				for (let i=0;i<newLen-oldLen;i++) {
+					arr.push(0);
+				}
+				this.indexArr = arr;
+			}
+			if (newLen < oldLen) {
+				for (let i=0;i<oldLen-newLen;i++) {
+					arr.pop();
+				}
+				this.indexArr = arr;
+			}
 			this.numChange(val);
 		}
 	},

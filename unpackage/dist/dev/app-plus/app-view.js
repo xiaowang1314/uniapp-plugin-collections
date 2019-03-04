@@ -1234,7 +1234,7 @@ __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/components/countUp.vue.wxml','/components/validCode.vue.wxml','./components/countUp.vue.wxml','./components/validCode.vue.wxml','./pages/countUp/countUp.vue.wxml','./pages/countUp/countUp.wxml','./countUp.vue.wxml','./pages/validcode/validcode.vue.wxml','./pages/validcode/validcode.wxml','./validcode.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/components/validCode.vue.wxml','/components/countUp.vue.wxml','./components/countUp.vue.wxml','./components/validCode.vue.wxml','./pages/countUp/countUp.vue.wxml','./pages/countUp/countUp.wxml','./countUp.vue.wxml','./pages/validcode/validcode.vue.wxml','./pages/validcode/validcode.wxml','./validcode.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=e_[x[0]].i
@@ -1690,11 +1690,11 @@ return r
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 var cF=e_[x[5]].i
-_ai(cF,x[1],e_,x[5],1,1)
+_ai(cF,x[2],e_,x[5],1,1)
 cF.pop()
 return r
 }
-e_[x[5]]={f:m3,j:[],i:[],ti:[x[1]],ic:[]}
+e_[x[5]]={f:m3,j:[],i:[],ti:[x[2]],ic:[]}
 d_[x[6]]={}
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
@@ -1784,11 +1784,11 @@ return r
 var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
 var eN=e_[x[8]].i
-_ai(eN,x[2],e_,x[8],1,1)
+_ai(eN,x[1],e_,x[8],1,1)
 eN.pop()
 return r
 }
-e_[x[8]]={f:m5,j:[],i:[],ti:[x[2]],ic:[]}
+e_[x[8]]={f:m5,j:[],i:[],ti:[x[1]],ic:[]}
 d_[x[9]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()

@@ -9,13 +9,14 @@
 
 usage:
  list:数组数据
- <textscroll :list="list"/>
+ @getCurrentIndex  获取当前swiper的下标
+ <textscroll :list="list" @getCurrentIndex="getIndex"/>
 
  -->
 
 <template>
 	<view class="_notice">
-		<swiper class="_swiper tc" indicator-dots="false" autoplay="true" :interval="interval" circular="true"
+		<swiper class="_swiper tc" @change="slideChange" indicator-dots="false" autoplay="true" :interval="interval" circular="true"
 		 display-multiple-items="2" :duration="duration">
 			<swiper-item>
 				<view class="swiper-item uni-bg-red"></view>
@@ -47,6 +48,12 @@ usage:
 				duration:12000,
 			};
 		},
+		methods:{
+			slideChange(e){
+				this.$emit('getCurrentIndex',e.detail.current); 
+				
+			}
+		}
 
 	};
 </script>

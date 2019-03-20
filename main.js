@@ -5,9 +5,11 @@ Vue.config.productionTip = false
 
 import countUp from './components/countUp.vue'
 import validCode from './components/validCode.vue'
+import screenTextScroll from './components/screenTextScroll.vue'
 
 Vue.component('countup',countUp)
 Vue.component('validcode',validCode)
+Vue.component('textscroll',screenTextScroll)
 
 
 App.mpType = 'app'

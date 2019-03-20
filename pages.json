@@ -1,6 +1,12 @@
 {
 	"pages": [ 
 		{
+			"path": "pages/textscroll/textscroll",
+			"style": {
+				"navigationBarTitleText": "屏幕文字滚动效果"
+			}
+		},
+		{
 			"path": "pages/countUp/countUp",
 			"style": {
 				"navigationBarTitleText": "数字滚动"

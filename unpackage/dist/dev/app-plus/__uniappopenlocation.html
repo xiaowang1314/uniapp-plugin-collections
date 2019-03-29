@@ -28,6 +28,8 @@
             top: 0;
             right: 0;
             bottom: 80px;
+            bottom: calc(80px + constant(safe-area-inset-bottom));
+            bottom: calc(80px + env(safe-area-inset-bottom));
         }
 
         #poi {
@@ -35,6 +37,8 @@
             left: 0;
             right: 0;
             bottom: 0;
+            bottom: constant(safe-area-inset-bottom);
+            bottom: env(safe-area-inset-bottom);
             height: 80px;
             background: #FFFFFF;
         }
@@ -44,12 +48,11 @@
             padding: 23px 16px 23px 18px;
             box-sizing: border-box;
             background: #FFFFFF;
-            border: 0 solid rgba(0, 0, 0, 0.10);
-            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.15);
         }
 
         .poi-name {
             font-size: 17px;
+            line-height: 17px;
             color: #111111;
             display: block;
             margin-right: 70px;
@@ -58,6 +61,7 @@
 
         .poi-addr {
             font-size: 13px;
+            line-height: 13px;
             color: #666666;
             display: block;
             margin-top: 4px;
@@ -110,7 +114,7 @@
     <script>
         var loc;
         var serviceWebview;
-        var back = function () {
+        var back = function() {
             var webview = plus.webview.currentWebview()
             if (webview.__uniapp_statusbar_style === 'light') {
                 plus.navigator.setStatusBarStyle('light')
@@ -118,14 +122,117 @@
             webview.close('auto');
         };
 
-        document.addEventListener('plusready', function () {
+        var isIos = !!navigator.userAgent.match(/iPhone|iPad|iPod/i);
+
+        document.addEventListener('plusready', function() {
             serviceWebview = plus.webview.getWebviewById('__W2A_CONTEXT_') || plus.webview.getLaunchWebview();
             plus.key.addEventListener('backbutton', back);
 
 
         })
+
+        /**
+         * 调用系统第三方程序进行导航
+         */
+        function openSysMap(lat, lng, title) {
+            /**
+             * 网页版地图源
+             */
+            var mapsSourceWeb = [
+                {
+                    title: '腾讯地图网页版',
+                    getUrl: function() {
+                        var url
+                        url = 'https://apis.map.qq.com/uri/v1/routeplan?type=drive' + '&to=' +
+                            encodeURIComponent(title) + '&tocoord=' + encodeURIComponent(lat + ',' + lng) +
+                            '&referer=APP'
+                        return url
+                    }
+                }
+            ]
+            /**
+             * APP版地图源
+             */
+            var mapsSource = [
+                {
+                    title: '高德地图',
+                    pname: 'com.autonavi.minimap',
+                    action: !isIos ? 'amapuri://' : 'iosamap://',
+                    getUrl: function() {
+                        var url
+                        if (!isIos) {
+                            url = 'amapuri://route/plan/'
+                        } else {
+                            url = 'iosamap://path'
+                        }
+                        url += '?sourceApplication=APP&dname=' + encodeURIComponent(title) + '&dlat=' + lat +
+                            '&dlon=' + lng + '&dev=0'
+                        return url
+                    }
+                },
+                {
+                    title: '百度地图',
+                    pname: 'com.baidu.BaiduMap',
+                    action: 'baidumap://',
+                    getUrl: function() {
+                        var url = 'baidumap://map/direction?destination=' + encodeURIComponent('latlng:' + lat +
+                            ',' + lng + '|name:' + title) + '&mode=driving&src=APP&coord_type=gcj02'
+                        return url
+                    }
+                },
+                {
+                    title: '腾讯地图',
+                    pname: 'com.tencent.map',
+                    action: 'qqmap://',
+                    getUrl: function() {
+                        var url
+                        url = 'qqmap://map/routeplan?type=drive' + (isIos ? ('&from=' + encodeURIComponent(
+                            '我的位置')) : '') + '&to=' + encodeURIComponent(title) + '&tocoord=' +
+                            encodeURIComponent(lat + ',' + lng) + '&referer=APP'
+                        return url
+                    }
+                }
+            ]
+            var maps = []
+            mapsSource.forEach(function(mapsSource) {
+                var installed = plus.runtime.isApplicationExist({
+                    pname: mapsSource.pname,
+                    action: mapsSource.action,
+                })
+                if (installed) {
+                    maps.push(mapsSource)
+                }
+            })
+            if (isIos) {
+                maps.unshift({
+                    title: 'Apple 地图',
+                    getUrl: function() {
+                        var url
+                        url = 'https://maps.apple.com/?daddr=' + encodeURIComponent(title) + '&sll=' +
+                            encodeURIComponent(lat + ',' + lng)
+                        return url
+                    }
+                })
+            }
+            if (maps.length === 0) {
+                maps = maps.concat(mapsSourceWeb)
+            }
+            plus.nativeUI.actionSheet({
+                title: '导航方式',
+                cancel: '取消',
+                buttons: maps,
+            }, function(res) {
+                var index = res.index
+                var map
+                if (index > 0) {
+                    map = maps[index - 1]
+                    plus.runtime.openURL(map.getUrl(), function() { }, map.pname)
+                }
+            })
+        }
+
         var ZOOM = 13
-        window.__openLocation__ = function (params) {
+        window.__openLocation__ = function(params) {
             var mapElem = document.getElementById('map');
             var poiNameElem = document.querySelector('.poi-name');
             var poiAddrElem = document.querySelector('.poi-addr');
@@ -159,7 +266,7 @@
             map.addOverlay(marker);
             plus.webview.currentWebview().append(map);
             var userPoint = false
-            map.getUserLocation(function (state, point) {
+            map.getUserLocation(function(state, point) {
                 if (state) {
                     plus.nativeUI.toast('定位失败!');
                 } else {
@@ -167,51 +274,8 @@
                 }
             })
 
-            var userRoute = false
-
-            poiNavElem.addEventListener('click', function () {
-                plus.nativeUI.actionSheet({
-                        cancel: "取消",
-                        buttons: [{
-                                title: userRoute ? '隐藏路线' : '显示路线'
-                            },
-                            {
-                                title: '调用第三方地图导航'
-                            }
-                        ]
-                    },
-                    function (e) {
-                        switch (e.index) {
-                            case 1:
-                                if (userRoute) {
-                                    map.removeOverlay(userRoute);
-                                    userRoute = false;
-                                } else {
-                                    var search = new plus.maps.Search(map);
-                                    search.onRouteSearchComplete = function (state, result) {
-                                        plus.nativeUI.closeWaiting();
-                                        if (state == 0) {
-                                            if (result.routeNumber <= 0) {
-                                                plus.nativeUI.toast("没有检索到结果");
-                                            }
-                                            userRoute = result.getRoute(0);
-                                            map.addOverlay(userRoute);
-                                        } else {
-                                            plus.nativeUI.toast('路线检索失败');
-                                        }
-                                    }
-                                    plus.nativeUI.showWaiting();
-                                    search.drivingSearch(userPoint, '', point, '');
-                                }
-                                break;
-                            case 2:
-                                // 调用系统地图显示 
-                                if (userPoint) {
-                                    plus.maps.openSysMap(point, name, userPoint);
-                                }
-                                break;
-                        }
-                    });
+            poiNavElem.addEventListener('click', function() {
+                openSysMap(latitude, longitude, name)
             });
         }
     </script>

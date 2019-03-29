@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/validcode/validcode",
-    "pages/countUp/countUp"
+    "pages/saveImg/saveImg",
+    "pages/textscroll/textscroll",
+    "pages/countUp/countUp",
+    "pages/validcode/validcode"
   ],
   "subPackages": [],
   "window": {
@@ -12,7 +14,8 @@
   },
   "usingComponents": {},
   "splashscreen": {
-    "autoclose": true
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
   },
   "appname": "u-validcode"
 }

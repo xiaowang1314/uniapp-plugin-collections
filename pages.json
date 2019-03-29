@@ -1,6 +1,12 @@
 {
 	"pages": [ 
 		{
+			"path": "pages/saveImg/saveImg",
+			"style": {
+				"navigationBarTitleText": "保存图片"
+			}
+		},
+		{
 			"path": "pages/textscroll/textscroll",
 			"style": {
 				"navigationBarTitleText": "屏幕文字滚动效果"

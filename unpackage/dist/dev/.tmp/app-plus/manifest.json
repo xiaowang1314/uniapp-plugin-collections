@@ -74,6 +74,9 @@
         }
       }
     },
-    "allowsInlineMediaPlayback": true
+    "allowsInlineMediaPlayback": true,
+    "uni-app": {
+      "compilerVersion": "1.7.0"
+    }
   }
 }

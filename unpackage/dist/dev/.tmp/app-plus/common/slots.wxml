@@ -1,3 +1,5 @@
-<import src="/components/validCode.vue.wxml" />
+<import src="/components/saveFile.vue.wxml" />
 <import src="/components/countUp.vue.wxml" />
+<import src="/components/screenTextScroll.vue.wxml" />
+<import src="/components/validCode.vue.wxml" />
 

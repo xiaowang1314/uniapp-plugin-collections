@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script>
+        var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+        document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
     <title>扫码</title>
     <style>
         html,
@@ -94,7 +97,10 @@
             plus.key.addEventListener('backbutton', back);
             setTimeout(function () {
                 var webview = plus.webview.currentWebview();
-                scan = new plus.barcode.Barcode('scan', webview.__uniapp_scan_type);
+                scan = new plus.barcode.Barcode('scan', webview.__uniapp_scan_type, {
+                    frameColor: '#118CE9',
+                    scanbarColor: '#118CE9'
+                });
                 scan.onmarked = function (type, code, file) {
                     var res = {
                         type: type,

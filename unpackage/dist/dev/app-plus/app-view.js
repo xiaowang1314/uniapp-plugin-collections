@@ -11,7 +11,7 @@ var __WXML_GLOBAL__ = {
 };
 var $gwx;
 
-/*v0.5vv_20181221_syb_scopedata*/window.__wcc_version__='v0.5vv_20181221_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
+/*v0.5vv_20190312_syb_scopedata*/window.__wcc_version__='v0.5vv_20190312_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
 var $gwxc
 var $gaic={}
 $gwx=function(path,global){
@@ -1053,7 +1053,6 @@ if(typeof(global.defines)==='undefined')global.defines={};d_=global.defines;
 var f_={}
 if(typeof(global.modules)==='undefined')global.modules={};f_=global.modules || {};
 var p_={}
-var cs
 __WXML_GLOBAL__.ops_cached = __WXML_GLOBAL__.ops_cached || {}
 __WXML_GLOBAL__.ops_set = __WXML_GLOBAL__.ops_set || {};
 __WXML_GLOBAL__.ops_init = __WXML_GLOBAL__.ops_init || {};
@@ -1069,19 +1068,19 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'497d4698'])
-Z([3,'_view 497d4698 number-box'])
+Z([3,'_view M497d4698 number-box'])
 Z([3,'index'])
 Z([3,'myIndex'])
 Z([[7],[3,'indexArr']])
 Z(z[2])
 Z([[7],[3,'index']])
 Z([3,'true'])
-Z([3,'_swiper 497d4698 swiper'])
+Z([3,'_swiper M497d4698 swiper'])
 Z([[7],[3,'myIndex']])
 Z([a,[3,' '],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[1,'color:'],[[7],[3,'color']]],[1,';']],[1,'width:']],[[2,'?:'],[[2,'=='],[[7],[3,'myIndex']],[1,10]],[1,'7px'],[[2,'+'],[[7],[3,'width']],[1,'px']]]],[1,';']],[1,'height:']],[[2,'+'],[[7],[3,'height']],[1,'px']]],[1,';']],[1,'line-height:']],[[2,'+'],[[7],[3,'fontSize']],[1,'px']]],[1,';']],[1,'font-size:']],[[2,'+'],[[7],[3,'fontSize']],[1,'px']]],[1,';']]])
 Z(z[7])
-Z([3,'_swiper-item 497d4698'])
-Z([3,'_view 497d4698 swiper-item'])
+Z([3,'_swiper-item M497d4698'])
+Z([3,'_view M497d4698 swiper-item'])
 Z([3,'0'])
 Z(z[12])
 Z(z[13])
@@ -1119,46 +1118,171 @@ function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'fe6ef86a'])
-Z([3,'_view fe6ef86a preview-photo-box flex-box'])
-Z([3,'handleProxy'])
-Z([3,'_view fe6ef86a preview-photo-bg'])
-Z([[7],[3,'$k']])
-Z([1,'fe6ef86a-0'])
-Z([3,'_view fe6ef86a item tc'])
-Z(z[2])
-Z(z[2])
-Z([3,'_image fe6ef86a receive-qrcode-img'])
-Z(z[4])
-Z([1,'fe6ef86a-1'])
-Z([3,'widthFix'])
-Z([[7],[3,'url']])
-Z(z[2])
-Z([3,'_view fe6ef86a download-img'])
-Z(z[4])
-Z([1,'fe6ef86a-2'])
-Z([3,'_image fe6ef86a'])
-Z([3,'https://stylist2017-1252470632.cos.ap-shanghai.myqcloud.com/resources/DPC/icon/download.png'])
+Z([3,'4b48f012'])
+Z([3,'_view M4b48f012 loading-box'])
+Z([3,'_view M4b48f012 lds-circle'])
+Z([3,'_view M4b48f012'])
+Z([3,'_view M4b48f012 lds-dual-ring'])
+Z([3,'_view M4b48f012 lds-facebook'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-heart'])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-ring'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-roller'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-default'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-ellipsis'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-grid'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-hourglass'])
+Z([3,'_view M4b48f012 lds-ripple'])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 lds-spinner'])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z(z[3])
+Z([3,'_view M4b48f012 spinner13'])
+Z([3,'_view M4b48f012 spinner14'])
+Z([3,'_view M4b48f012 double-bounce1'])
+Z([3,'_view M4b48f012 double-bounce2'])
+Z([3,'_view M4b48f012 spinner15'])
+Z([3,'_view M4b48f012 rect1'])
+Z([3,'_view M4b48f012 rect2'])
+Z([3,'_view M4b48f012 rect3'])
+Z([3,'_view M4b48f012 rect4'])
+Z([3,'_view M4b48f012 rect5'])
+Z([3,'_view M4b48f012 spinner16'])
+Z([3,'_view M4b48f012 cube1'])
+Z([3,'_view M4b48f012 cube2'])
+Z([3,'_view M4b48f012 spinner17'])
+Z([3,'_view M4b48f012 spinner18'])
+Z([3,'_view M4b48f012 dot1'])
+Z([3,'_view M4b48f012 dot2'])
+Z([3,'_view M4b48f012 spinner19'])
+Z([3,'_view M4b48f012 bounce1'])
+Z([3,'_view M4b48f012 bounce2'])
+Z([3,'_view M4b48f012 bounce3'])
+Z([3,'_view M4b48f012 sk-circle'])
+Z([3,'_view M4b48f012 sk-circle1 sk-child'])
+Z([3,'_view M4b48f012 sk-circle2 sk-child'])
+Z([3,'_view M4b48f012 sk-circle3 sk-child'])
+Z([3,'_view M4b48f012 sk-circle4 sk-child'])
+Z([3,'_view M4b48f012 sk-circle5 sk-child'])
+Z([3,'_view M4b48f012 sk-circle6 sk-child'])
+Z([3,'_view M4b48f012 sk-circle7 sk-child'])
+Z([3,'_view M4b48f012 sk-circle8 sk-child'])
+Z([3,'_view M4b48f012 sk-circle9 sk-child'])
+Z([3,'_view M4b48f012 sk-circle10 sk-child'])
+Z([3,'_view M4b48f012 sk-circle11 sk-child'])
+Z([3,'_view M4b48f012 sk-circle12 sk-child'])
+Z([3,'_view M4b48f012 sk-cube-grid'])
+Z([3,'_view M4b48f012 sk-cube sk-cube1'])
+Z([3,'_view M4b48f012 sk-cube sk-cube2'])
+Z([3,'_view M4b48f012 sk-cube sk-cube3'])
+Z([3,'_view M4b48f012 sk-cube sk-cube4'])
+Z([3,'_view M4b48f012 sk-cube sk-cube5'])
+Z([3,'_view M4b48f012 sk-cube sk-cube6'])
+Z([3,'_view M4b48f012 sk-cube sk-cube7'])
+Z([3,'_view M4b48f012 sk-cube sk-cube8'])
+Z([3,'_view M4b48f012 sk-cube sk-cube9'])
+Z([3,'_view M4b48f012 sk-folding-cube'])
+Z([3,'_view M4b48f012 sk-cube1 sk-cube'])
+Z([3,'_view M4b48f012 sk-cube2 sk-cube'])
+Z([3,'_view M4b48f012 sk-cube4 sk-cube'])
+Z([3,'_view M4b48f012 sk-cube3 sk-cube'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'fe6ef86a'])
+Z([3,'_view Mfe6ef86a preview-photo-box flex-box'])
+Z([3,'handleProxy'])
+Z([3,'_view Mfe6ef86a preview-photo-bg'])
+Z([[7],[3,'$k']])
+Z([1,'fe6ef86a-0'])
+Z([3,'_view Mfe6ef86a item tc'])
+Z(z[2])
+Z(z[2])
+Z([3,'_image Mfe6ef86a receive-qrcode-img'])
+Z(z[4])
+Z([1,'fe6ef86a-1'])
+Z([3,'widthFix'])
+Z([[7],[3,'url']])
+Z(z[2])
+Z([3,'_view Mfe6ef86a download-img'])
+Z(z[4])
+Z([1,'fe6ef86a-2'])
+Z([3,'_image Mfe6ef86a'])
+Z([3,'https://stylist2017-1252470632.cos.ap-shanghai.myqcloud.com/resources/DPC/icon/download.png'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
+}
+function gz$gwx_5(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
+__WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'295bd518'])
-Z([3,'_view 295bd518 _notice'])
+Z([3,'_view M295bd518 _notice'])
 Z([3,'true'])
 Z([3,'handleProxy'])
 Z(z[2])
-Z([3,'_swiper 295bd518 _swiper tc'])
+Z([3,'_swiper M295bd518 _swiper tc'])
 Z([[7],[3,'$k']])
 Z([1,'295bd518-0'])
 Z([3,'2'])
 Z([[7],[3,'duration']])
 Z([3,'false'])
 Z([[7],[3,'interval']])
-Z([3,'_swiper-item 295bd518'])
-Z([3,'_view 295bd518 swiper-item uni-bg-red'])
+Z([3,'_swiper-item M295bd518'])
+Z([3,'_view M295bd518 swiper-item uni-bg-red'])
 Z(z[12])
 Z(z[13])
 Z([3,'index'])
@@ -1169,26 +1293,26 @@ Z(z[12])
 Z([[7],[3,'index']])
 Z(z[13])
 Z([a,[[7],[3,'item']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
-function gz$gwx_5(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
-__WXML_GLOBAL__.ops_cached.$gwx_5=[];
+function gz$gwx_6(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
+__WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'4c7fdb17'])
-Z([3,'_view 4c7fdb17 code-area'])
-Z([3,'_view 4c7fdb17 flex-box'])
+Z([3,'_view M4c7fdb17 code-area'])
+Z([3,'_view M4c7fdb17 flex-box'])
 Z([3,'handleProxy'])
-Z([3,'_input 4c7fdb17 hide-input'])
+Z([3,'_input M4c7fdb17 hide-input'])
 Z([[7],[3,'$k']])
 Z([1,'4c7fdb17-0'])
 Z([3,'true'])
 Z([[7],[3,'maxlength']])
 Z([3,'number'])
-Z([a,[3,'_view 4c7fdb17 '],[[4],[[5],[[5],[1,'item']],[[4],[[5],[[2,'?:'],[[2,'=='],[[7],[3,'codeIndex']],[1,1]],[1,'active'],[1,'']]]]]]])
-Z([3,'_view 4c7fdb17 line'])
+Z([a,[3,'_view M4c7fdb17 '],[[4],[[5],[[5],[1,'item']],[[4],[[5],[[2,'?:'],[[2,'=='],[[7],[3,'codeIndex']],[1,1]],[1,'active'],[1,'']]]]]]])
+Z([3,'_view M4c7fdb17 line'])
 Z([[2,'&&'],[[7],[3,'isPwd']],[[2,'>='],[[6],[[7],[3,'codeArr']],[3,'length']],[1,1]]])
-Z([3,'_text 4c7fdb17 dot'])
+Z([3,'_text M4c7fdb17 dot'])
 Z([3,'.'])
 Z([a,[[6],[[7],[3,'codeArr']],[1,0]]])
 Z([a,z[10][1],[[4],[[5],[[5],[1,'item']],[[4],[[5],[[2,'?:'],[[2,'=='],[[7],[3,'codeIndex']],[1,2]],[1,'active'],[1,'']]]]]]])
@@ -1222,14 +1346,14 @@ Z([[2,'&&'],[[7],[3,'isPwd']],[[2,'>='],[[6],[[7],[3,'codeArr']],[3,'length']],[
 Z(z[13])
 Z(z[14])
 Z([a,[[6],[[7],[3,'codeArr']],[1,5]]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
-function gz$gwx_6(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
-__WXML_GLOBAL__.ops_cached.$gwx_6=[];
+function gz$gwx_7(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
+__WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'19be94d3'])
-Z([3,'_view 19be94d3'])
+Z([3,'_view M19be94d3'])
 Z([3,'#ff9e50'])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'19be94d3-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'23'])
@@ -1237,7 +1361,7 @@ Z(z[4])
 Z([3,'497d4698'])
 Z([3,'13'])
 Z([3,'handleProxy'])
-Z([3,'_button 19be94d3'])
+Z([3,'_button M19be94d3'])
 Z([[7],[3,'$k']])
 Z([1,'19be94d3-0'])
 Z([3,'Add'])
@@ -1246,66 +1370,84 @@ Z(z[9])
 Z(z[10])
 Z([1,'19be94d3-1'])
 Z([3,'Reduce'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
-}
-function gz$gwx_7(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
-__WXML_GLOBAL__.ops_cached.$gwx_7=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'19be94d3'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
 function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'299b5a6a'])
-Z([3,'_view 299b5a6a'])
-Z([[7],[3,'isShowPhoto']])
-Z([3,'handleProxy'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'299b5a6a-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([[7],[3,'$k']])
-Z([1,'299b5a6a-0'])
-Z([3,'fe6ef86a'])
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'19be94d3'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
 __WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'299b5a6a'])
+Z([3,'6d325d37'])
+Z([3,'_view M6d325d37'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'6d325d37-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'4b48f012'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
 function gz$gwx_10(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'75f7d07d'])
-Z([3,'_view 75f7d07d content'])
-Z([3,'handleProxy'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'75f7d07d-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([[7],[3,'$k']])
-Z([1,'75f7d07d-0'])
-Z([3,'295bd518'])
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'6d325d37'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
 __WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'75f7d07d'])
+Z([3,'299b5a6a'])
+Z([3,'_view M299b5a6a'])
+Z([[7],[3,'isShowPhoto']])
+Z([3,'handleProxy'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'299b5a6a-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[7],[3,'$k']])
+Z([1,'299b5a6a-0'])
+Z([3,'fe6ef86a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 function gz$gwx_12(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'299b5a6a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+}
+function gz$gwx_13(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
+__WXML_GLOBAL__.ops_cached.$gwx_13=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'75f7d07d'])
+Z([3,'_view M75f7d07d content'])
+Z([3,'handleProxy'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'75f7d07d-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[7],[3,'$k']])
+Z([1,'75f7d07d-0'])
+Z([3,'295bd518'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+}
+function gz$gwx_14(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
+__WXML_GLOBAL__.ops_cached.$gwx_14=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'75f7d07d'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
+}
+function gz$gwx_15(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
+__WXML_GLOBAL__.ops_cached.$gwx_15=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'719f8fde'])
-Z([3,'_view 719f8fde content'])
-Z([3,'_view 719f8fde'])
+Z([3,'_view M719f8fde content'])
+Z([3,'_view M719f8fde'])
 Z([3,'验证码：'])
 Z([3,'handleProxy'])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'719f8fde-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
@@ -1319,195 +1461,134 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z(z[6])
 Z([1,'719f8fde-1'])
 Z(z[8])
-})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
-function gz$gwx_13(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
-__WXML_GLOBAL__.ops_cached.$gwx_13=[];
+function gz$gwx_16(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
+__WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'719f8fde'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/components/saveFile.vue.wxml','/components/countUp.vue.wxml','/components/screenTextScroll.vue.wxml','/components/validCode.vue.wxml','./components/countUp.vue.wxml','./components/saveFile.vue.wxml','./components/screenTextScroll.vue.wxml','./components/validCode.vue.wxml','./pages/countUp/countUp.vue.wxml','./pages/countUp/countUp.wxml','./countUp.vue.wxml','./pages/saveImg/saveImg.vue.wxml','./pages/saveImg/saveImg.wxml','./saveImg.vue.wxml','./pages/textscroll/textscroll.vue.wxml','./pages/textscroll/textscroll.wxml','./textscroll.vue.wxml','./pages/validcode/validcode.vue.wxml','./pages/validcode/validcode.wxml','./validcode.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','./components/countUp.vue.wxml','./components/loading/loading.vue.wxml','./components/saveFile.vue.wxml','./components/screenTextScroll.vue.wxml','./components/validCode.vue.wxml','./pages/countUp/countUp.vue.wxml','/components/countUp.vue.wxml','./pages/countUp/countUp.wxml','./countUp.vue.wxml','./pages/loading/loading.vue.wxml','/components/loading/loading.vue.wxml','./pages/loading/loading.wxml','./loading.vue.wxml','./pages/saveImg/saveImg.vue.wxml','/components/saveFile.vue.wxml','./pages/saveImg/saveImg.wxml','./saveImg.vue.wxml','./pages/textscroll/textscroll.vue.wxml','/components/screenTextScroll.vue.wxml','./pages/textscroll/textscroll.wxml','./textscroll.vue.wxml','./pages/validcode/validcode.vue.wxml','/components/validCode.vue.wxml','./pages/validcode/validcode.wxml','./validcode.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
-var oB=e_[x[0]].i
-_ai(oB,x[1],e_,x[0],1,1)
-_ai(oB,x[2],e_,x[0],2,2)
-_ai(oB,x[3],e_,x[0],3,2)
-_ai(oB,x[4],e_,x[0],4,2)
-oB.pop()
-oB.pop()
-oB.pop()
-oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4]],ic:[]}
-d_[x[5]]={}
-d_[x[5]]["497d4698"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
+d_[x[1]]={}
+d_[x[1]]["497d4698"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[5]+':497d4698'
+var b=x[1]+':497d4698'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/countUp.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[1]);return}
 p_[b]=true
 try{
-cs.push("./components/countUp.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./components/countUp.vue.wxml:block:1:67")
 var oD=function(cF,fE,hG,gg){
-cs.push("./components/countUp.vue.wxml:block:1:67")
-cs.push("./components/countUp.vue.wxml:swiper:1:170")
 var cI=_mz(z,'swiper',['circular',7,'class',1,'current',2,'style',3,'vertical',4],[],cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:496")
 var oJ=_n('swiper-item')
 _rz(z,oJ,'class',12,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:539")
 var lK=_n('view')
 _rz(z,lK,'class',13,cF,fE,gg)
 var aL=_oz(z,14,cF,fE,gg)
 _(lK,aL)
-cs.pop()
 _(oJ,lK)
-cs.pop()
 _(cI,oJ)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:602")
 var tM=_n('swiper-item')
 _rz(z,tM,'class',15,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:645")
 var eN=_n('view')
 _rz(z,eN,'class',16,cF,fE,gg)
 var bO=_oz(z,17,cF,fE,gg)
 _(eN,bO)
-cs.pop()
 _(tM,eN)
-cs.pop()
 _(cI,tM)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:708")
 var oP=_n('swiper-item')
 _rz(z,oP,'class',18,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:751")
 var xQ=_n('view')
 _rz(z,xQ,'class',19,cF,fE,gg)
 var oR=_oz(z,20,cF,fE,gg)
 _(xQ,oR)
-cs.pop()
 _(oP,xQ)
-cs.pop()
 _(cI,oP)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:814")
 var fS=_n('swiper-item')
 _rz(z,fS,'class',21,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:857")
 var cT=_n('view')
 _rz(z,cT,'class',22,cF,fE,gg)
 var hU=_oz(z,23,cF,fE,gg)
 _(cT,hU)
-cs.pop()
 _(fS,cT)
-cs.pop()
 _(cI,fS)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:920")
 var oV=_n('swiper-item')
 _rz(z,oV,'class',24,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:963")
 var cW=_n('view')
 _rz(z,cW,'class',25,cF,fE,gg)
 var oX=_oz(z,26,cF,fE,gg)
 _(cW,oX)
-cs.pop()
 _(oV,cW)
-cs.pop()
 _(cI,oV)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:1026")
 var lY=_n('swiper-item')
 _rz(z,lY,'class',27,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:1069")
 var aZ=_n('view')
 _rz(z,aZ,'class',28,cF,fE,gg)
 var t1=_oz(z,29,cF,fE,gg)
 _(aZ,t1)
-cs.pop()
 _(lY,aZ)
-cs.pop()
 _(cI,lY)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:1132")
 var e2=_n('swiper-item')
 _rz(z,e2,'class',30,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:1175")
 var b3=_n('view')
 _rz(z,b3,'class',31,cF,fE,gg)
 var o4=_oz(z,32,cF,fE,gg)
 _(b3,o4)
-cs.pop()
 _(e2,b3)
-cs.pop()
 _(cI,e2)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:1238")
 var x5=_n('swiper-item')
 _rz(z,x5,'class',33,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:1281")
 var o6=_n('view')
 _rz(z,o6,'class',34,cF,fE,gg)
 var f7=_oz(z,35,cF,fE,gg)
 _(o6,f7)
-cs.pop()
 _(x5,o6)
-cs.pop()
 _(cI,x5)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:1344")
 var c8=_n('swiper-item')
 _rz(z,c8,'class',36,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:1387")
 var h9=_n('view')
 _rz(z,h9,'class',37,cF,fE,gg)
 var o0=_oz(z,38,cF,fE,gg)
 _(h9,o0)
-cs.pop()
 _(c8,h9)
-cs.pop()
 _(cI,c8)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:1450")
 var cAB=_n('swiper-item')
 _rz(z,cAB,'class',39,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:1493")
 var oBB=_n('view')
 _rz(z,oBB,'class',40,cF,fE,gg)
 var lCB=_oz(z,41,cF,fE,gg)
 _(oBB,lCB)
-cs.pop()
 _(cAB,oBB)
-cs.pop()
 _(cI,cAB)
-cs.push("./components/countUp.vue.wxml:swiper-item:1:1556")
 var aDB=_n('swiper-item')
 _rz(z,aDB,'class',42,cF,fE,gg)
-cs.push("./components/countUp.vue.wxml:view:1:1599")
 var tEB=_n('view')
 _rz(z,tEB,'class',43,cF,fE,gg)
 var eFB=_oz(z,44,cF,fE,gg)
 _(tEB,eFB)
-cs.pop()
 _(aDB,tEB)
-cs.pop()
 _(cI,aDB)
-cs.pop()
 _(hG,cI)
-cs.pop()
 return hG
 }
 xC.wxXCkey=2
 _2z(z,4,oD,e,s,gg,xC,'myIndex','index','index')
-cs.pop()
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -1520,41 +1601,369 @@ var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
 return r
 }
-e_[x[5]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[6]]={}
-d_[x[6]]["fe6ef86a"]=function(e,s,r,gg){
+e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[2]]={}
+d_[x[2]]["4b48f012"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[6]+':fe6ef86a'
+var b=x[2]+':4b48f012'
 r.wxVkey=b
-gg.f=$gdc(f_["./components/saveFile.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+gg.f=$gdc(f_["./components/loading/loading.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
 p_[b]=true
 try{
-cs.push("./components/saveFile.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./components/saveFile.vue.wxml:view:1:83")
-var xC=_mz(z,'view',['bindtap',2,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.pop()
-_(oB,xC)
-cs.push("./components/saveFile.vue.wxml:view:1:211")
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
 var oD=_n('view')
-_rz(z,oD,'class',6,e,s,gg)
-cs.push("./components/saveFile.vue.wxml:image:1:248")
-var fE=_mz(z,'image',['bindlongtap',7,'bindtap',1,'class',2,'data-comkey',3,'data-eventid',4,'mode',5,'src',6],[],e,s,gg)
-cs.pop()
-_(oD,fE)
-cs.pop()
-_(oB,oD)
-cs.push("./components/saveFile.vue.wxml:view:1:444")
-var cF=_mz(z,'view',['bindtap',14,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./components/saveFile.vue.wxml:image:1:561")
-var hG=_mz(z,'image',['class',18,'src',1],[],e,s,gg)
-cs.pop()
+_rz(z,oD,'class',3,e,s,gg)
+_(xC,oD)
+_(oB,xC)
+var fE=_n('view')
+_rz(z,fE,'class',4,e,s,gg)
+_(oB,fE)
+var cF=_n('view')
+_rz(z,cF,'class',5,e,s,gg)
+var hG=_n('view')
+_rz(z,hG,'class',6,e,s,gg)
 _(cF,hG)
-cs.pop()
+var oH=_n('view')
+_rz(z,oH,'class',7,e,s,gg)
+_(cF,oH)
+var cI=_n('view')
+_rz(z,cI,'class',8,e,s,gg)
+_(cF,cI)
 _(oB,cF)
-cs.pop()
+var oJ=_n('view')
+_rz(z,oJ,'class',9,e,s,gg)
+var lK=_n('view')
+_rz(z,lK,'class',10,e,s,gg)
+_(oJ,lK)
+_(oB,oJ)
+var aL=_n('view')
+_rz(z,aL,'class',11,e,s,gg)
+var tM=_n('view')
+_rz(z,tM,'class',12,e,s,gg)
+_(aL,tM)
+var eN=_n('view')
+_rz(z,eN,'class',13,e,s,gg)
+_(aL,eN)
+var bO=_n('view')
+_rz(z,bO,'class',14,e,s,gg)
+_(aL,bO)
+var oP=_n('view')
+_rz(z,oP,'class',15,e,s,gg)
+_(aL,oP)
+_(oB,aL)
+var xQ=_n('view')
+_rz(z,xQ,'class',16,e,s,gg)
+var oR=_n('view')
+_rz(z,oR,'class',17,e,s,gg)
+_(xQ,oR)
+var fS=_n('view')
+_rz(z,fS,'class',18,e,s,gg)
+_(xQ,fS)
+var cT=_n('view')
+_rz(z,cT,'class',19,e,s,gg)
+_(xQ,cT)
+var hU=_n('view')
+_rz(z,hU,'class',20,e,s,gg)
+_(xQ,hU)
+var oV=_n('view')
+_rz(z,oV,'class',21,e,s,gg)
+_(xQ,oV)
+var cW=_n('view')
+_rz(z,cW,'class',22,e,s,gg)
+_(xQ,cW)
+var oX=_n('view')
+_rz(z,oX,'class',23,e,s,gg)
+_(xQ,oX)
+var lY=_n('view')
+_rz(z,lY,'class',24,e,s,gg)
+_(xQ,lY)
+_(oB,xQ)
+var aZ=_n('view')
+_rz(z,aZ,'class',25,e,s,gg)
+var t1=_n('view')
+_rz(z,t1,'class',26,e,s,gg)
+_(aZ,t1)
+var e2=_n('view')
+_rz(z,e2,'class',27,e,s,gg)
+_(aZ,e2)
+var b3=_n('view')
+_rz(z,b3,'class',28,e,s,gg)
+_(aZ,b3)
+var o4=_n('view')
+_rz(z,o4,'class',29,e,s,gg)
+_(aZ,o4)
+var x5=_n('view')
+_rz(z,x5,'class',30,e,s,gg)
+_(aZ,x5)
+var o6=_n('view')
+_rz(z,o6,'class',31,e,s,gg)
+_(aZ,o6)
+var f7=_n('view')
+_rz(z,f7,'class',32,e,s,gg)
+_(aZ,f7)
+var c8=_n('view')
+_rz(z,c8,'class',33,e,s,gg)
+_(aZ,c8)
+var h9=_n('view')
+_rz(z,h9,'class',34,e,s,gg)
+_(aZ,h9)
+var o0=_n('view')
+_rz(z,o0,'class',35,e,s,gg)
+_(aZ,o0)
+var cAB=_n('view')
+_rz(z,cAB,'class',36,e,s,gg)
+_(aZ,cAB)
+var oBB=_n('view')
+_rz(z,oBB,'class',37,e,s,gg)
+_(aZ,oBB)
+_(oB,aZ)
+var lCB=_n('view')
+_rz(z,lCB,'class',38,e,s,gg)
+var aDB=_n('view')
+_rz(z,aDB,'class',39,e,s,gg)
+_(lCB,aDB)
+var tEB=_n('view')
+_rz(z,tEB,'class',40,e,s,gg)
+_(lCB,tEB)
+var eFB=_n('view')
+_rz(z,eFB,'class',41,e,s,gg)
+_(lCB,eFB)
+var bGB=_n('view')
+_rz(z,bGB,'class',42,e,s,gg)
+_(lCB,bGB)
+_(oB,lCB)
+var oHB=_n('view')
+_rz(z,oHB,'class',43,e,s,gg)
+var xIB=_n('view')
+_rz(z,xIB,'class',44,e,s,gg)
+_(oHB,xIB)
+var oJB=_n('view')
+_rz(z,oJB,'class',45,e,s,gg)
+_(oHB,oJB)
+var fKB=_n('view')
+_rz(z,fKB,'class',46,e,s,gg)
+_(oHB,fKB)
+var cLB=_n('view')
+_rz(z,cLB,'class',47,e,s,gg)
+_(oHB,cLB)
+var hMB=_n('view')
+_rz(z,hMB,'class',48,e,s,gg)
+_(oHB,hMB)
+var oNB=_n('view')
+_rz(z,oNB,'class',49,e,s,gg)
+_(oHB,oNB)
+var cOB=_n('view')
+_rz(z,cOB,'class',50,e,s,gg)
+_(oHB,cOB)
+var oPB=_n('view')
+_rz(z,oPB,'class',51,e,s,gg)
+_(oHB,oPB)
+var lQB=_n('view')
+_rz(z,lQB,'class',52,e,s,gg)
+_(oHB,lQB)
+_(oB,oHB)
+var aRB=_n('view')
+_rz(z,aRB,'class',53,e,s,gg)
+_(oB,aRB)
+var tSB=_n('view')
+_rz(z,tSB,'class',54,e,s,gg)
+var eTB=_n('view')
+_rz(z,eTB,'class',55,e,s,gg)
+_(tSB,eTB)
+var bUB=_n('view')
+_rz(z,bUB,'class',56,e,s,gg)
+_(tSB,bUB)
+_(oB,tSB)
+var oVB=_n('view')
+_rz(z,oVB,'class',57,e,s,gg)
+var xWB=_n('view')
+_rz(z,xWB,'class',58,e,s,gg)
+_(oVB,xWB)
+var oXB=_n('view')
+_rz(z,oXB,'class',59,e,s,gg)
+_(oVB,oXB)
+var fYB=_n('view')
+_rz(z,fYB,'class',60,e,s,gg)
+_(oVB,fYB)
+var cZB=_n('view')
+_rz(z,cZB,'class',61,e,s,gg)
+_(oVB,cZB)
+var h1B=_n('view')
+_rz(z,h1B,'class',62,e,s,gg)
+_(oVB,h1B)
+var o2B=_n('view')
+_rz(z,o2B,'class',63,e,s,gg)
+_(oVB,o2B)
+var c3B=_n('view')
+_rz(z,c3B,'class',64,e,s,gg)
+_(oVB,c3B)
+var o4B=_n('view')
+_rz(z,o4B,'class',65,e,s,gg)
+_(oVB,o4B)
+var l5B=_n('view')
+_rz(z,l5B,'class',66,e,s,gg)
+_(oVB,l5B)
+var a6B=_n('view')
+_rz(z,a6B,'class',67,e,s,gg)
+_(oVB,a6B)
+var t7B=_n('view')
+_rz(z,t7B,'class',68,e,s,gg)
+_(oVB,t7B)
+var e8B=_n('view')
+_rz(z,e8B,'class',69,e,s,gg)
+_(oVB,e8B)
+_(oB,oVB)
+var b9B=_n('view')
+_rz(z,b9B,'class',70,e,s,gg)
+_(oB,b9B)
+var o0B=_n('view')
+_rz(z,o0B,'class',71,e,s,gg)
+var xAC=_n('view')
+_rz(z,xAC,'class',72,e,s,gg)
+_(o0B,xAC)
+var oBC=_n('view')
+_rz(z,oBC,'class',73,e,s,gg)
+_(o0B,oBC)
+_(oB,o0B)
+var fCC=_n('view')
+_rz(z,fCC,'class',74,e,s,gg)
+var cDC=_n('view')
+_rz(z,cDC,'class',75,e,s,gg)
+_(fCC,cDC)
+var hEC=_n('view')
+_rz(z,hEC,'class',76,e,s,gg)
+_(fCC,hEC)
+var oFC=_n('view')
+_rz(z,oFC,'class',77,e,s,gg)
+_(fCC,oFC)
+var cGC=_n('view')
+_rz(z,cGC,'class',78,e,s,gg)
+_(fCC,cGC)
+var oHC=_n('view')
+_rz(z,oHC,'class',79,e,s,gg)
+_(fCC,oHC)
+_(oB,fCC)
+var lIC=_n('view')
+_rz(z,lIC,'class',80,e,s,gg)
+var aJC=_n('view')
+_rz(z,aJC,'class',81,e,s,gg)
+_(lIC,aJC)
+var tKC=_n('view')
+_rz(z,tKC,'class',82,e,s,gg)
+_(lIC,tKC)
+_(oB,lIC)
+var eLC=_n('view')
+_rz(z,eLC,'class',83,e,s,gg)
+_(oB,eLC)
+var bMC=_n('view')
+_rz(z,bMC,'class',84,e,s,gg)
+var oNC=_n('view')
+_rz(z,oNC,'class',85,e,s,gg)
+_(bMC,oNC)
+var xOC=_n('view')
+_rz(z,xOC,'class',86,e,s,gg)
+_(bMC,xOC)
+_(oB,bMC)
+var oPC=_n('view')
+_rz(z,oPC,'class',87,e,s,gg)
+var fQC=_n('view')
+_rz(z,fQC,'class',88,e,s,gg)
+_(oPC,fQC)
+var cRC=_n('view')
+_rz(z,cRC,'class',89,e,s,gg)
+_(oPC,cRC)
+var hSC=_n('view')
+_rz(z,hSC,'class',90,e,s,gg)
+_(oPC,hSC)
+_(oB,oPC)
+var oTC=_n('view')
+_rz(z,oTC,'class',91,e,s,gg)
+var cUC=_n('view')
+_rz(z,cUC,'class',92,e,s,gg)
+_(oTC,cUC)
+var oVC=_n('view')
+_rz(z,oVC,'class',93,e,s,gg)
+_(oTC,oVC)
+var lWC=_n('view')
+_rz(z,lWC,'class',94,e,s,gg)
+_(oTC,lWC)
+var aXC=_n('view')
+_rz(z,aXC,'class',95,e,s,gg)
+_(oTC,aXC)
+var tYC=_n('view')
+_rz(z,tYC,'class',96,e,s,gg)
+_(oTC,tYC)
+var eZC=_n('view')
+_rz(z,eZC,'class',97,e,s,gg)
+_(oTC,eZC)
+var b1C=_n('view')
+_rz(z,b1C,'class',98,e,s,gg)
+_(oTC,b1C)
+var o2C=_n('view')
+_rz(z,o2C,'class',99,e,s,gg)
+_(oTC,o2C)
+var x3C=_n('view')
+_rz(z,x3C,'class',100,e,s,gg)
+_(oTC,x3C)
+var o4C=_n('view')
+_rz(z,o4C,'class',101,e,s,gg)
+_(oTC,o4C)
+var f5C=_n('view')
+_rz(z,f5C,'class',102,e,s,gg)
+_(oTC,f5C)
+var c6C=_n('view')
+_rz(z,c6C,'class',103,e,s,gg)
+_(oTC,c6C)
+_(oB,oTC)
+var h7C=_n('view')
+_rz(z,h7C,'class',104,e,s,gg)
+var o8C=_n('view')
+_rz(z,o8C,'class',105,e,s,gg)
+_(h7C,o8C)
+var c9C=_n('view')
+_rz(z,c9C,'class',106,e,s,gg)
+_(h7C,c9C)
+var o0C=_n('view')
+_rz(z,o0C,'class',107,e,s,gg)
+_(h7C,o0C)
+var lAD=_n('view')
+_rz(z,lAD,'class',108,e,s,gg)
+_(h7C,lAD)
+var aBD=_n('view')
+_rz(z,aBD,'class',109,e,s,gg)
+_(h7C,aBD)
+var tCD=_n('view')
+_rz(z,tCD,'class',110,e,s,gg)
+_(h7C,tCD)
+var eDD=_n('view')
+_rz(z,eDD,'class',111,e,s,gg)
+_(h7C,eDD)
+var bED=_n('view')
+_rz(z,bED,'class',112,e,s,gg)
+_(h7C,bED)
+var oFD=_n('view')
+_rz(z,oFD,'class',113,e,s,gg)
+_(h7C,oFD)
+_(oB,h7C)
+var xGD=_n('view')
+_rz(z,xGD,'class',114,e,s,gg)
+var oHD=_n('view')
+_rz(z,oHD,'class',115,e,s,gg)
+_(xGD,oHD)
+var fID=_n('view')
+_rz(z,fID,'class',116,e,s,gg)
+_(xGD,fID)
+var cJD=_n('view')
+_rz(z,cJD,'class',117,e,s,gg)
+_(xGD,cJD)
+var hKD=_n('view')
+_rz(z,hKD,'class',118,e,s,gg)
+_(xGD,hKD)
+_(oB,xGD)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -1567,64 +1976,29 @@ var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
 return r
 }
-e_[x[6]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
-d_[x[7]]["295bd518"]=function(e,s,r,gg){
+e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[3]]={}
+d_[x[3]]["fe6ef86a"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[7]+':295bd518'
+var b=x[3]+':fe6ef86a'
 r.wxVkey=b
-gg.f=$gdc(f_["./components/screenTextScroll.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+gg.f=$gdc(f_["./components/saveFile.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[3]);return}
 p_[b]=true
 try{
-cs.push("./components/screenTextScroll.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./components/screenTextScroll.vue.wxml:swiper:1:64")
-var xC=_mz(z,'swiper',['autoplay',2,'bindchange',1,'circular',2,'class',3,'data-comkey',4,'data-eventid',5,'displayMultipleItems',6,'duration',7,'indicatorDots',8,'interval',9],[],e,s,gg)
-cs.push("./components/screenTextScroll.vue.wxml:swiper-item:1:316")
-var oD=_n('swiper-item')
-_rz(z,oD,'class',12,e,s,gg)
-cs.push("./components/screenTextScroll.vue.wxml:view:1:359")
-var fE=_n('view')
-_rz(z,fE,'class',13,e,s,gg)
-cs.pop()
-_(oD,fE)
-cs.pop()
-_(xC,oD)
-cs.push("./components/screenTextScroll.vue.wxml:swiper-item:1:432")
-var cF=_n('swiper-item')
-_rz(z,cF,'class',14,e,s,gg)
-cs.push("./components/screenTextScroll.vue.wxml:view:1:475")
-var hG=_n('view')
-_rz(z,hG,'class',15,e,s,gg)
-cs.pop()
-_(cF,hG)
-cs.pop()
-_(xC,cF)
-var oH=_v()
-_(xC,oH)
-cs.push("./components/screenTextScroll.vue.wxml:swiper-item:1:548")
-var cI=function(lK,oJ,aL,gg){
-cs.push("./components/screenTextScroll.vue.wxml:swiper-item:1:548")
-var eN=_mz(z,'swiper-item',['class',20,'key',1],[],lK,oJ,gg)
-cs.push("./components/screenTextScroll.vue.wxml:view:1:680")
-var bO=_n('view')
-_rz(z,bO,'class',22,lK,oJ,gg)
-var oP=_oz(z,23,lK,oJ,gg)
-_(bO,oP)
-cs.pop()
-_(eN,bO)
-cs.pop()
-_(aL,eN)
-return aL
-}
-oH.wxXCkey=2
-_2z(z,18,cI,e,s,gg,oH,'item','index','index')
-cs.pop()
-cs.pop()
+var xC=_mz(z,'view',['bindtap',2,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 _(oB,xC)
-cs.pop()
+var oD=_n('view')
+_rz(z,oD,'class',6,e,s,gg)
+var fE=_mz(z,'image',['bindlongtap',7,'bindtap',1,'class',2,'data-comkey',3,'data-eventid',4,'mode',5,'src',6],[],e,s,gg)
+_(oD,fE)
+_(oB,oD)
+var cF=_mz(z,'view',['bindtap',14,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var hG=_mz(z,'image',['class',18,'src',1],[],e,s,gg)
+_(cF,hG)
+_(oB,cF)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -1637,216 +2011,46 @@ var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 return r
 }
-e_[x[7]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
-d_[x[8]]["4c7fdb17"]=function(e,s,r,gg){
+e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[4]]={}
+d_[x[4]]["295bd518"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[8]+':4c7fdb17'
+var b=x[4]+':295bd518'
 r.wxVkey=b
-gg.f=$gdc(f_["./components/validCode.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[8]);return}
+gg.f=$gdc(f_["./components/screenTextScroll.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[4]);return}
 p_[b]=true
 try{
-cs.push("./components/validCode.vue.wxml:view:1:27")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:66")
-var xC=_n('view')
-_rz(z,xC,'class',2,e,s,gg)
-cs.push("./components/validCode.vue.wxml:input:1:104")
-var fE=_mz(z,'input',['bindinput',3,'class',1,'data-comkey',2,'data-eventid',3,'focus',4,'maxlength',5,'type',6],[],e,s,gg)
-cs.pop()
-_(xC,fE)
-cs.push("./components/validCode.vue.wxml:view:1:278")
-var cF=_n('view')
-_rz(z,cF,'class',10,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:354")
-var oH=_n('view')
-_rz(z,oH,'class',11,e,s,gg)
-cs.pop()
-_(cF,oH)
-var hG=_v()
-_(cF,hG)
-if(_oz(z,12,e,s,gg)){hG.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:395")
-cs.push("./components/validCode.vue.wxml:text:1:443")
-var cI=_n('text')
-_rz(z,cI,'class',13,e,s,gg)
-var oJ=_oz(z,14,e,s,gg)
-_(cI,oJ)
-cs.pop()
-_(hG,cI)
-cs.pop()
-}
-else{hG.wxVkey=2
-cs.push("./components/validCode.vue.wxml:block:1:492")
-var lK=_oz(z,15,e,s,gg)
-_(hG,lK)
-cs.pop()
-}
-hG.wxXCkey=1
-cs.pop()
-_(xC,cF)
-cs.push("./components/validCode.vue.wxml:view:1:538")
-var aL=_n('view')
-_rz(z,aL,'class',16,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:614")
-var eN=_n('view')
-_rz(z,eN,'class',17,e,s,gg)
-cs.pop()
-_(aL,eN)
-var tM=_v()
-_(aL,tM)
-if(_oz(z,18,e,s,gg)){tM.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:655")
-cs.push("./components/validCode.vue.wxml:text:1:703")
-var bO=_n('text')
-_rz(z,bO,'class',19,e,s,gg)
-var oP=_oz(z,20,e,s,gg)
-_(bO,oP)
-cs.pop()
-_(tM,bO)
-cs.pop()
-}
-else{tM.wxVkey=2
-cs.push("./components/validCode.vue.wxml:block:1:752")
-var xQ=_oz(z,21,e,s,gg)
-_(tM,xQ)
-cs.pop()
-}
-tM.wxXCkey=1
-cs.pop()
-_(xC,aL)
-cs.push("./components/validCode.vue.wxml:view:1:798")
-var oR=_n('view')
-_rz(z,oR,'class',22,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:874")
-var cT=_n('view')
-_rz(z,cT,'class',23,e,s,gg)
-cs.pop()
-_(oR,cT)
-var fS=_v()
-_(oR,fS)
-if(_oz(z,24,e,s,gg)){fS.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:915")
-cs.push("./components/validCode.vue.wxml:text:1:963")
-var hU=_n('text')
-_rz(z,hU,'class',25,e,s,gg)
-var oV=_oz(z,26,e,s,gg)
-_(hU,oV)
-cs.pop()
-_(fS,hU)
-cs.pop()
-}
-else{fS.wxVkey=2
-cs.push("./components/validCode.vue.wxml:block:1:1012")
-var cW=_oz(z,27,e,s,gg)
-_(fS,cW)
-cs.pop()
-}
-fS.wxXCkey=1
-cs.pop()
-_(xC,oR)
-cs.push("./components/validCode.vue.wxml:view:1:1058")
-var oX=_n('view')
-_rz(z,oX,'class',28,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:1134")
-var aZ=_n('view')
-_rz(z,aZ,'class',29,e,s,gg)
-cs.pop()
-_(oX,aZ)
-var lY=_v()
-_(oX,lY)
-if(_oz(z,30,e,s,gg)){lY.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:1175")
-cs.push("./components/validCode.vue.wxml:text:1:1223")
-var t1=_n('text')
-_rz(z,t1,'class',31,e,s,gg)
-var e2=_oz(z,32,e,s,gg)
-_(t1,e2)
-cs.pop()
-_(lY,t1)
-cs.pop()
-}
-else{lY.wxVkey=2
-cs.push("./components/validCode.vue.wxml:block:1:1272")
-var b3=_oz(z,33,e,s,gg)
-_(lY,b3)
-cs.pop()
-}
-lY.wxXCkey=1
-cs.pop()
-_(xC,oX)
-var oD=_v()
+var xC=_mz(z,'swiper',['autoplay',2,'bindchange',1,'circular',2,'class',3,'data-comkey',4,'data-eventid',5,'displayMultipleItems',6,'duration',7,'indicatorDots',8,'interval',9],[],e,s,gg)
+var oD=_n('swiper-item')
+_rz(z,oD,'class',12,e,s,gg)
+var fE=_n('view')
+_rz(z,fE,'class',13,e,s,gg)
+_(oD,fE)
 _(xC,oD)
-if(_oz(z,34,e,s,gg)){oD.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:1318")
-cs.push("./components/validCode.vue.wxml:view:1:1353")
-var o4=_n('view')
-_rz(z,o4,'class',35,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:1429")
-var o6=_n('view')
-_rz(z,o6,'class',36,e,s,gg)
-cs.pop()
-_(o4,o6)
-var x5=_v()
-_(o4,x5)
-if(_oz(z,37,e,s,gg)){x5.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:1470")
-cs.push("./components/validCode.vue.wxml:text:1:1518")
-var f7=_n('text')
-_rz(z,f7,'class',38,e,s,gg)
-var c8=_oz(z,39,e,s,gg)
-_(f7,c8)
-cs.pop()
-_(x5,f7)
-cs.pop()
+var cF=_n('swiper-item')
+_rz(z,cF,'class',14,e,s,gg)
+var hG=_n('view')
+_rz(z,hG,'class',15,e,s,gg)
+_(cF,hG)
+_(xC,cF)
+var oH=_v()
+_(xC,oH)
+var cI=function(lK,oJ,aL,gg){
+var eN=_mz(z,'swiper-item',['class',20,'key',1],[],lK,oJ,gg)
+var bO=_n('view')
+_rz(z,bO,'class',22,lK,oJ,gg)
+var oP=_oz(z,23,lK,oJ,gg)
+_(bO,oP)
+_(eN,bO)
+_(aL,eN)
+return aL
 }
-else{x5.wxVkey=2
-cs.push("./components/validCode.vue.wxml:block:1:1567")
-var h9=_oz(z,40,e,s,gg)
-_(x5,h9)
-cs.pop()
-}
-x5.wxXCkey=1
-cs.pop()
-_(oD,o4)
-cs.push("./components/validCode.vue.wxml:view:1:1613")
-var o0=_n('view')
-_rz(z,o0,'class',41,e,s,gg)
-cs.push("./components/validCode.vue.wxml:view:1:1689")
-var oBB=_n('view')
-_rz(z,oBB,'class',42,e,s,gg)
-cs.pop()
-_(o0,oBB)
-var cAB=_v()
-_(o0,cAB)
-if(_oz(z,43,e,s,gg)){cAB.wxVkey=1
-cs.push("./components/validCode.vue.wxml:block:1:1730")
-cs.push("./components/validCode.vue.wxml:text:1:1778")
-var lCB=_n('text')
-_rz(z,lCB,'class',44,e,s,gg)
-var aDB=_oz(z,45,e,s,gg)
-_(lCB,aDB)
-cs.pop()
-_(cAB,lCB)
-cs.pop()
-}
-else{cAB.wxVkey=2
-cs.push("./components/validCode.vue.wxml:block:1:1827")
-var tEB=_oz(z,46,e,s,gg)
-_(cAB,tEB)
-cs.pop()
-}
-cAB.wxXCkey=1
-cs.pop()
-_(oD,o0)
-cs.pop()
-}
-oD.wxXCkey=1
-cs.pop()
+oH.wxXCkey=2
+_2z(z,18,cI,e,s,gg,oH,'item','index','index')
 _(oB,xC)
-cs.pop()
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -1859,46 +2063,148 @@ var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
 return r
 }
-e_[x[8]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["19be94d3"]=function(e,s,r,gg){
+e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[5]]={}
+d_[x[5]]["4c7fdb17"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[9]+':19be94d3'
+var b=x[5]+':4c7fdb17'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/countUp/countUp.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
+gg.f=$gdc(f_["./components/validCode.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[5]);return}
 p_[b]=true
 try{
-cs.push("./pages/countUp/countUp.vue.wxml:view:1:72")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/countUp/countUp.vue.wxml:template:1:101")
-var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[9],oD,e_,d_)
-if(fE){
-var cF=_1z(z,3,e,s,gg) || {}
-var cur_globalf=gg.f
-xC.wxXCkey=3
-fE(cF,cF,xC,gg)
-gg.f=cur_globalf
-}
-else _w(oD,x[9],1,225)
-cs.pop()
-cs.push("./pages/countUp/countUp.vue.wxml:button:1:248")
-var hG=_mz(z,'button',['bindtap',8,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-var oH=_oz(z,12,e,s,gg)
-_(hG,oH)
-cs.pop()
-_(oB,hG)
-cs.push("./pages/countUp/countUp.vue.wxml:button:1:368")
-var cI=_mz(z,'button',['bindtap',13,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-var oJ=_oz(z,17,e,s,gg)
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+var fE=_mz(z,'input',['bindinput',3,'class',1,'data-comkey',2,'data-eventid',3,'focus',4,'maxlength',5,'type',6],[],e,s,gg)
+_(xC,fE)
+var cF=_n('view')
+_rz(z,cF,'class',10,e,s,gg)
+var oH=_n('view')
+_rz(z,oH,'class',11,e,s,gg)
+_(cF,oH)
+var hG=_v()
+_(cF,hG)
+if(_oz(z,12,e,s,gg)){hG.wxVkey=1
+var cI=_n('text')
+_rz(z,cI,'class',13,e,s,gg)
+var oJ=_oz(z,14,e,s,gg)
 _(cI,oJ)
-cs.pop()
-_(oB,cI)
-cs.pop()
+_(hG,cI)
+}
+else{hG.wxVkey=2
+var lK=_oz(z,15,e,s,gg)
+_(hG,lK)
+}
+hG.wxXCkey=1
+_(xC,cF)
+var aL=_n('view')
+_rz(z,aL,'class',16,e,s,gg)
+var eN=_n('view')
+_rz(z,eN,'class',17,e,s,gg)
+_(aL,eN)
+var tM=_v()
+_(aL,tM)
+if(_oz(z,18,e,s,gg)){tM.wxVkey=1
+var bO=_n('text')
+_rz(z,bO,'class',19,e,s,gg)
+var oP=_oz(z,20,e,s,gg)
+_(bO,oP)
+_(tM,bO)
+}
+else{tM.wxVkey=2
+var xQ=_oz(z,21,e,s,gg)
+_(tM,xQ)
+}
+tM.wxXCkey=1
+_(xC,aL)
+var oR=_n('view')
+_rz(z,oR,'class',22,e,s,gg)
+var cT=_n('view')
+_rz(z,cT,'class',23,e,s,gg)
+_(oR,cT)
+var fS=_v()
+_(oR,fS)
+if(_oz(z,24,e,s,gg)){fS.wxVkey=1
+var hU=_n('text')
+_rz(z,hU,'class',25,e,s,gg)
+var oV=_oz(z,26,e,s,gg)
+_(hU,oV)
+_(fS,hU)
+}
+else{fS.wxVkey=2
+var cW=_oz(z,27,e,s,gg)
+_(fS,cW)
+}
+fS.wxXCkey=1
+_(xC,oR)
+var oX=_n('view')
+_rz(z,oX,'class',28,e,s,gg)
+var aZ=_n('view')
+_rz(z,aZ,'class',29,e,s,gg)
+_(oX,aZ)
+var lY=_v()
+_(oX,lY)
+if(_oz(z,30,e,s,gg)){lY.wxVkey=1
+var t1=_n('text')
+_rz(z,t1,'class',31,e,s,gg)
+var e2=_oz(z,32,e,s,gg)
+_(t1,e2)
+_(lY,t1)
+}
+else{lY.wxVkey=2
+var b3=_oz(z,33,e,s,gg)
+_(lY,b3)
+}
+lY.wxXCkey=1
+_(xC,oX)
+var oD=_v()
+_(xC,oD)
+if(_oz(z,34,e,s,gg)){oD.wxVkey=1
+var o4=_n('view')
+_rz(z,o4,'class',35,e,s,gg)
+var o6=_n('view')
+_rz(z,o6,'class',36,e,s,gg)
+_(o4,o6)
+var x5=_v()
+_(o4,x5)
+if(_oz(z,37,e,s,gg)){x5.wxVkey=1
+var f7=_n('text')
+_rz(z,f7,'class',38,e,s,gg)
+var c8=_oz(z,39,e,s,gg)
+_(f7,c8)
+_(x5,f7)
+}
+else{x5.wxVkey=2
+var h9=_oz(z,40,e,s,gg)
+_(x5,h9)
+}
+x5.wxXCkey=1
+_(oD,o4)
+var o0=_n('view')
+_rz(z,o0,'class',41,e,s,gg)
+var oBB=_n('view')
+_rz(z,oBB,'class',42,e,s,gg)
+_(o0,oBB)
+var cAB=_v()
+_(o0,cAB)
+if(_oz(z,43,e,s,gg)){cAB.wxVkey=1
+var lCB=_n('text')
+_rz(z,lCB,'class',44,e,s,gg)
+var aDB=_oz(z,45,e,s,gg)
+_(lCB,aDB)
+_(cAB,lCB)
+}
+else{cAB.wxVkey=2
+var tEB=_oz(z,46,e,s,gg)
+_(cAB,tEB)
+}
+cAB.wxXCkey=1
+_(oD,o0)
+}
+oD.wxXCkey=1
+_(oB,xC)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -1909,125 +2215,24 @@ return r
 }
 var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
-var oH=e_[x[9]].i
-_ai(oH,x[2],e_,x[9],1,1)
-oH.pop()
 return r
 }
-e_[x[9]]={f:m5,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[10]]={}
-var m6=function(e,s,r,gg){
+e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[6]]={}
+d_[x[6]]["19be94d3"]=function(e,s,r,gg){
 var z=gz$gwx_7()
-var oJ=e_[x[10]].i
-_ai(oJ,x[11],e_,x[10],1,1)
-var lK=_v()
-_(r,lK)
-cs.push("./pages/countUp/countUp.wxml:template:2:6")
-var aL=_oz(z,1,e,s,gg)
-var tM=_gd(x[10],aL,e_,d_)
-if(tM){
-var eN=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-lK.wxXCkey=3
-tM(eN,eN,lK,gg)
-gg.f=cur_globalf
-}
-else _w(aL,x[10],2,18)
-cs.pop()
-oJ.pop()
-return r
-}
-e_[x[10]]={f:m6,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[12]]={}
-d_[x[12]]["299b5a6a"]=function(e,s,r,gg){
-var z=gz$gwx_8()
-var b=x[12]+':299b5a6a'
+var b=x[6]+':19be94d3'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/saveImg/saveImg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
+gg.f=$gdc(f_["./pages/countUp/countUp.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
-cs.push("./pages/saveImg/saveImg.vue.wxml:view:1:73")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/saveImg/saveImg.vue.wxml:template:1:102")
-var oD=_v()
-_(xC,oD)
-cs.push("./pages/saveImg/saveImg.vue.wxml:template:1:102")
-var fE=_oz(z,7,e,s,gg)
-var cF=_gd(x[12],fE,e_,d_)
-if(cF){
-var hG=_1z(z,4,e,s,gg) || {}
-var cur_globalf=gg.f
-oD.wxXCkey=3
-cF(hG,hG,oD,gg)
-gg.f=cur_globalf
-}
-else _w(fE,x[12],1,273)
-cs.pop()
-cs.pop()
-}
-xC.wxXCkey=1
-cs.pop()
-_(r,oB)
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m7=function(e,s,r,gg){
-var z=gz$gwx_8()
-var oP=e_[x[12]].i
-_ai(oP,x[1],e_,x[12],1,1)
-oP.pop()
-return r
-}
-e_[x[12]]={f:m7,j:[],i:[],ti:[x[1]],ic:[]}
-d_[x[13]]={}
-var m8=function(e,s,r,gg){
-var z=gz$gwx_9()
-var oR=e_[x[13]].i
-_ai(oR,x[14],e_,x[13],1,1)
-var fS=_v()
-_(r,fS)
-cs.push("./pages/saveImg/saveImg.wxml:template:2:6")
-var cT=_oz(z,1,e,s,gg)
-var hU=_gd(x[13],cT,e_,d_)
-if(hU){
-var oV=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-fS.wxXCkey=3
-hU(oV,oV,fS,gg)
-gg.f=cur_globalf
-}
-else _w(cT,x[13],2,18)
-cs.pop()
-oR.pop()
-return r
-}
-e_[x[13]]={f:m8,j:[],i:[],ti:[x[14]],ic:[]}
-d_[x[15]]={}
-d_[x[15]]["75f7d07d"]=function(e,s,r,gg){
-var z=gz$gwx_10()
-var b=x[15]+':75f7d07d'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/textscroll/textscroll.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[15]);return}
-p_[b]=true
-try{
-cs.push("./pages/textscroll/textscroll.vue.wxml:view:1:81")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/textscroll/textscroll.vue.wxml:template:1:118")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[15],oD,e_,d_)
+var fE=_gd(x[6],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2035,9 +2240,15 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[15],1,276)
-cs.pop()
-cs.pop()
+else _w(oD,x[6],1,226)
+var hG=_mz(z,'button',['bindtap',8,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var oH=_oz(z,12,e,s,gg)
+_(hG,oH)
+_(oB,hG)
+var cI=_mz(z,'button',['bindtap',13,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var oJ=_oz(z,17,e,s,gg)
+_(cI,oJ)
+_(oB,cI)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2046,22 +2257,146 @@ throw err
 p_[b]=false
 return r
 }
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
+var oH=e_[x[6]].i
+_ai(oH,x[7],e_,x[6],1,1)
+oH.pop()
+return r
+}
+e_[x[6]]={f:m6,j:[],i:[],ti:[x[7]],ic:[]}
+d_[x[8]]={}
+var m7=function(e,s,r,gg){
+var z=gz$gwx_8()
+var oJ=e_[x[8]].i
+_ai(oJ,x[9],e_,x[8],1,1)
+var lK=_v()
+_(r,lK)
+var aL=_oz(z,1,e,s,gg)
+var tM=_gd(x[8],aL,e_,d_)
+if(tM){
+var eN=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+lK.wxXCkey=3
+tM(eN,eN,lK,gg)
+gg.f=cur_globalf
+}
+else _w(aL,x[8],2,18)
+oJ.pop()
+return r
+}
+e_[x[8]]={f:m7,j:[],i:[],ti:[x[9]],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["6d325d37"]=function(e,s,r,gg){
+var z=gz$gwx_9()
+var b=x[10]+':6d325d37'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/loading/loading.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[10]);return}
+p_[b]=true
+try{
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+var oD=_oz(z,3,e,s,gg)
+var fE=_gd(x[10],oD,e_,d_)
+if(fE){
+var cF=_1z(z,2,e,s,gg) || {}
+var cur_globalf=gg.f
+xC.wxXCkey=3
+fE(cF,cF,xC,gg)
+gg.f=cur_globalf
+}
+else _w(oD,x[10],1,181)
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m8=function(e,s,r,gg){
+var z=gz$gwx_9()
+var oP=e_[x[10]].i
+_ai(oP,x[11],e_,x[10],1,1)
+oP.pop()
+return r
+}
+e_[x[10]]={f:m8,j:[],i:[],ti:[x[11]],ic:[]}
+d_[x[12]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var oX=e_[x[15]].i
-_ai(oX,x[3],e_,x[15],1,1)
+var oR=e_[x[12]].i
+_ai(oR,x[13],e_,x[12],1,1)
+var fS=_v()
+_(r,fS)
+var cT=_oz(z,1,e,s,gg)
+var hU=_gd(x[12],cT,e_,d_)
+if(hU){
+var oV=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+fS.wxXCkey=3
+hU(oV,oV,fS,gg)
+gg.f=cur_globalf
+}
+else _w(cT,x[12],2,18)
+oR.pop()
+return r
+}
+e_[x[12]]={f:m9,j:[],i:[],ti:[x[13]],ic:[]}
+d_[x[14]]={}
+d_[x[14]]["299b5a6a"]=function(e,s,r,gg){
+var z=gz$gwx_11()
+var b=x[14]+':299b5a6a'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/saveImg/saveImg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[14]);return}
+p_[b]=true
+try{
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+var oD=_v()
+_(xC,oD)
+var fE=_oz(z,7,e,s,gg)
+var cF=_gd(x[14],fE,e_,d_)
+if(cF){
+var hG=_1z(z,4,e,s,gg) || {}
+var cur_globalf=gg.f
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
+gg.f=cur_globalf
+}
+else _w(fE,x[14],1,274)
+}
+xC.wxXCkey=1
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m10=function(e,s,r,gg){
+var z=gz$gwx_11()
+var oX=e_[x[14]].i
+_ai(oX,x[15],e_,x[14],1,1)
 oX.pop()
 return r
 }
-e_[x[15]]={f:m9,j:[],i:[],ti:[x[3]],ic:[]}
+e_[x[14]]={f:m10,j:[],i:[],ti:[x[15]],ic:[]}
 d_[x[16]]={}
-var m10=function(e,s,r,gg){
-var z=gz$gwx_11()
+var m11=function(e,s,r,gg){
+var z=gz$gwx_12()
 var aZ=e_[x[16]].i
 _ai(aZ,x[17],e_,x[16],1,1)
 var t1=_v()
 _(r,t1)
-cs.push("./pages/textscroll/textscroll.wxml:template:2:6")
 var e2=_oz(z,1,e,s,gg)
 var b3=_gd(x[16],e2,e_,d_)
 if(b3){
@@ -2072,66 +2407,33 @@ b3(o4,o4,t1,gg)
 gg.f=cur_globalf
 }
 else _w(e2,x[16],2,18)
-cs.pop()
 aZ.pop()
 return r
 }
-e_[x[16]]={f:m10,j:[],i:[],ti:[x[17]],ic:[]}
+e_[x[16]]={f:m11,j:[],i:[],ti:[x[17]],ic:[]}
 d_[x[18]]={}
-d_[x[18]]["719f8fde"]=function(e,s,r,gg){
-var z=gz$gwx_12()
-var b=x[18]+':719f8fde'
+d_[x[18]]["75f7d07d"]=function(e,s,r,gg){
+var z=gz$gwx_13()
+var b=x[18]+':75f7d07d'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/validcode/validcode.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/textscroll/textscroll.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[18]);return}
 p_[b]=true
 try{
-cs.push("./pages/validcode/validcode.vue.wxml:view:1:74")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
-cs.push("./pages/validcode/validcode.vue.wxml:view:1:111")
-var xC=_n('view')
-_rz(z,xC,'class',2,e,s,gg)
-var oD=_oz(z,3,e,s,gg)
-_(xC,oD)
-cs.pop()
+var xC=_v()
 _(oB,xC)
-var fE=_v()
-_(oB,fE)
-cs.push("./pages/validcode/validcode.vue.wxml:template:1:159")
-var cF=_oz(z,8,e,s,gg)
-var hG=_gd(x[18],cF,e_,d_)
-if(hG){
-var oH=_1z(z,5,e,s,gg) || {}
+var oD=_oz(z,6,e,s,gg)
+var fE=_gd(x[18],oD,e_,d_)
+if(fE){
+var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
-fE.wxXCkey=3
-hG(oH,oH,fE,gg)
+xC.wxXCkey=3
+fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(cF,x[18],1,308)
-cs.pop()
-cs.push("./pages/validcode/validcode.vue.wxml:view:1:331")
-var cI=_n('view')
-_rz(z,cI,'class',9,e,s,gg)
-var oJ=_oz(z,10,e,s,gg)
-_(cI,oJ)
-cs.pop()
-_(oB,cI)
-var lK=_v()
-_(oB,lK)
-cs.push("./pages/validcode/validcode.vue.wxml:template:1:374")
-var aL=_oz(z,15,e,s,gg)
-var tM=_gd(x[18],aL,e_,d_)
-if(tM){
-var eN=_1z(z,12,e,s,gg) || {}
-var cur_globalf=gg.f
-lK.wxXCkey=3
-tM(eN,eN,lK,gg)
-gg.f=cur_globalf
-}
-else _w(aL,x[18],1,523)
-cs.pop()
-cs.pop()
+else _w(oD,x[18],1,277)
 _(r,oB)
 }catch(err){
 p_[b]=false
@@ -2140,24 +2442,23 @@ throw err
 p_[b]=false
 return r
 }
-var m11=function(e,s,r,gg){
-var z=gz$gwx_12()
+var m12=function(e,s,r,gg){
+var z=gz$gwx_13()
 var o6=e_[x[18]].i
-_ai(o6,x[4],e_,x[18],1,1)
+_ai(o6,x[19],e_,x[18],1,1)
 o6.pop()
 return r
 }
-e_[x[18]]={f:m11,j:[],i:[],ti:[x[4]],ic:[]}
-d_[x[19]]={}
-var m12=function(e,s,r,gg){
-var z=gz$gwx_13()
-var c8=e_[x[19]].i
-_ai(c8,x[20],e_,x[19],1,1)
+e_[x[18]]={f:m12,j:[],i:[],ti:[x[19]],ic:[]}
+d_[x[20]]={}
+var m13=function(e,s,r,gg){
+var z=gz$gwx_14()
+var c8=e_[x[20]].i
+_ai(c8,x[21],e_,x[20],1,1)
 var h9=_v()
 _(r,h9)
-cs.push("./pages/validcode/validcode.wxml:template:2:6")
 var o0=_oz(z,1,e,s,gg)
-var cAB=_gd(x[19],o0,e_,d_)
+var cAB=_gd(x[20],o0,e_,d_)
 if(cAB){
 var oBB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2165,17 +2466,97 @@ h9.wxXCkey=3
 cAB(oBB,oBB,h9,gg)
 gg.f=cur_globalf
 }
-else _w(o0,x[19],2,18)
-cs.pop()
+else _w(o0,x[20],2,18)
 c8.pop()
 return r
 }
-e_[x[19]]={f:m12,j:[],i:[],ti:[x[20]],ic:[]}
+e_[x[20]]={f:m13,j:[],i:[],ti:[x[21]],ic:[]}
+d_[x[22]]={}
+d_[x[22]]["719f8fde"]=function(e,s,r,gg){
+var z=gz$gwx_15()
+var b=x[22]+':719f8fde'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/validcode/validcode.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[22]);return}
+p_[b]=true
+try{
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+var oD=_oz(z,3,e,s,gg)
+_(xC,oD)
+_(oB,xC)
+var fE=_v()
+_(oB,fE)
+var cF=_oz(z,8,e,s,gg)
+var hG=_gd(x[22],cF,e_,d_)
+if(hG){
+var oH=_1z(z,5,e,s,gg) || {}
+var cur_globalf=gg.f
+fE.wxXCkey=3
+hG(oH,oH,fE,gg)
+gg.f=cur_globalf
+}
+else _w(cF,x[22],1,310)
+var cI=_n('view')
+_rz(z,cI,'class',9,e,s,gg)
+var oJ=_oz(z,10,e,s,gg)
+_(cI,oJ)
+_(oB,cI)
+var lK=_v()
+_(oB,lK)
+var aL=_oz(z,15,e,s,gg)
+var tM=_gd(x[22],aL,e_,d_)
+if(tM){
+var eN=_1z(z,12,e,s,gg) || {}
+var cur_globalf=gg.f
+lK.wxXCkey=3
+tM(eN,eN,lK,gg)
+gg.f=cur_globalf
+}
+else _w(aL,x[22],1,526)
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m14=function(e,s,r,gg){
+var z=gz$gwx_15()
+var aDB=e_[x[22]].i
+_ai(aDB,x[23],e_,x[22],1,1)
+aDB.pop()
+return r
+}
+e_[x[22]]={f:m14,j:[],i:[],ti:[x[23]],ic:[]}
+d_[x[24]]={}
+var m15=function(e,s,r,gg){
+var z=gz$gwx_16()
+var eFB=e_[x[24]].i
+_ai(eFB,x[25],e_,x[24],1,1)
+var bGB=_v()
+_(r,bGB)
+var oHB=_oz(z,1,e,s,gg)
+var xIB=_gd(x[24],oHB,e_,d_)
+if(xIB){
+var oJB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+bGB.wxXCkey=3
+xIB(oJB,oJB,bGB,gg)
+gg.f=cur_globalf
+}
+else _w(oHB,x[24],2,18)
+eFB.pop()
+return r
+}
+e_[x[24]]={f:m15,j:[],i:[],ti:[x[25]],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
-cs=[]
 if (typeof global==="undefined")global={};global.f=$gdc(f_[path],"",1);
 if(typeof(window.__webview_engine_version__)!='undefined'&&window.__webview_engine_version__+1e-6>=0.02+1e-6&&window.__mergeData__)
 {
@@ -2186,9 +2567,7 @@ main(env,{},root,global);
 _tsd(root)
 if(typeof(window.__webview_engine_version__)=='undefined'|| window.__webview_engine_version__+1e-6<0.01+1e-6){return _ev(root);}
 }catch(err){
-console.log(cs, env);
 console.log(err)
-throw err
 }
 return root;
 }
@@ -2229,7 +2608,7 @@ var setCssToHead = function(file, _xcInvalid, info) {
 var Ca = {};
 var css_id;
 var info = info || {};
-var _C= [[[2,1],],["@charset \x22UTF-8\x22;\n.",[1],"number-box { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"swiper { position: relative; }\n.",[1],"swiper:after { content: \x27\x27; position: absolute; left: 0; top: 0; width: 100%; height: 100%; }\n@charset \x22UTF-8\x22;\n.",[1],"code-area { text-align: center; }\n.",[1],"code-area .",[1],"flex-box { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"code-area .",[1],"item { position: relative; width: ",[0,100],"; height: ",[0,100],"; margin-right: ",[0,18],"; font-size: ",[0,30],"; font-weight: bold; color: #333333; line-height: ",[0,100],"; -webkit-box-sizing: border-box; box-sizing: border-box; border: ",[0,2]," solid #cccccc; }\n.",[1],"code-area .",[1],"item:last-child { margin-right: 0; }\n.",[1],"code-area .",[1],"active { border-color: #ff4b4b; }\n.",[1],"code-area .",[1],"active .",[1],"line { display: block; }\n.",[1],"code-area .",[1],"line { display: none; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: ",[0,2],"; height: ",[0,40],"; background: #ff4b4b; -webkit-animation: twinkling 1s infinite ease; animation: twinkling 1s infinite ease; }\n.",[1],"code-area .",[1],"hide-input { position: absolute; top: 0; left: -100%; width: 200%; height: 100%; text-align: left; z-index: 9; opacity: 1; }\n@-webkit-keyframes twinkling { 0% { opacity: 0.2; }\n50% { opacity: 0.5; }\n100% { opacity: 0.2; }\n}@keyframes twinkling { 0% { opacity: 0.2; }\n50% { opacity: 0.5; }\n100% { opacity: 0.2; }\n}.",[1],"code-area .",[1],"dot { font-size: ",[0,80],"; line-height: ",[0,40],"; }\n@charset \x22UTF-8\x22;\n.",[1],"preview-photo-box { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 99; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"preview-photo-box .",[1],"item { -webkit-box-flex: 1; -webkit-flex: 1 0 auto; -ms-flex: 1 0 auto; flex: 1 0 auto; }\n.",[1],"preview-photo-box .",[1],"item .",[1],"receive-qrcode-img { position: relative; z-index: 2; width: 100%; }\n.",[1],"preview-photo-box .",[1],"download-img { position: absolute; bottom: ",[0,30],"; right: ",[0,30],"; z-index: 100; background: rgba(255, 255, 255, 0.5); font-size: 0; }\n.",[1],"preview-photo-box .",[1],"download-img wx-image { width: ",[0,64],"; height: ",[0,64],"; }\n.",[1],"preview-photo-box .",[1],"preview-photo-bg { position: absolute; left: 0; top: 0; z-index: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); }\n@charset \x22UTF-8\x22;\n.",[1],"_notice { position: fixed; left: 0; top: 0; z-index: 9; width: 100%; background: rgba(72, 1, 1, 0.3); font-size: ",[0,20],"; height: ",[0,44],"; color: #ffffff; border-radius: ",[0,6],"; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }\n.",[1],"_swiper { line-height: ",[0,44],"; }\n",],];
+var _C= [[[2,1],],["@charset \x22UTF-8\x22;\n.",[1],"number-box { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"swiper { position: relative; }\n.",[1],"swiper:after { content: \x27\x27; position: absolute; left: 0; top: 0; width: 100%; height: 100%; }\n@charset \x22UTF-8\x22;\n.",[1],"code-area { text-align: center; }\n.",[1],"code-area .",[1],"flex-box { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"code-area .",[1],"item { position: relative; width: ",[0,100],"; height: ",[0,100],"; margin-right: ",[0,18],"; font-size: ",[0,30],"; font-weight: bold; color: #333333; line-height: ",[0,100],"; -webkit-box-sizing: border-box; box-sizing: border-box; border: ",[0,2]," solid #cccccc; }\n.",[1],"code-area .",[1],"item:last-child { margin-right: 0; }\n.",[1],"code-area .",[1],"active { border-color: #ff4b4b; }\n.",[1],"code-area .",[1],"active .",[1],"line { display: block; }\n.",[1],"code-area .",[1],"line { display: none; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: ",[0,2],"; height: ",[0,40],"; background: #ff4b4b; -webkit-animation: twinkling 1s infinite ease; animation: twinkling 1s infinite ease; }\n.",[1],"code-area .",[1],"hide-input { position: absolute; top: 0; left: -100%; width: 200%; height: 100%; text-align: left; z-index: 9; opacity: 1; }\n@-webkit-keyframes twinkling { 0% { opacity: 0.2; }\n50% { opacity: 0.5; }\n100% { opacity: 0.2; }\n}@keyframes twinkling { 0% { opacity: 0.2; }\n50% { opacity: 0.5; }\n100% { opacity: 0.2; }\n}.",[1],"code-area .",[1],"dot { font-size: ",[0,80],"; line-height: ",[0,40],"; }\n@charset \x22UTF-8\x22;\n.",[1],"preview-photo-box { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 99; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"preview-photo-box .",[1],"item { -webkit-box-flex: 1; -webkit-flex: 1 0 auto; -ms-flex: 1 0 auto; flex: 1 0 auto; }\n.",[1],"preview-photo-box .",[1],"item .",[1],"receive-qrcode-img { position: relative; z-index: 2; width: 100%; }\n.",[1],"preview-photo-box .",[1],"download-img { position: absolute; bottom: ",[0,30],"; right: ",[0,30],"; z-index: 100; background: rgba(255, 255, 255, 0.5); font-size: 0; }\n.",[1],"preview-photo-box .",[1],"download-img wx-image { width: ",[0,64],"; height: ",[0,64],"; }\n.",[1],"preview-photo-box .",[1],"preview-photo-bg { position: absolute; left: 0; top: 0; z-index: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); }\n@charset \x22UTF-8\x22;\n.",[1],"_notice { position: fixed; left: 0; top: 0; z-index: 9; width: 100%; background: rgba(72, 1, 1, 0.3); font-size: ",[0,20],"; height: ",[0,44],"; color: #ffffff; -webkit-border-radius: ",[0,6],"; border-radius: ",[0,6],"; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }\n.",[1],"_swiper { line-height: ",[0,44],"; }\n@charset \x22UTF-8\x22;\n.",[1],"loading-box \x3e wx-view { margin: ",[0,15]," ",[0,20],"; }\n.",[1],"lds-circle { display: inline-block; -webkit-transform: translateZ(1px); transform: translateZ(1px); }\n.",[1],"lds-circle \x3e wx-view { display: inline-block; width: 51px; height: 51px; margin: 6px; -webkit-border-radius: 50%; border-radius: 50%; background: #42b983; -webkit-animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite; animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite; }\n@-webkit-keyframes lds-circle { 0%, 100% { -webkit-animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5); animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5); }\n0% { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }\n50% { -webkit-transform: rotateY(1800deg); transform: rotateY(1800deg); -webkit-animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); }\n100% { -webkit-transform: rotateY(3600deg); transform: rotateY(3600deg); }\n}@keyframes lds-circle { 0%, 100% { -webkit-animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5); animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5); }\n0% { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }\n50% { -webkit-transform: rotateY(1800deg); transform: rotateY(1800deg); -webkit-animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); }\n100% { -webkit-transform: rotateY(3600deg); transform: rotateY(3600deg); }\n}.",[1],"lds-dual-ring { display: inline-block; width: 64px; height: 64px; }\n.",[1],"lds-dual-ring:after { content: \x27 \x27; display: block; width: 46px; height: 46px; margin: 1px; -webkit-border-radius: 50%; border-radius: 50%; border: 5px solid #fff; border-color: #42b983 transparent #42b983 transparent; -webkit-animation: lds-dual-ring 1.2s linear infinite; animation: lds-dual-ring 1.2s linear infinite; }\n@-webkit-keyframes lds-dual-ring { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}@keyframes lds-dual-ring { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}.",[1],"lds-facebook { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-facebook wx-view { display: inline-block; position: absolute; left: 6px; width: 13px; background: #42b983; -webkit-animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite; animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite; }\n.",[1],"lds-facebook wx-view:nth-child(1) { left: 6px; -webkit-animation-delay: -0.24s; animation-delay: -0.24s; }\n.",[1],"lds-facebook wx-view:nth-child(2) { left: 26px; -webkit-animation-delay: -0.12s; animation-delay: -0.12s; }\n.",[1],"lds-facebook wx-view:nth-child(3) { left: 45px; -webkit-animation-delay: 0; animation-delay: 0; }\n@-webkit-keyframes lds-facebook { 0% { top: 6px; height: 51px; }\n50%, 100% { top: 19px; height: 26px; }\n}@keyframes lds-facebook { 0% { top: 6px; height: 51px; }\n50%, 100% { top: 19px; height: 26px; }\n}.",[1],"lds-heart { display: inline-block; position: relative; width: 64px; height: 64px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); -webkit-transform-origin: 32px 32px; -ms-transform-origin: 32px 32px; transform-origin: 32px 32px; }\n.",[1],"lds-heart wx-view { top: 23px; left: 19px; position: absolute; width: 26px; height: 26px; background: #42b983; -webkit-animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1); animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1); }\n.",[1],"lds-heart wx-view:after, .",[1],"lds-heart wx-view:before { content: \x22 \x22; position: absolute; display: block; width: 26px; height: 26px; background: #42b983; }\n.",[1],"lds-heart wx-view:before { left: -17px; -webkit-border-radius: 50% 0 0 50%; border-radius: 50% 0 0 50%; }\n.",[1],"lds-heart wx-view:after { top: -17px; -webkit-border-radius: 50% 50% 0 0; border-radius: 50% 50% 0 0; }\n@-webkit-keyframes lds-heart { 0% { -webkit-transform: scale(0.95); transform: scale(0.95); }\n5% { -webkit-transform: scale(1.1); transform: scale(1.1); }\n39% { -webkit-transform: scale(0.85); transform: scale(0.85); }\n45% { -webkit-transform: scale(1); transform: scale(1); }\n60% { -webkit-transform: scale(0.95); transform: scale(0.95); }\n100% { -webkit-transform: scale(0.9); transform: scale(0.9); }\n}@keyframes lds-heart { 0% { -webkit-transform: scale(0.95); transform: scale(0.95); }\n5% { -webkit-transform: scale(1.1); transform: scale(1.1); }\n39% { -webkit-transform: scale(0.85); transform: scale(0.85); }\n45% { -webkit-transform: scale(1); transform: scale(1); }\n60% { -webkit-transform: scale(0.95); transform: scale(0.95); }\n100% { -webkit-transform: scale(0.9); transform: scale(0.9); }\n}.",[1],"lds-ring { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-ring wx-view { -webkit-box-sizing: border-box; box-sizing: border-box; display: block; position: absolute; width: 51px; height: 51px; margin: 6px; border: 6px solid #fff; -webkit-border-radius: 50%; border-radius: 50%; -webkit-animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite; animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite; border-color: #42b983 transparent transparent transparent; }\n.",[1],"lds-ring wx-view:nth-child(1) { -webkit-animation-delay: -0.45s; animation-delay: -0.45s; }\n.",[1],"lds-ring wx-view:nth-child(2) { -webkit-animation-delay: -0.3s; animation-delay: -0.3s; }\n.",[1],"lds-ring wx-view:nth-child(3) { -webkit-animation-delay: -0.15s; animation-delay: -0.15s; }\n@-webkit-keyframes lds-ring { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}@keyframes lds-ring { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}.",[1],"lds-roller { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-roller wx-view { -webkit-animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite; animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite; -webkit-transform-origin: 32px 32px; -ms-transform-origin: 32px 32px; transform-origin: 32px 32px; }\n.",[1],"lds-roller wx-view:after { content: \x22 \x22; display: block; position: absolute; width: 6px; height: 6px; -webkit-border-radius: 50%; border-radius: 50%; background: #42b983; margin: -3px 0 0 -3px; }\n.",[1],"lds-roller wx-view:nth-child(1) { -webkit-animation-delay: -0.036s; animation-delay: -0.036s; }\n.",[1],"lds-roller wx-view:nth-child(1):after { top: 50px; left: 50px; }\n.",[1],"lds-roller wx-view:nth-child(2) { -webkit-animation-delay: -0.072s; animation-delay: -0.072s; }\n.",[1],"lds-roller wx-view:nth-child(2):after { top: 54px; left: 45px; }\n.",[1],"lds-roller wx-view:nth-child(3) { -webkit-animation-delay: -0.108s; animation-delay: -0.108s; }\n.",[1],"lds-roller wx-view:nth-child(3):after { top: 57px; left: 39px; }\n.",[1],"lds-roller wx-view:nth-child(4) { -webkit-animation-delay: -0.144s; animation-delay: -0.144s; }\n.",[1],"lds-roller wx-view:nth-child(4):after { top: 58px; left: 32px; }\n.",[1],"lds-roller wx-view:nth-child(5) { -webkit-animation-delay: -0.18s; animation-delay: -0.18s; }\n.",[1],"lds-roller wx-view:nth-child(5):after { top: 57px; left: 25px; }\n.",[1],"lds-roller wx-view:nth-child(6) { -webkit-animation-delay: -0.216s; animation-delay: -0.216s; }\n.",[1],"lds-roller wx-view:nth-child(6):after { top: 54px; left: 19px; }\n.",[1],"lds-roller wx-view:nth-child(7) { -webkit-animation-delay: -0.252s; animation-delay: -0.252s; }\n.",[1],"lds-roller wx-view:nth-child(7):after { top: 50px; left: 14px; }\n.",[1],"lds-roller wx-view:nth-child(8) { -webkit-animation-delay: -0.288s; animation-delay: -0.288s; }\n.",[1],"lds-roller wx-view:nth-child(8):after { top: 45px; left: 10px; }\n@-webkit-keyframes lds-roller { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}@keyframes lds-roller { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}.",[1],"lds-default { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-default wx-view { position: absolute; width: 5px; height: 5px; background: #42b983; -webkit-border-radius: 50%; border-radius: 50%; -webkit-animation: lds-default 1.2s linear infinite; animation: lds-default 1.2s linear infinite; }\n.",[1],"lds-default wx-view:nth-child(1) { -webkit-animation-delay: 0s; animation-delay: 0s; top: 29px; left: 53px; }\n.",[1],"lds-default wx-view:nth-child(2) { -webkit-animation-delay: -0.1s; animation-delay: -0.1s; top: 18px; left: 50px; }\n.",[1],"lds-default wx-view:nth-child(3) { -webkit-animation-delay: -0.2s; animation-delay: -0.2s; top: 9px; left: 41px; }\n.",[1],"lds-default wx-view:nth-child(4) { -webkit-animation-delay: -0.3s; animation-delay: -0.3s; top: 6px; left: 29px; }\n.",[1],"lds-default wx-view:nth-child(5) { -webkit-animation-delay: -0.4s; animation-delay: -0.4s; top: 9px; left: 18px; }\n.",[1],"lds-default wx-view:nth-child(6) { -webkit-animation-delay: -0.5s; animation-delay: -0.5s; top: 18px; left: 9px; }\n.",[1],"lds-default wx-view:nth-child(7) { -webkit-animation-delay: -0.6s; animation-delay: -0.6s; top: 29px; left: 6px; }\n.",[1],"lds-default wx-view:nth-child(8) { -webkit-animation-delay: -0.7s; animation-delay: -0.7s; top: 41px; left: 9px; }\n.",[1],"lds-default wx-view:nth-child(9) { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; top: 50px; left: 18px; }\n.",[1],"lds-default wx-view:nth-child(10) { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; top: 53px; left: 29px; }\n.",[1],"lds-default wx-view:nth-child(11) { -webkit-animation-delay: -1s; animation-delay: -1s; top: 50px; left: 41px; }\n.",[1],"lds-default wx-view:nth-child(12) { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; top: 41px; left: 50px; }\n@-webkit-keyframes lds-default { 0%, 20%, 80%, 100% { -webkit-transform: scale(1); transform: scale(1); }\n50% { -webkit-transform: scale(1.5); transform: scale(1.5); }\n}@keyframes lds-default { 0%, 20%, 80%, 100% { -webkit-transform: scale(1); transform: scale(1); }\n50% { -webkit-transform: scale(1.5); transform: scale(1.5); }\n}.",[1],"lds-ellipsis { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-ellipsis wx-view { position: absolute; top: 27px; width: 11px; height: 11px; -webkit-border-radius: 50%; border-radius: 50%; background: #42b983; -webkit-animation-timing-function: cubic-bezier(0, 1, 1, 0); animation-timing-function: cubic-bezier(0, 1, 1, 0); }\n.",[1],"lds-ellipsis wx-view:nth-child(1) { left: 6px; -webkit-animation: lds-ellipsis1 0.6s infinite; animation: lds-ellipsis1 0.6s infinite; }\n.",[1],"lds-ellipsis wx-view:nth-child(2) { left: 6px; -webkit-animation: lds-ellipsis2 0.6s infinite; animation: lds-ellipsis2 0.6s infinite; }\n.",[1],"lds-ellipsis wx-view:nth-child(3) { left: 26px; -webkit-animation: lds-ellipsis2 0.6s infinite; animation: lds-ellipsis2 0.6s infinite; }\n.",[1],"lds-ellipsis wx-view:nth-child(4) { left: 45px; -webkit-animation: lds-ellipsis3 0.6s infinite; animation: lds-ellipsis3 0.6s infinite; }\n@-webkit-keyframes lds-ellipsis1 { 0% { -webkit-transform: scale(0); transform: scale(0); }\n100% { -webkit-transform: scale(1); transform: scale(1); }\n}@keyframes lds-ellipsis1 { 0% { -webkit-transform: scale(0); transform: scale(0); }\n100% { -webkit-transform: scale(1); transform: scale(1); }\n}@-webkit-keyframes lds-ellipsis3 { 0% { -webkit-transform: scale(1); transform: scale(1); }\n100% { -webkit-transform: scale(0); transform: scale(0); }\n}@keyframes lds-ellipsis3 { 0% { -webkit-transform: scale(1); transform: scale(1); }\n100% { -webkit-transform: scale(0); transform: scale(0); }\n}@-webkit-keyframes lds-ellipsis2 { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }\n100% { -webkit-transform: translate(19px, 0); transform: translate(19px, 0); }\n}@keyframes lds-ellipsis2 { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }\n100% { -webkit-transform: translate(19px, 0); transform: translate(19px, 0); }\n}.",[1],"lds-grid { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-grid wx-view { position: absolute; width: 13px; height: 13px; -webkit-border-radius: 50%; border-radius: 50%; background: #42b983; -webkit-animation: lds-grid 1.2s linear infinite; animation: lds-grid 1.2s linear infinite; }\n.",[1],"lds-grid wx-view:nth-child(1) { top: 6px; left: 6px; -webkit-animation-delay: 0s; animation-delay: 0s; }\n.",[1],"lds-grid wx-view:nth-child(2) { top: 6px; left: 26px; -webkit-animation-delay: -0.4s; animation-delay: -0.4s; }\n.",[1],"lds-grid wx-view:nth-child(3) { top: 6px; left: 45px; -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }\n.",[1],"lds-grid wx-view:nth-child(4) { top: 26px; left: 6px; -webkit-animation-delay: -0.4s; animation-delay: -0.4s; }\n.",[1],"lds-grid wx-view:nth-child(5) { top: 26px; left: 26px; -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }\n.",[1],"lds-grid wx-view:nth-child(6) { top: 26px; left: 45px; -webkit-animation-delay: -1.2s; animation-delay: -1.2s; }\n.",[1],"lds-grid wx-view:nth-child(7) { top: 45px; left: 6px; -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }\n.",[1],"lds-grid wx-view:nth-child(8) { top: 45px; left: 26px; -webkit-animation-delay: -1.2s; animation-delay: -1.2s; }\n.",[1],"lds-grid wx-view:nth-child(9) { top: 45px; left: 45px; -webkit-animation-delay: -1.6s; animation-delay: -1.6s; }\n@-webkit-keyframes lds-grid { 0%, 100% { opacity: 1; }\n50% { opacity: 0.5; }\n}@keyframes lds-grid { 0%, 100% { opacity: 1; }\n50% { opacity: 0.5; }\n}.",[1],"lds-hourglass { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-hourglass:after { content: \x22 \x22; display: block; -webkit-border-radius: 50%; border-radius: 50%; width: 0; height: 0; margin: 6px; -webkit-box-sizing: border-box; box-sizing: border-box; border: 26px solid #42b983; border-color: #42b983 transparent #42b983 transparent; -webkit-animation: lds-hourglass 1.2s infinite; animation: lds-hourglass 1.2s infinite; }\n@-webkit-keyframes lds-hourglass { 0% { -webkit-transform: rotate(0); transform: rotate(0); -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }\n50% { -webkit-transform: rotate(900deg); transform: rotate(900deg); -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }\n100% { -webkit-transform: rotate(1800deg); transform: rotate(1800deg); }\n}@keyframes lds-hourglass { 0% { -webkit-transform: rotate(0); transform: rotate(0); -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }\n50% { -webkit-transform: rotate(900deg); transform: rotate(900deg); -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }\n100% { -webkit-transform: rotate(1800deg); transform: rotate(1800deg); }\n}.",[1],"lds-ripple { display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-ripple wx-view { position: absolute; border: 4px solid #42b983; opacity: 1; -webkit-border-radius: 50%; border-radius: 50%; -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite; animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite; }\n.",[1],"lds-ripple wx-view:nth-child(2) { -webkit-animation-delay: -0.5s; animation-delay: -0.5s; }\n@-webkit-keyframes lds-ripple { 0% { top: 28px; left: 28px; width: 0; height: 0; opacity: 1; }\n100% { top: -1px; left: -1px; width: 58px; height: 58px; opacity: 0; }\n}@keyframes lds-ripple { 0% { top: 28px; left: 28px; width: 0; height: 0; opacity: 1; }\n100% { top: -1px; left: -1px; width: 58px; height: 58px; opacity: 0; }\n}.",[1],"lds-spinner { color: official; display: inline-block; position: relative; width: 64px; height: 64px; }\n.",[1],"lds-spinner wx-view { -webkit-transform-origin: 32px 32px; -ms-transform-origin: 32px 32px; transform-origin: 32px 32px; -webkit-animation: lds-spinner 1.2s linear infinite; animation: lds-spinner 1.2s linear infinite; }\n.",[1],"lds-spinner wx-view:after { content: \x22 \x22; display: block; position: absolute; top: 3px; left: 29px; width: 5px; height: 14px; -webkit-border-radius: 20%; border-radius: 20%; background: #42b983; }\n.",[1],"lds-spinner wx-view:nth-child(1) { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }\n.",[1],"lds-spinner wx-view:nth-child(2) { -webkit-transform: rotate(30deg); -ms-transform: rotate(30deg); transform: rotate(30deg); -webkit-animation-delay: -1s; animation-delay: -1s; }\n.",[1],"lds-spinner wx-view:nth-child(3) { -webkit-transform: rotate(60deg); -ms-transform: rotate(60deg); transform: rotate(60deg); -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }\n.",[1],"lds-spinner wx-view:nth-child(4) { -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }\n.",[1],"lds-spinner wx-view:nth-child(5) { -webkit-transform: rotate(120deg); -ms-transform: rotate(120deg); transform: rotate(120deg); -webkit-animation-delay: -0.7s; animation-delay: -0.7s; }\n.",[1],"lds-spinner wx-view:nth-child(6) { -webkit-transform: rotate(150deg); -ms-transform: rotate(150deg); transform: rotate(150deg); -webkit-animation-delay: -0.6s; animation-delay: -0.6s; }\n.",[1],"lds-spinner wx-view:nth-child(7) { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); -webkit-animation-delay: -0.5s; animation-delay: -0.5s; }\n.",[1],"lds-spinner wx-view:nth-child(8) { -webkit-transform: rotate(210deg); -ms-transform: rotate(210deg); transform: rotate(210deg); -webkit-animation-delay: -0.4s; animation-delay: -0.4s; }\n.",[1],"lds-spinner wx-view:nth-child(9) { -webkit-transform: rotate(240deg); -ms-transform: rotate(240deg); transform: rotate(240deg); -webkit-animation-delay: -0.3s; animation-delay: -0.3s; }\n.",[1],"lds-spinner wx-view:nth-child(10) { -webkit-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg); -webkit-animation-delay: -0.2s; animation-delay: -0.2s; }\n.",[1],"lds-spinner wx-view:nth-child(11) { -webkit-transform: rotate(300deg); -ms-transform: rotate(300deg); transform: rotate(300deg); -webkit-animation-delay: -0.1s; animation-delay: -0.1s; }\n.",[1],"lds-spinner wx-view:nth-child(12) { -webkit-transform: rotate(330deg); -ms-transform: rotate(330deg); transform: rotate(330deg); -webkit-animation-delay: 0s; animation-delay: 0s; }\n@-webkit-keyframes lds-spinner { 0% { opacity: 1; }\n100% { opacity: 0; }\n}@keyframes lds-spinner { 0% { opacity: 1; }\n100% { opacity: 0; }\n}.",[1],"spinner13 { display: inline-block; width: 40px; height: 40px; background-color: #42b983; -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out; animation: sk-rotateplane 1.2s infinite ease-in-out; }\n@-webkit-keyframes sk-rotateplane { 0% { -webkit-transform: perspective(120px); }\n50% { -webkit-transform: perspective(120px) rotateY(180deg); }\n100% { -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg); }\n}@keyframes sk-rotateplane { 0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg); -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg); }\n50% { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }\n100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); }\n}.",[1],"spinner14 { width: 40px; height: 40px; display: inline-block; position: relative; }\n.",[1],"double-bounce1, .",[1],"double-bounce2 { width: 100%; height: 100%; -webkit-border-radius: 50%; border-radius: 50%; background-color: #42b983; opacity: 0.6; position: absolute; top: 0; left: 0; -webkit-animation: sk-bounce 2.0s infinite ease-in-out; animation: sk-bounce 2.0s infinite ease-in-out; }\n.",[1],"double-bounce2 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }\n@-webkit-keyframes sk-bounce { 0%, 100% { -webkit-transform: scale(0); }\n50% { -webkit-transform: scale(1); }\n}@keyframes sk-bounce { 0%, 100% { transform: scale(0); -webkit-transform: scale(0); }\n50% { transform: scale(1); -webkit-transform: scale(1); }\n}.",[1],"spinner15 { width: 50px; height: 40px; display: inline-block; text-align: center; font-size: 10px; }\n.",[1],"spinner15 \x3e wx-view { background-color: #42b983; height: 100%; width: 6px; display: inline-block; -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out; animation: sk-stretchdelay 1.2s infinite ease-in-out; }\n.",[1],"spinner15 .",[1],"rect2 { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }\n.",[1],"spinner15 .",[1],"rect3 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }\n.",[1],"spinner15 .",[1],"rect4 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }\n.",[1],"spinner15 .",[1],"rect5 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }\n@-webkit-keyframes sk-stretchdelay { 0%, 40%, 100% { -webkit-transform: scaleY(0.4); }\n20% { -webkit-transform: scaleY(1); }\n}@keyframes sk-stretchdelay { 0%, 40%, 100% { transform: scaleY(0.4); -webkit-transform: scaleY(0.4); }\n20% { transform: scaleY(1); -webkit-transform: scaleY(1); }\n}.",[1],"spinner16 { display: inline-block; width: 40px; height: 40px; position: relative; }\n.",[1],"cube1, .",[1],"cube2 { background-color: #42b983; width: 15px; height: 15px; position: absolute; top: 0; left: 0; -webkit-animation: sk-cubemove 1.8s infinite ease-in-out; animation: sk-cubemove 1.8s infinite ease-in-out; }\n.",[1],"cube2 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }\n@-webkit-keyframes sk-cubemove { 25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }\n50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }\n75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }\n100% { -webkit-transform: rotate(-360deg); }\n}@keyframes sk-cubemove { 25% { transform: translateX(42px) rotate(-90deg) scale(0.5); -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); }\n50% { transform: translateX(42px) translateY(42px) rotate(-179deg); -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg); }\n50.1% { transform: translateX(42px) translateY(42px) rotate(-180deg); -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg); }\n75% { transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5); }\n100% { transform: rotate(-360deg); -webkit-transform: rotate(-360deg); }\n}.",[1],"spinner17 { width: 40px; height: 40px; display: inline-block; background-color: #42b983; -webkit-border-radius: 100%; border-radius: 100%; -webkit-animation: sk-scaleout 1.0s infinite ease-in-out; animation: sk-scaleout 1.0s infinite ease-in-out; }\n@-webkit-keyframes sk-scaleout { 0% { -webkit-transform: scale(0); }\n100% { -webkit-transform: scale(1); opacity: 0; }\n}@keyframes sk-scaleout { 0% { -webkit-transform: scale(0); transform: scale(0); }\n100% { -webkit-transform: scale(1); transform: scale(1); opacity: 0; }\n}.",[1],"spinner18 { display: inline-block; width: 40px; height: 40px; position: relative; text-align: center; -webkit-animation: sk-rotate 2.0s infinite linear; animation: sk-rotate 2.0s infinite linear; }\n.",[1],"dot1, .",[1],"dot2 { width: 60%; height: 60%; display: inline-block; position: absolute; top: 0; background-color: #42b983; -webkit-border-radius: 100%; border-radius: 100%; -webkit-animation: sk-bounce 2.0s infinite ease-in-out; animation: sk-bounce 2.0s infinite ease-in-out; }\n.",[1],"dot2 { top: auto; bottom: 0; -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }\n@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg); }\n}@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg); }\n}@-webkit-keyframes sk-bounce { 0%, 100% { -webkit-transform: scale(0); }\n50% { -webkit-transform: scale(1); }\n}@keyframes sk-bounce { 0%, 100% { transform: scale(0); -webkit-transform: scale(0); }\n50% { transform: scale(1); -webkit-transform: scale(1); }\n}.",[1],"spinner19 { display: inline-block; width: 70px; text-align: center; }\n.",[1],"spinner19 \x3e wx-view { width: 18px; height: 18px; background-color: #42b983; -webkit-border-radius: 100%; border-radius: 100%; display: inline-block; -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both; animation: sk-bouncedelay 1.4s infinite ease-in-out both; }\n.",[1],"spinner19 .",[1],"bounce1 { -webkit-animation-delay: -0.32s; animation-delay: -0.32s; }\n.",[1],"spinner19 .",[1],"bounce2 { -webkit-animation-delay: -0.16s; animation-delay: -0.16s; }\n@-webkit-keyframes sk-bouncedelay { 0%, 80%, 100% { -webkit-transform: scale(0); }\n40% { -webkit-transform: scale(1); }\n}@keyframes sk-bouncedelay { 0%, 80%, 100% { -webkit-transform: scale(0); transform: scale(0); }\n40% { -webkit-transform: scale(1); transform: scale(1); }\n}.",[1],"sk-circle { display: inline-block; width: 40px; height: 40px; position: relative; }\n.",[1],"sk-circle .",[1],"sk-child { width: 100%; height: 100%; position: absolute; left: 0; top: 0; }\n.",[1],"sk-circle .",[1],"sk-child:before { content: \x27\x27; display: block; margin: 0 auto; width: 15%; height: 15%; background-color: #42b983; -webkit-border-radius: 100%; border-radius: 100%; -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both; animation: sk-circleBounceDelay 1.2s infinite ease-in-out both; }\n.",[1],"sk-circle .",[1],"sk-circle2 { -webkit-transform: rotate(30deg); -ms-transform: rotate(30deg); transform: rotate(30deg); }\n.",[1],"sk-circle .",[1],"sk-circle3 { -webkit-transform: rotate(60deg); -ms-transform: rotate(60deg); transform: rotate(60deg); }\n.",[1],"sk-circle .",[1],"sk-circle4 { -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); }\n.",[1],"sk-circle .",[1],"sk-circle5 { -webkit-transform: rotate(120deg); -ms-transform: rotate(120deg); transform: rotate(120deg); }\n.",[1],"sk-circle .",[1],"sk-circle6 { -webkit-transform: rotate(150deg); -ms-transform: rotate(150deg); transform: rotate(150deg); }\n.",[1],"sk-circle .",[1],"sk-circle7 { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }\n.",[1],"sk-circle .",[1],"sk-circle8 { -webkit-transform: rotate(210deg); -ms-transform: rotate(210deg); transform: rotate(210deg); }\n.",[1],"sk-circle .",[1],"sk-circle9 { -webkit-transform: rotate(240deg); -ms-transform: rotate(240deg); transform: rotate(240deg); }\n.",[1],"sk-circle .",[1],"sk-circle10 { -webkit-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg); }\n.",[1],"sk-circle .",[1],"sk-circle11 { -webkit-transform: rotate(300deg); -ms-transform: rotate(300deg); transform: rotate(300deg); }\n.",[1],"sk-circle .",[1],"sk-circle12 { -webkit-transform: rotate(330deg); -ms-transform: rotate(330deg); transform: rotate(330deg); }\n.",[1],"sk-circle .",[1],"sk-circle2:before { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }\n.",[1],"sk-circle .",[1],"sk-circle3:before { -webkit-animation-delay: -1s; animation-delay: -1s; }\n.",[1],"sk-circle .",[1],"sk-circle4:before { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }\n.",[1],"sk-circle .",[1],"sk-circle5:before { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }\n.",[1],"sk-circle .",[1],"sk-circle6:before { -webkit-animation-delay: -0.7s; animation-delay: -0.7s; }\n.",[1],"sk-circle .",[1],"sk-circle7:before { -webkit-animation-delay: -0.6s; animation-delay: -0.6s; }\n.",[1],"sk-circle .",[1],"sk-circle8:before { -webkit-animation-delay: -0.5s; animation-delay: -0.5s; }\n.",[1],"sk-circle .",[1],"sk-circle9:before { -webkit-animation-delay: -0.4s; animation-delay: -0.4s; }\n.",[1],"sk-circle .",[1],"sk-circle10:before { -webkit-animation-delay: -0.3s; animation-delay: -0.3s; }\n.",[1],"sk-circle .",[1],"sk-circle11:before { -webkit-animation-delay: -0.2s; animation-delay: -0.2s; }\n.",[1],"sk-circle .",[1],"sk-circle12:before { -webkit-animation-delay: -0.1s; animation-delay: -0.1s; }\n@-webkit-keyframes sk-circleBounceDelay { 0%, 80%, 100% { -webkit-transform: scale(0); transform: scale(0); }\n40% { -webkit-transform: scale(1); transform: scale(1); }\n}@keyframes sk-circleBounceDelay { 0%, 80%, 100% { -webkit-transform: scale(0); transform: scale(0); }\n40% { -webkit-transform: scale(1); transform: scale(1); }\n}.",[1],"sk-cube-grid { width: 40px; height: 40px; display: inline-block; }\n.",[1],"sk-cube-grid .",[1],"sk-cube { width: 33%; height: 33%; background-color: #42b983; float: left; -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }\n.",[1],"sk-cube-grid .",[1],"sk-cube1 { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube2 { -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube3 { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube4 { -webkit-animation-delay: 0.1s; animation-delay: 0.1s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube5 { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube6 { -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube7 { -webkit-animation-delay: 0s; animation-delay: 0s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube8 { -webkit-animation-delay: 0.1s; animation-delay: 0.1s; }\n.",[1],"sk-cube-grid .",[1],"sk-cube9 { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }\n@-webkit-keyframes sk-cubeGridScaleDelay { 0%, 70%, 100% { -webkit-transform: scale3D(1, 1, 1); transform: scale3D(1, 1, 1); }\n35% { -webkit-transform: scale3D(0, 0, 1); transform: scale3D(0, 0, 1); }\n}@keyframes sk-cubeGridScaleDelay { 0%, 70%, 100% { -webkit-transform: scale3D(1, 1, 1); transform: scale3D(1, 1, 1); }\n35% { -webkit-transform: scale3D(0, 0, 1); transform: scale3D(0, 0, 1); }\n}.",[1],"sk-folding-cube { display: inline-block; width: 40px; height: 40px; position: relative; -webkit-transform: rotateZ(45deg); -ms-transform: rotate(45deg); transform: rotateZ(45deg); }\n.",[1],"sk-folding-cube .",[1],"sk-cube { float: left; width: 50%; height: 50%; position: relative; -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); }\n.",[1],"sk-folding-cube .",[1],"sk-cube:before { content: \x27\x27; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #42b983; -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both; animation: sk-foldCubeAngle 2.4s infinite linear both; -webkit-transform-origin: 100% 100%; -ms-transform-origin: 100% 100%; transform-origin: 100% 100%; }\n.",[1],"sk-folding-cube .",[1],"sk-cube2 { -webkit-transform: scale(1.1) rotateZ(90deg); -ms-transform: scale(1.1) rotate(90deg); transform: scale(1.1) rotateZ(90deg); }\n.",[1],"sk-folding-cube .",[1],"sk-cube3 { -webkit-transform: scale(1.1) rotateZ(180deg); -ms-transform: scale(1.1) rotate(180deg); transform: scale(1.1) rotateZ(180deg); }\n.",[1],"sk-folding-cube .",[1],"sk-cube4 { -webkit-transform: scale(1.1) rotateZ(270deg); -ms-transform: scale(1.1) rotate(270deg); transform: scale(1.1) rotateZ(270deg); }\n.",[1],"sk-folding-cube .",[1],"sk-cube2:before { -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }\n.",[1],"sk-folding-cube .",[1],"sk-cube3:before { -webkit-animation-delay: 0.6s; animation-delay: 0.6s; }\n.",[1],"sk-folding-cube .",[1],"sk-cube4:before { -webkit-animation-delay: 0.9s; animation-delay: 0.9s; }\n@-webkit-keyframes sk-foldCubeAngle { 0%, 10% { -webkit-transform: perspective(140px) rotateX(-180deg); transform: perspective(140px) rotateX(-180deg); opacity: 0; }\n25%, 75% { -webkit-transform: perspective(140px) rotateX(0deg); transform: perspective(140px) rotateX(0deg); opacity: 1; }\n90%, 100% { -webkit-transform: perspective(140px) rotateY(180deg); transform: perspective(140px) rotateY(180deg); opacity: 0; }\n}@keyframes sk-foldCubeAngle { 0%, 10% { -webkit-transform: perspective(140px) rotateX(-180deg); transform: perspective(140px) rotateX(-180deg); opacity: 0; }\n25%, 75% { -webkit-transform: perspective(140px) rotateX(0deg); transform: perspective(140px) rotateX(0deg); opacity: 1; }\n90%, 100% { -webkit-transform: perspective(140px) rotateY(180deg); transform: perspective(140px) rotateY(180deg); opacity: 0; }\n}",],];
 function makeup(file, opt) {
 var _n = typeof(file) === "number";
 if ( _n && Ca.hasOwnProperty(file)) return "";
@@ -2298,9 +2677,24 @@ setCssToHead([])();setCssToHead([[2,0]],undefined,{path:"./app.wxss"})();
 __wxAppCode__['app.wxss']=setCssToHead([[2,0]],undefined,{path:"./app.wxss"});    
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
+__wxAppCode__['pages/countUp/countUp.wxss']=undefined;    
+__wxAppCode__['pages/countUp/countUp.wxml']=$gwx('./pages/countUp/countUp.wxml');
+
+__wxAppCode__['pages/loading/loading.wxss']=undefined;    
+__wxAppCode__['pages/loading/loading.wxml']=$gwx('./pages/loading/loading.wxml');
+
+__wxAppCode__['pages/saveImg/saveImg.wxss']=undefined;    
+__wxAppCode__['pages/saveImg/saveImg.wxml']=$gwx('./pages/saveImg/saveImg.wxml');
+
+__wxAppCode__['pages/textscroll/textscroll.wxss']=setCssToHead([".",[1],"button { margin-top: ",[0,100],"; }\n",],undefined,{path:"./pages/textscroll/textscroll.wxss"});    
+__wxAppCode__['pages/textscroll/textscroll.wxml']=$gwx('./pages/textscroll/textscroll.wxml');
+
+__wxAppCode__['pages/validcode/validcode.wxss']=setCssToHead([".",[1],"content { height: ",[0,400],"; }\n",],undefined,{path:"./pages/validcode/validcode.wxss"});    
+__wxAppCode__['pages/validcode/validcode.wxml']=$gwx('./pages/validcode/validcode.wxml');
+
 ;var __pageFrameEndTime__ = Date.now();
-if(!window.__uniAppViewReady__){
-	window.__uniAppViewReady__ = true;
-	document.dispatchEvent(new CustomEvent('uniAppViewReady'));
-}
+(function() {
+       plus.webview.getLaunchWebview().evalJS('__uniAppViewReadyCallback__("' + plus.webview.currentWebview()
+           .id + '")')
+})();
 

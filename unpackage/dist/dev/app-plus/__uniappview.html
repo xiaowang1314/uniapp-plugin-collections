@@ -4,8 +4,11 @@
     <head>
         <meta charset="UTF-8" />
         <script>
-            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
         </script>
         <title>View</title>
         <style>
@@ -17,11 +20,9 @@
             input[type="search"i]::-webkit-search-cancel-button {
                 display: none;
             }
-
         </style>
         <script>
-            var __wxConfig = {"debug":false,"appname":"u-validcode","entryPagePath":"pages/saveImg/saveImg.html","page":{"pages/saveImg/saveImg.html":{"window":{"navigationBarTitleText":"保存图片"}},"pages/textscroll/textscroll.html":{"window":{"navigationBarTitleText":"屏幕文字滚动效果"}},"pages/countUp/countUp.html":{"window":{"navigationBarTitleText":"数字滚动"}},"pages/validcode/validcode.html":{"window":{"navigationBarTitleText":"自定义验证码、密码输入框"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/saveImg/saveImg","pages/textscroll/textscroll","pages/countUp/countUp","pages/validcode/validcode"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
-
+            var __wxConfig = {"debug":false,"appname":"uniapp-plugin-collections","entryPagePath":"pages/loading/loading.html","page":{"pages/loading/loading.html":{"window":{"usingComponents":{},"navigationBarTitleText":"Loading图"}},"pages/saveImg/saveImg.html":{"window":{"usingComponents":{},"navigationBarTitleText":"保存图片"}},"pages/textscroll/textscroll.html":{"window":{"usingComponents":{},"navigationBarTitleText":"屏幕文字滚动效果"}},"pages/countUp/countUp.html":{"window":{"usingComponents":{},"navigationBarTitleText":"数字滚动"}},"pages/validcode/validcode.html":{"window":{"usingComponents":{},"navigationBarTitleText":"自定义验证码、密码输入框"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/loading/loading","pages/saveImg/saveImg","pages/textscroll/textscroll","pages/countUp/countUp","pages/validcode/validcode"],"subPackages":[],"usingComponents":{},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.0.1"}
         </script>
         <script>
             var __id__ = '';
@@ -29,9 +30,22 @@
                 __id__ = page;
                 document.title = page;
                 // window.history.pushState('', '', page);
-                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
             };
-
         </script>
         <script src="__uniappes6.js"></script>
         <script src="uniapp://ready"></script>

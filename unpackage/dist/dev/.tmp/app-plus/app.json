@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/loading/loading",
     "pages/saveImg/saveImg",
     "pages/textscroll/textscroll",
     "pages/countUp/countUp",
@@ -13,9 +14,11 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {},
+  "nvueCompiler": "weex",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "u-validcode"
+  "appname": "uniapp-plugin-collections",
+  "compilerVersion": "2.0.1"
 }

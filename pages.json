@@ -1,5 +1,11 @@
 {
-	"pages": [ 
+	"pages": [
+		{
+			"path": "pages/loading/loading",
+			"style": {
+				"navigationBarTitleText": "Loading图"
+			}
+		},
 		{
 			"path": "pages/saveImg/saveImg",
 			"style": {
@@ -24,8 +30,9 @@
 				"navigationBarTitleText": "自定义验证码、密码输入框"
 			}
 		}
-		
-		
+
+
+
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

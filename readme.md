@@ -13,4 +13,6 @@
 [保存图片](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/saveImg.md)
 
 
+[Loading图-总有一款适合你](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/saveImg.md)
+
 [跨域解决方案](https://segmentfault.com/a/1190000017911280)

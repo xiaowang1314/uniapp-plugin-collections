@@ -5,7 +5,7 @@
     "iPad"
   ],
   "id": "__UNI__C315442",
-  "name": "u-validcode",
+  "name": "uniapp-plugin-collections",
   "version": {
     "name": "1.0.0",
     "code": "100"
@@ -76,7 +76,9 @@
     },
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "1.7.0"
+      "compilerVersion": "2.0.1",
+      "control": "webview",
+      "nvueCompiler": "weex"
     }
   }
 }

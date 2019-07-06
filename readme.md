@@ -1,5 +1,6 @@
 # uni-app项目插件集合
 
+### 组件
 
 [自定义验证码输入、密码输入使用](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/validecode.md)
 
@@ -15,4 +16,14 @@
 
 [Loading图-总有一款适合你](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/saveImg.md)
 
+
+
+### 常见问题
+
 [跨域解决方案](https://segmentfault.com/a/1190000017911280)
+
+[企业版app ipa包部署到自己服务器](https://segmentfault.com/a/1190000017778989?_ea=14294463)
+
+[uni-app自定义导航icon字体库的问题](https://segmentfault.com/a/1190000017534998)
+
+[uni-app与其他app互相跳转](https://segmentfault.com/a/1190000017712649)

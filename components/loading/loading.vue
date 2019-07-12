@@ -158,6 +158,23 @@ Loading图
 			<view class="sk-cube4 sk-cube"></view>
 			<view class="sk-cube3 sk-cube"></view>
 		</view>
+		<!-- loading23 -->
+		<view class="loader-wrapper">
+			<view class="loader">
+				<view class="roller"></view>
+				<view class="roller"></view>
+			</view>
+
+			<view id="loader2" class="loader">
+				<view class="roller"></view>
+				<view class="roller"></view>
+			</view>
+
+			<view id="loader3" class="loader">
+				<view class="roller"></view>
+				<view class="roller"></view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -172,9 +189,9 @@ export default {
 </script>
 
 <style lang="scss">
-	.loading-box >view{
-		margin: 15upx 20upx;
-	}
+.loading-box > view {
+	margin: 15upx 20upx;
+}
 @import './loading1';
 @import './loading2';
 @import './loading3';
@@ -197,4 +214,5 @@ export default {
 @import './loading20';
 @import './loading21';
 @import './loading22';
+@import './loading23.scss';
 </style>

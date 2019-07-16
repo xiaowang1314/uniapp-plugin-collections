@@ -22,28 +22,28 @@ isPwd：是否是密码模式
 				<block v-if="isPwd && codeArr.length >= 1">
 					<text class="dot">.</text>
 				</block>
-				<block v-else>	{{ codeArr[0] }}</block>
+				<block v-else>	{{ codeArr[0] ? codeArr[0] : ''}}</block>
 			</view>
 			<view v-bind:class="['item', { active: codeIndex == 2 }]">
 				<view class="line"></view>
 				<block v-if="isPwd && codeArr.length >= 2">
 					<text class="dot">.</text>
 				</block>
-				<block v-else>	{{ codeArr[1] }}</block>
+				<block v-else>	{{ codeArr[1] ? codeArr[1] : ''}}</block>
 			</view>
 			<view v-bind:class="['item', { active: codeIndex == 3 }]">
 				<view class="line"></view>
 				<block v-if="isPwd && codeArr.length >= 3">
 					<text class="dot">.</text>
 				</block>
-				<block v-else>	{{ codeArr[2] }}</block>
+				<block v-else>	{{ codeArr[2] ? codeArr[2] : ''}}</block>
 			</view>
 			<view v-bind:class="['item', { active: codeIndex == 4 }]">
 				<view class="line"></view>
 				<block v-if="isPwd && codeArr.length >= 4">
 					<text class="dot">.</text>
 				</block>
-				<block v-else>	{{ codeArr[3] }}</block>
+				<block v-else>	{{ codeArr[3] ? codeArr[3] : ''}}</block>
 			</view>
 			<block v-if="maxlength === 6">				
 				<view v-bind:class="['item', { active: codeIndex == 5 }]">
@@ -51,14 +51,14 @@ isPwd：是否是密码模式
 					<block v-if="isPwd && codeArr.length >= 5">
 						<text class="dot">.</text>
 					</block>
-					<block v-else>	{{ codeArr[4] }}</block>
+					<block v-else>	{{ codeArr[4] ? codeArr[4] : ''}}</block>
 				</view>
 				<view v-bind:class="['item', { active: codeIndex == 6 }]">
 					<view class="line"></view>
 					<block v-if="isPwd && codeArr.length >= 6">
 						<text class="dot">.</text>
 					</block>
-					<block v-else>	{{ codeArr[5] }}</block>
+					<block v-else>	{{ codeArr[5] ? codeArr[5] : ''}}</block>
 				</view>
 			</block>
 			

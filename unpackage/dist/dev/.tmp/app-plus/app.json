@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/waterfall/waterfall",
+    "pages/validcode/validcode",
     "pages/loading/loading",
     "pages/saveImg/saveImg",
     "pages/textscroll/textscroll",
-    "pages/countUp/countUp",
-    "pages/validcode/validcode"
+    "pages/countUp/countUp"
   ],
-  "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
@@ -20,5 +20,5 @@
     "autoclose": false
   },
   "appname": "uniapp-plugin-collections",
-  "compilerVersion": "2.0.1"
+  "compilerVersion": "2.1.3"
 }

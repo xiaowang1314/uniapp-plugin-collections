@@ -1,6 +1,19 @@
 {
 	"pages": [
 		{
+			"path": "pages/waterfall/waterfall",
+			"style": {
+				"navigationBarTitleText": "瀑布流布局"
+			}
+		},
+
+		{
+			"path": "pages/validcode/validcode",
+			"style": {
+				"navigationBarTitleText": "自定义验证码、密码输入框"
+			}
+		},
+		{
 			"path": "pages/loading/loading",
 			"style": {
 				"navigationBarTitleText": "Loading图"
@@ -23,16 +36,7 @@
 			"style": {
 				"navigationBarTitleText": "数字滚动"
 			}
-		},
-		{
-			"path": "pages/validcode/validcode",
-			"style": {
-				"navigationBarTitleText": "自定义验证码、密码输入框"
-			}
 		}
-
-
-
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

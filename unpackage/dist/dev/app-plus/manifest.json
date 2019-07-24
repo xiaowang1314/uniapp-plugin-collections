@@ -76,7 +76,7 @@
     },
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "2.0.1",
+      "compilerVersion": "2.1.3",
       "control": "webview",
       "nvueCompiler": "weex"
     }

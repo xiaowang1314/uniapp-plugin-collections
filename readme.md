@@ -2,7 +2,9 @@
 
 ### 组件
 
-[瀑布流布局](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall.md)
+[瀑布流布局(纵向数据)](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall.md)
+
+[瀑布流布局(横向数据)](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall2.md)
 
 
 [自定义验证码输入、密码输入使用](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/validecode.md)

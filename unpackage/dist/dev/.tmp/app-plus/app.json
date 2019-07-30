@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/waterfall2/waterfall2",
     "pages/waterfall/waterfall",
     "pages/validcode/validcode",
     "pages/loading/loading",

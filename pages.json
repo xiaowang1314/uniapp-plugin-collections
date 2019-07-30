@@ -1,6 +1,12 @@
 {
 	"pages": [
 		{
+			"path": "pages/waterfall2/waterfall2",
+			"style": {
+				"navigationBarTitleText": "瀑布流布局2"
+			}
+		},
+		{
 			"path": "pages/waterfall/waterfall",
 			"style": {
 				"navigationBarTitleText": "瀑布流布局"

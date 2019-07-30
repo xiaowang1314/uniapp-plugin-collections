@@ -1,4 +1,4 @@
-# uni-app项目瀑布流布局
+# uni-app项目瀑布流布局(纵向数据)
 
 [github地址，喜欢的可以star下哦](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall.md)
 

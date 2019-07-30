@@ -1,6 +1,6 @@
 <template>
 	<!-- 
-	瀑布流（display: flex） H5 IOS Android支持 
+	瀑布流纵向 （display: flex） H5 IOS Android支持 
 	参考地址:http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 	-->
 	<view class="g-container">

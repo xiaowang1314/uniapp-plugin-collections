@@ -14,9 +14,20 @@
 
 ``` html
 <template>
-	<view>
-		<!-- 瀑布流横向数据（display: flex） H5 IOS Android支持 -->
-		<waterfall2></waterfall2>
+	<view class="space">
+		<view class="planet">
+			<view class="planet_shadow"></view>
+			<view class="crater1"></view>
+			<view class="crater2"></view>
+			<view class="crater3"></view>
+			<view class="crater4"></view>
+		</view>
+		<view class="stars">
+			<view class="star"></view>
+			<view class="star pink"></view>
+			<view class="star blue"></view>
+			<view class="star yellow"></view>
+		</view>
 	</view>
 </template>
 ```

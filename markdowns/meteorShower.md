@@ -3,7 +3,7 @@
 [github地址，喜欢的可以star下哦](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/meteorShower.md)
 
 ### 插件预览图
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/meteorShower.gif)
+![](https://github.com/xiaowang1314/u-validcode/blob/master/static/meteorShower.png)
 
 #### 使用教程
 

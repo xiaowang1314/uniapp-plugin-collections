@@ -1,4 +1,4 @@
-## 流星雨
+## 纯CSS流星雨背景
 
 [github地址，喜欢的可以star下哦](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/meteorShower.md)
 

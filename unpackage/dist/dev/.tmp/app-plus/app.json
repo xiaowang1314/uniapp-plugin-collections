@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/meteorShower/meteorShower",
     "pages/waterfall2/waterfall2",
     "pages/waterfall/waterfall",
     "pages/validcode/validcode",

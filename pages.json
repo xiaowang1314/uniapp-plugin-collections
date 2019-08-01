@@ -1,6 +1,12 @@
 {
 	"pages": [
 		{
+			"path": "pages/meteorShower/meteorShower",
+			"style": {
+				"navigationBarTitleText": "流星雨"
+			}
+		},
+		{
 			"path": "pages/waterfall2/waterfall2",
 			"style": {
 				"navigationBarTitleText": "瀑布流布局2"

@@ -14,20 +14,18 @@ import waterfall from './components/waterfall.vue'
 import waterfall2 from './components/waterfall2.vue'
 
 
-
-Vue.component('countup',countUp)
-Vue.component('validcode',validCode)
-Vue.component('savefile',savefile)
-Vue.component('textscroll',screenTextScroll)
-Vue.component('loading',loading)
-Vue.component('waterfall',waterfall)
-Vue.component('waterfall2',waterfall2)
+Vue.component('countup', countUp)
+Vue.component('validcode', validCode)
+Vue.component('savefile', savefile)
+Vue.component('textscroll', screenTextScroll)
+Vue.component('loading', loading)
+Vue.component('waterfall', waterfall)
+Vue.component('waterfall2', waterfall2)
 
 
 App.mpType = 'app'
 
 const app = new Vue({
-    ...App
+	...App
 })
 app.$mount()
-

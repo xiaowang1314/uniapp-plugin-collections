@@ -23,6 +23,7 @@
 		width: 100%;
 		height: 100vh;
 		background: #121212;
+		overflow: hidden;
 	}
 
 	.planet {

@@ -2,6 +2,8 @@
 
 ### 组件
 
+[Css打字机效果](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/typewriter.md)
+
 [瀑布流布局(纵向数据)](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall.md)
 
 [瀑布流布局(横向数据)](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall2.md)

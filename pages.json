@@ -1,6 +1,12 @@
 {
 	"pages": [
 		{
+			"path": "pages/typewriter/typewriter",
+			"style": {
+				"navigationBarTitleText": "Css打字机效果"
+			}
+		},
+		{
 			"path": "pages/meteorShower/meteorShower",
 			"style": {
 				"navigationBarTitleText": "流星雨"

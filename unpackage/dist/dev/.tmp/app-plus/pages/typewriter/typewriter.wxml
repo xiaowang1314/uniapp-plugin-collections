@@ -1,0 +1,2 @@
+<import src="./typewriter.vue.wxml" />
+    <template is="44982a9d" data="{{ ...$root['0'], $root }}"/>

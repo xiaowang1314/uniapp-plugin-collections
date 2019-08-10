@@ -8,7 +8,7 @@
 
 ![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/uniapp-weixin.png)
 
-#### 使教程
+#### 操作步骤
 
 运行微信开发者工具前需要一些配置
 

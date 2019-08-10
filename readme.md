@@ -34,3 +34,5 @@
 [uni-app自定义导航icon字体库的问题](https://segmentfault.com/a/1190000017534998)
 
 [uni-app与其他app互相跳转](https://segmentfault.com/a/1190000017712649)
+
+[微信小程序运行步骤](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/runWeiXinPlatform.md)

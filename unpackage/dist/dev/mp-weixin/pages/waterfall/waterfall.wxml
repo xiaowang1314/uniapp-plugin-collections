@@ -1,0 +1,2 @@
+<import src="./waterfall.vue.wxml" />
+    <template is="c4ef69ba" data="{{ ...$root['0'], $root }}"/>

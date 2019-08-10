@@ -1,0 +1,8 @@
+<import src="/components/waterfall.vue.wxml" />
+<import src="/components/waterfall2.vue.wxml" />
+<import src="/components/validCode.vue.wxml" />
+<import src="/components/loading/loading.vue.wxml" />
+<import src="/components/countUp.vue.wxml" />
+<import src="/components/screenTextScroll.vue.wxml" />
+<import src="/components/saveFile.vue.wxml" />
+

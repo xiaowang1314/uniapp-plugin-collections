@@ -1,0 +1,2 @@
+<import src="./countUp.vue.wxml" />
+    <template is="19be94d3" data="{{ ...$root['0'], $root }}"/>

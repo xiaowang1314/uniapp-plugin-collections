@@ -2,6 +2,8 @@
 
 ### 组件
 
+[二维码、条形码扫码自定义](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/scan.md)
+
 [Css打字机效果](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/typewriter.md)
 
 [瀑布流布局(纵向数据)](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/waterfall.md)

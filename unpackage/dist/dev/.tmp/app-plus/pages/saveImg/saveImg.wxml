@@ -1,2 +1,1 @@
-<import src="./saveImg.vue.wxml" />
-    <template is="299b5a6a" data="{{ ...$root['0'], $root }}"/>
+<view><block wx:if="{{isShowPhoto}}"><savefile vue-id="1" url="{{qrUrl}}" data-event-opts="{{[['^hide',[['hidePhoto']]]]}}" bind:hide="__e" bind:__l="__l"></savefile></block></view>

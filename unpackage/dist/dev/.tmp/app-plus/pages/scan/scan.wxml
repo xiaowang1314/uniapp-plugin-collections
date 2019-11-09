@@ -1,0 +1,1 @@
+<view><scan bind:getCode="__e" vue-id="1" data-event-opts="{{[['^getCode',[['getScanCode']]]]}}" bind:__l="__l"></scan></view>

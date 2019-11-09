@@ -1,2 +1,1 @@
-<import src="./countUp.vue.wxml" />
-    <template is="19be94d3" data="{{ ...$root['0'], $root }}"/>
+<view><countup vue-id="1" num="{{num}}" color="#ff9e50" width="13" height="23" fontSize="23" bind:__l="__l"></countup><button data-event-opts="{{[['tap',[['add',['$event']]]]]}}" bindtap="__e">Add</button><button data-event-opts="{{[['tap',[['reduce',['$event']]]]]}}" bindtap="__e">Reduce</button></view>

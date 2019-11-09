@@ -11,16 +11,20 @@
     "code": "100"
   },
   "description": "",
-  "launch_path": "__uniappservice.html",
+  "launch_path": "__uniappview.html",
   "developer": {
     "name": "",
     "email": "",
     "url": ""
   },
-  "permissions": {},
+  "permissions": {
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
   "plus": {
     "useragent": {
-      "value": "uni-app appservice",
+      "value": "uni-app",
       "concatenate": true
     },
     "splashscreen": {
@@ -31,7 +35,10 @@
     },
     "popGesture": "close",
     "launchwebview": {
-      "render": "always"
+      "render": "always",
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
     },
     "statusbar": {
       "immersed": "supportedDevice",
@@ -74,11 +81,13 @@
         }
       }
     },
+    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/scan/scan\"}",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "2.1.3",
-      "control": "webview",
-      "nvueCompiler": "weex"
+      "compilerVersion": "2.3.7",
+      "control": "v8",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
     }
   }
 }

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.code-area {
+  text-align: center;
+}
+.code-area .flex-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    position: relative;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.code-area .item {
+    position: relative;
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 18rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+    color: #333333;
+    line-height: 100rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 2rpx solid #cccccc;
+}
+.code-area .item:last-child {
+    margin-right: 0;
+}
+.code-area .active {
+    border-color: #ff4b4b;
+}
+.code-area .active .line {
+    display: block;
+}
+.code-area .line {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 2rpx;
+    height: 40rpx;
+    background: #ff4b4b;
+    -webkit-animation: twinkling 1s infinite ease;
+            animation: twinkling 1s infinite ease;
+}
+.code-area .hide-input {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    text-align: left;
+    z-index: 9;
+    opacity: 1;
+}
+@-webkit-keyframes twinkling {
+0% {
+    opacity: 0.2;
+}
+50% {
+    opacity: 0.5;
+}
+100% {
+    opacity: 0.2;
+}
+}
+@keyframes twinkling {
+0% {
+    opacity: 0.2;
+}
+50% {
+    opacity: 0.5;
+}
+100% {
+    opacity: 0.2;
+}
+}
+.code-area .dot {
+    font-size: 80rpx;
+    line-height: 40rpx;
+}
+

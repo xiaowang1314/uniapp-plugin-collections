@@ -1,2 +1,1 @@
-<import src="./typewriter.vue.wxml" />
-    <template is="44982a9d" data="{{ ...$root['0'], $root }}"/>
+<view class="typewriter"><view class="text">The cat and the hat.</view></view>

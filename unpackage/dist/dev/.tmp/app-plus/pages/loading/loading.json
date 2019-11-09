@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "Loading图"
+  "navigationBarTitleText": "Loading图",
+  "usingComponents": {
+    "loading": "/components/loading/loading"
+  }
 }

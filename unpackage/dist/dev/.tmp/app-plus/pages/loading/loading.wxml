@@ -1,2 +1,1 @@
-<import src="./loading.vue.wxml" />
-    <template is="6d325d37" data="{{ ...$root['0'], $root }}"/>
+<view><loading vue-id="1" bind:__l="__l"></loading></view>

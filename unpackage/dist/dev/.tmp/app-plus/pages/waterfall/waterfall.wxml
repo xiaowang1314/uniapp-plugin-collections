@@ -1,2 +1,1 @@
-<import src="./waterfall.vue.wxml" />
-    <template is="c4ef69ba" data="{{ ...$root['0'], $root }}"/>
+<view><waterfall vue-id="1" bind:__l="__l"></waterfall></view>

@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "屏幕文字滚动效果"
+  "navigationBarTitleText": "屏幕文字滚动效果",
+  "usingComponents": {
+    "textscroll": "/components/screenTextScroll"
+  }
 }

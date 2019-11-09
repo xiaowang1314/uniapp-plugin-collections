@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "自定义验证码、密码输入框"
+  "navigationBarTitleText": "自定义验证码、密码输入框",
+  "usingComponents": {
+    "validcode": "/components/validCode"
+  }
 }

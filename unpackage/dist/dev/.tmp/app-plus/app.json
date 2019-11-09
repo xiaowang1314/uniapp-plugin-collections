@@ -8,7 +8,8 @@
     "pages/loading/loading",
     "pages/saveImg/saveImg",
     "pages/textscroll/textscroll",
-    "pages/countUp/countUp"
+    "pages/countUp/countUp",
+    "pages/scan/scan"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -16,12 +17,22 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
   "nvueCompiler": "weex",
+  "renderer": "auto",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
   "appname": "uniapp-plugin-collections",
-  "compilerVersion": "2.1.3"
+  "compilerVersion": "2.3.7",
+  "usingComponents": {
+    "countup": "/components/countUp",
+    "validcode": "/components/validCode",
+    "savefile": "/components/saveFile",
+    "textscroll": "/components/screenTextScroll",
+    "loading": "/components/loading/loading",
+    "waterfall": "/components/waterfall",
+    "waterfall2": "/components/waterfall2",
+    "scan": "/components/scan"
+  }
 }

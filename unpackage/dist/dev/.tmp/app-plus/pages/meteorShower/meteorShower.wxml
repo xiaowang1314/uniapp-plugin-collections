@@ -1,2 +1,1 @@
-<import src="./meteorShower.vue.wxml" />
-    <template is="5c52c9bd" data="{{ ...$root['0'], $root }}"/>
+<view class="space"><view class="planet"><view class="planet_shadow"></view><view class="crater1"></view><view class="crater2"></view><view class="crater3"></view><view class="crater4"></view></view><view class="stars"><view class="star"></view><view class="star pink"></view><view class="star blue"></view><view class="star yellow"></view></view></view>

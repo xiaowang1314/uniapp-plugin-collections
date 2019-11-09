@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "保存图片"
+  "navigationBarTitleText": "保存图片",
+  "usingComponents": {
+    "savefile": "/components/saveFile"
+  }
 }

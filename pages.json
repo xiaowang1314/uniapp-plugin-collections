@@ -55,11 +55,26 @@
 				"navigationBarTitleText": "数字滚动"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/scan/scan",
+            "style" : {
+				"navigationBarTitleText": "自定义扫码"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "统计报表", //模式名称
+			"path": "pages/scan/scan", //启动页面
+			"query": "" //启动参数
+		}]
 	}
 }

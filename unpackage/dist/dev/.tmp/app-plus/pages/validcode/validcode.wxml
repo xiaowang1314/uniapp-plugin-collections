@@ -1,2 +1,1 @@
-<import src="./validcode.vue.wxml" />
-    <template is="719f8fde" data="{{ ...$root['0'], $root }}"/>
+<view class="content"><view>验证码：</view><validcode vue-id="1" maxlength="{{4}}" isPwd="{{false}}" data-event-opts="{{[['^finish',[['getCode']]]]}}" bind:finish="__e" bind:__l="__l"></validcode><view>密码:</view><validcode vue-id="2" maxlength="{{6}}" isPwd="{{true}}" data-event-opts="{{[['^finish',[['getPwd']]]]}}" bind:finish="__e" bind:__l="__l"></validcode></view>

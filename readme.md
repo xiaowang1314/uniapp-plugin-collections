@@ -38,3 +38,5 @@
 [uni-app与其他app互相跳转](https://segmentfault.com/a/1190000017712649)
 
 [微信小程序运行步骤](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/runWeiXinPlatform.md)
+
+[uniapp怎么获取midButton触发的点击事件？](https://ask.dcloud.net.cn/question/80889)

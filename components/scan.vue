@@ -33,7 +33,7 @@
 				top: '0',
 				left: '0px',
 				width: '100%',
-				height: height,//180px
+				height: height,//这里可以设置扫码框的高度
 				position: 'static'
 			});
 			this.barcode.onmarked = this.onmarked;

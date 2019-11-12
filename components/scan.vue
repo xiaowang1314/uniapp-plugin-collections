@@ -38,6 +38,10 @@
 			});
 			this.barcode.onmarked = this.onmarked;
 			currentWebview.append(this.barcode);
+			const res = uni.getSystemInfoSync();
+			if(res.platform == 'android'){//安卓机
+				this.barcode.start();
+			}
 			// #endif
 		},
 		onUnload() {

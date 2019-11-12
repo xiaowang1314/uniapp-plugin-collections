@@ -55,7 +55,7 @@ Vue.component('scan',scan)
 
 ```
 
-### 注意事项(特别是不懂原生app开发者
+### 注意事项(特别是不懂原生app开发者)
 1.manifest.json文件查看是否添加了相机权限，如下：
 "<uses-permission android:name=\"android.permission.CAMERA\"/>"
 

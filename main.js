@@ -14,6 +14,8 @@ import waterfall from './components/waterfall.vue'
 import waterfall2 from './components/waterfall2.vue'
 // 自定义扫码
 import scan from './components/scan.vue'
+//模拟电池充电
+import battery from './components/battery/battery.vue'
 
 
 Vue.component('countup', countUp)
@@ -24,6 +26,7 @@ Vue.component('loading', loading)
 Vue.component('waterfall', waterfall)
 Vue.component('waterfall2', waterfall2)
 Vue.component('scan', scan)
+Vue.component('battery', battery)
 
 
 App.mpType = 'app'

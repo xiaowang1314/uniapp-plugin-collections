@@ -1,6 +1,12 @@
 {
 	"pages": [
 		{
+		    "path" : "pages/battery/battery",
+		    "style" : {
+				"navigationBarTitleText": "模拟电池充电"
+			}
+		},
+		{
 			"path": "pages/typewriter/typewriter",
 			"style": {
 				"navigationBarTitleText": "Css打字机效果"
@@ -61,6 +67,7 @@
 				"navigationBarTitleText": "自定义扫码"
 			}
         }
+        
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

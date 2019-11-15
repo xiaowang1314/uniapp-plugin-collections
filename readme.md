@@ -2,6 +2,8 @@
 
 ### 组件
 
+[模拟电池充电](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/battery.md)
+
 [二维码、条形码扫码自定义](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/scan.md)
 
 [Css打字机效果](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/typewriter.md)
@@ -28,6 +30,8 @@
 
 
 ### 常见问题
+
+[uni-app中设置radio和switch的大小](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/radioSize.md)
 
 [跨域解决方案](https://segmentfault.com/a/1190000017911280)
 

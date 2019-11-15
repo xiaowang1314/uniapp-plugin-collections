@@ -1,0 +1,89 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "洢佰渼"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "门店风采"
+			}
+		}, {
+			"path": "pages/myCommission/myCommission",
+			"style": {
+				"navigationBarTitleText": "我的佣金"
+			}
+		}, {
+			"path": "pages/goodsDetail/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "pages/orderConfirm/orderConfirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		}
+
+		, {
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/paySuccess/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}, {
+			"path": "pages/storeInfo/storeInfo",
+			"style": {
+				"navigationBarTitleText": "门店风采"
+			}
+		}, {
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "我的推广码"
+			}
+		}, {
+			"path": "pages/orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "订单列表"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FF546E",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/img/tab/home.png",
+			"selectedIconPath": "static/img/tab/home-active.png"
+		}, {
+			"pagePath": "pages/store/store",
+			"text": "门店风采",
+			"iconPath": "static/img/tab/store.png",
+			"selectedIconPath": "static/img/tab/store-active.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/tab/user.png",
+			"selectedIconPath": "static/img/tab/user-active.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#fbf9fe"
+	}
+}

@@ -44,3 +44,8 @@
 [微信小程序运行步骤](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/runWeiXinPlatform.md)
 
 [uniapp怎么获取midButton触发的点击事件？](https://ask.dcloud.net.cn/question/80889)
+
+
+### 项目模板
+
+[美容行业](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/meirongMiniProgram.md)

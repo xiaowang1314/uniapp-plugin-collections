@@ -30,34 +30,51 @@ Vue.component('validcode',validCode)
 <template>
 	<view class="content">
 		<view>验证码：</view>
-		<validcode :maxlength="4" :isPwd="false" @finish="getCode"></validcode>
+		<validcode ref="code" :maxlength="4" :isPwd="false" @finish="getCode" ></validcode>
 		<view>密码:</view>
-		<validcode :maxlength="6" :isPwd="true" @finish="getPwd"></validcode>
+		<validcode ref="pwd" :maxlength="6" :isPwd="true" @finish="getPwd"></validcode>
+		<button type="primary" @tap="clearCode">清空验证码</button>
+		<button type="primary" @tap="clearPwd">清空密码</button>
+		
 	</view>
 </template>
 
 <script>
-export default {
-	data() {
-		return {};
-	},
-	onLoad() {},
-	methods: {
-		getCode(val) {
-			console.log(val);
+	export default {
+		data() {
+			return {};
 		},
-		getPwd(val){
-			console.log(val);
+		onLoad() {},
+		methods: {
+			//获取code码
+			getCode(val) {
+				console.log(val);
+			},
+			//获取密码
+			getPwd(val) {
+				console.log(val);
+			},
+			// 清空验证码
+			clearCode(){
+				 this.$refs.code.clear();
+			},
+			// 清空密码
+			clearPwd(){
+				 this.$refs.pwd.clear();
+			}
 		}
-	}
-};
+	};
 </script>
 
 <style>
-.content {
-	height: 400upx;
-}
+	.content {
+		height: 400upx;
+	}
+	button{
+		margin-top: 30upx;
+	}
 </style>
+
 
 
 ```

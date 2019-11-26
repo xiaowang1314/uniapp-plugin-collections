@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "模拟电池充电",
+  "usingComponents": {
+    "battery": "/components/battery/battery"
+  }
+}

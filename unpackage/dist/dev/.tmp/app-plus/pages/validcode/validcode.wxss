@@ -2,4 +2,7 @@
 .content {
 	height: 400rpx;
 }
+button{
+	margin-top: 30rpx;
+}
 

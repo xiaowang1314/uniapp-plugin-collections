@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "flex实现表格布局",
+  "usingComponents": {
+    "m-table": "/components/table/table"
+  }
+}

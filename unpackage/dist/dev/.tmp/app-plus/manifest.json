@@ -84,10 +84,13 @@
     "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/validcode/validcode\"}",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "2.3.7",
+      "compilerVersion": "2.4.2",
       "control": "v8",
-      "nvueCompiler": "weex",
-      "renderer": "auto"
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
     }
   }
 }

@@ -1,0 +1,1 @@
+<view class="battery-area data-v-f660ae5e"><block wx:for="{{plannum}}" wx:for-item="i" wx:for-index="__i0__" wx:key="*this"><view class="line data-v-f660ae5e"></view></block></view>

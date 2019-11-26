@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"battery{ margin: auto; }\n",],undefined,{path:"./pages/battery/battery.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/battery/battery.wxml') } }));

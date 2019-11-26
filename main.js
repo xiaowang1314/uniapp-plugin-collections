@@ -16,6 +16,8 @@ import waterfall2 from './components/waterfall2.vue'
 import scan from './components/scan.vue'
 //模拟电池充电
 import battery from './components/battery/battery.vue'
+//flex实现表格布局
+import table from './components/table/table.vue'
 
 
 Vue.component('countup', countUp)
@@ -27,6 +29,7 @@ Vue.component('waterfall', waterfall)
 Vue.component('waterfall2', waterfall2)
 Vue.component('scan', scan)
 Vue.component('battery', battery)
+Vue.component('m-table', table)
 
 
 App.mpType = 'app'

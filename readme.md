@@ -2,6 +2,8 @@
 
 ### 组件
 
+[Flex实现table布局](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/table.md)
+
 [模拟电池充电](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/battery.md)
 
 [二维码、条形码扫码自定义](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/scan.md)

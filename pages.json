@@ -1,6 +1,12 @@
 {
 	"pages": [
 		{
+		    "path" : "pages/inputSearch/inputSearch",
+		    "style" : {
+				"navigationBarTitleText": "输入框模糊搜索"
+			}
+		},
+		{
 		    "path" : "pages/table/table",
 		    "style" : {
 				"navigationBarTitleText": "flex实现表格布局"
@@ -73,6 +79,7 @@
 				"navigationBarTitleText": "自定义扫码"
 			}
         }
+       
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

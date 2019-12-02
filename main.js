@@ -18,6 +18,7 @@ import scan from './components/scan.vue'
 import battery from './components/battery/battery.vue'
 //flex实现表格布局
 import table from './components/table/table.vue'
+import inputSearch from './components/inputSearch.vue'
 
 
 Vue.component('countup', countUp)
@@ -30,6 +31,7 @@ Vue.component('waterfall2', waterfall2)
 Vue.component('scan', scan)
 Vue.component('battery', battery)
 Vue.component('m-table', table)
+Vue.component('inputSearch', inputSearch)
 
 
 App.mpType = 'app'

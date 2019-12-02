@@ -2,6 +2,8 @@
 
 ### 组件
 
+[输入框模糊搜索](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/inputSearch.md)
+
 [Flex实现table布局](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/table.md)
 
 [模拟电池充电](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/battery.md)

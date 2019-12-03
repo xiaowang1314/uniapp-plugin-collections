@@ -19,7 +19,7 @@
 	 
 	 -->
 	<view class="input-group">
-		<input :placeholder="placeholder" @input="search" :value="name"/>
+		<input :placeholder="placeholder" @input="search" @blur="hideList" v-model="name" />
 		<view class="ul">
 			<view class="li" v-for="(item,index) in list" :key="index" @tap="select(item)">{{item.name}}</view>
 		</view>
@@ -41,11 +41,12 @@
 		data() {
 			return {
 				list: [],
-				name:''
+				name: '',
+				backName: ''
 			};
 		},
-		created() {
-
+		destroyed() {
+			clearTimeout(this.t);
 		},
 		methods: {
 			search(e) {
@@ -58,9 +59,8 @@
 					if (dataSource[i].name.indexOf(val) !== -1) {
 						arr.push(dataSource[i]);
 					}
-
 				}
-				console.log(arr)
+				// console.log(arr)
 				if (!val) {
 					this.list = [];
 				} else {
@@ -68,14 +68,21 @@
 				}
 
 			},
-			select(item){
-				this.name = item.name;
+			select(item) {
+				this.backName = item.name;
 				this.list = [];
-				this.$emit('select',item);
+				this.$emit('select', item);
+			},
+			hideList() {
+				this.list = [];
+				this.t = setTimeout(() => {
+					this.name = this.backName;
+				}, 0);
 			}
 		}
 	}
 </script>
+
 
 <style lang="scss">
 	.input-group {

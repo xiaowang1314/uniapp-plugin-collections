@@ -1,0 +1,1 @@
+<view class="content"><input-search vue-id="1" dataSource="{{dataSource}}" placeholder="请输入商品名称" data-event-opts="{{[['^select',[['handleChange']]]]}}" bind:select="__e" bind:__l="__l"></input-search></view>

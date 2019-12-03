@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/inputSearch/inputSearch",
     "pages/table/table",
     "pages/battery/battery",
     "pages/typewriter/typewriter",
@@ -37,6 +38,7 @@
     "waterfall2": "/components/waterfall2",
     "scan": "/components/scan",
     "battery": "/components/battery/battery",
-    "m-table": "/components/table/table"
+    "m-table": "/components/table/table",
+    "input-search": "/components/inputSearch"
   }
 }

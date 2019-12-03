@@ -23,7 +23,7 @@
 		methods: {
 			//用户点击获取的数据
 			handleChange(data) {
-				console.log(data)
+				// console.log(data)
 			}
 		}
 	}

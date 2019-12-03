@@ -81,7 +81,7 @@
         }
       }
     },
-    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/validcode/validcode\"}",
+    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/inputSearch/inputSearch\"}",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
       "compilerVersion": "2.4.2",

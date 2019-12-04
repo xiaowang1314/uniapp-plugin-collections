@@ -1,4 +1,7 @@
 # Android 和 IOS 佳博 蓝牙小票 、标签 打印模板
+
+[github地址，喜欢的可以star下哦](https://github.com/xiaowang1314/uniapp-plugin-collections/tree/master/template/BluPrint/README.md)
+
 uni-app 跨平台app框架 佳博打印机蓝牙连接打印机模板 
 
 

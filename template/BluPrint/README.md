@@ -13,7 +13,7 @@ uni-app 跨平台app框架 佳博打印机蓝牙连接打印机模板
 
 
 
-![Image text](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/template/BluPrint/static/img/print.jpeg)
+![打印预览](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/template/BluPrint/static/img/print.jpeg)
 
 ##### 兼容
 原生Android、IOS和小程序

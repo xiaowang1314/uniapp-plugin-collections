@@ -54,6 +54,10 @@
 
 [美容行业](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/meirongMiniProgram.md)
 
+### 佳博蓝牙打印模板
+
+[佳博蓝牙打印](https://github.com/xiaowang1314/uniapp-plugin-collections/tree/master/template/BluPrint/README.md)
+
 
 ### 提示
 有任何想法或者疑问都可以在[Issues](https://github.com/xiaowang1314/uniapp-plugin-collections/issues)反馈哦

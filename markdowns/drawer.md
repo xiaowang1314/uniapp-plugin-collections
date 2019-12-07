@@ -16,7 +16,7 @@
 - 在项目里main.js中配置如下代码
 
 ```
-import drawer from './components/battery/drawer.vue'
+import drawer from './components/drawer/drawer.vue'
 
 Vue.component('drawer',drawer)
 

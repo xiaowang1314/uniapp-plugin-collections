@@ -2,6 +2,8 @@
 
 ### 组件
 
+[Drawer 抽屉](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/drawer.md)
+
 [输入框模糊搜索](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/inputSearch.md)
 
 [Flex实现table布局](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/table.md)

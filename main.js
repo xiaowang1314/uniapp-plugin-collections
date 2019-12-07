@@ -18,7 +18,9 @@ import scan from './components/scan.vue'
 import battery from './components/battery/battery.vue'
 //flex实现表格布局
 import table from './components/table/table.vue'
+//输入框模糊搜索
 import inputSearch from './components/inputSearch.vue'
+import drawer from './components/drawer/drawer.vue'
 
 
 Vue.component('countup', countUp)
@@ -32,6 +34,7 @@ Vue.component('scan', scan)
 Vue.component('battery', battery)
 Vue.component('m-table', table)
 Vue.component('inputSearch', inputSearch)
+Vue.component('drawer', drawer)
 
 
 App.mpType = 'app'

@@ -61,5 +61,5 @@
 [佳博蓝牙打印](https://github.com/xiaowang1314/uniapp-plugin-collections/tree/master/template/BluPrint/README.md)
 
 
-### <font color=green size=5>💡友情提示</font>
+### <font color=#008000 size=5>💡友情提示</font>
 有任何需要的组件、想法或者疑问都可以在[Issues](https://github.com/xiaowang1314/uniapp-plugin-collections/issues)反馈哦

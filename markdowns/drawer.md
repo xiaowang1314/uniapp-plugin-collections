@@ -70,3 +70,6 @@ Vue.component('drawer',drawer)
 
 ##### 兼容性
 uni-app项目中使用都兼容
+
+#### 提示
+需要修改样式的可以在组件里面修改

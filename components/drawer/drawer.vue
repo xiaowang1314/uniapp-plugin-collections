@@ -67,7 +67,7 @@
 		background-color: #fff;
 		overflow-x: hidden;
 		transition: 0.5s;
-		transform: translateX(750upx);
+		transform: translateX(760upx);
 		display: flex;
 		flex-direction: column;
 		box-shadow: 0 0 5px #888888;

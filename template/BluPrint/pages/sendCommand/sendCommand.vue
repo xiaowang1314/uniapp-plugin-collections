@@ -13,7 +13,8 @@
 			</view>
 		
 			<view style='margin-top:4%;display: flex;flex-direction: row;'>
-				<canvas hidden='true' canvas-id='edit_area_canvas' :style="{width:canvasWidth+'px',height:canvasHeight+'px'}"></canvas>
+				<!-- hidden='true' -->
+				<canvas  canvas-id='edit_area_canvas' :style="{width:canvasWidth+'px',height:canvasHeight+'px'}"></canvas>
 			</view>
 		
 		    <picker style='margin:20px' mode='selector' :range='buffSize' :value='buffIndex' @change='buffBindChange'>

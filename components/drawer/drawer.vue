@@ -1,5 +1,5 @@
 <template>
-	<view class="side-nav" :class="show ? 'show' : ''">
+	<view :class="['side-nav',{'left':direction == 'left'},{'right':direction == 'right'},{'show':show}]">
 		<view class="item">
 			<view class="body">
 				<slot />
@@ -27,6 +27,11 @@
 			show: {
 				type: Boolean,
 				default: false
+			},
+			//方向  left：右往左滑动  right:左往右边滑动
+			direction: {
+				type: String,
+				default: 'left'
 			}
 		},
 		data() {
@@ -39,7 +44,7 @@
 			cancel() {
 				this.$emit('cancel');
 			},
-			ensure(){
+			ensure() {
 				this.$emit('ensure');
 			}
 		}
@@ -53,10 +58,11 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-	
+
 	.flex-box>.item-2 {
 		flex: 0 0 50%;
 	}
+
 	.side-nav {
 		position: fixed;
 		z-index: 99;
@@ -67,39 +73,52 @@
 		background-color: #fff;
 		overflow-x: hidden;
 		transition: 0.5s;
-		transform: translateX(760upx);
 		display: flex;
 		flex-direction: column;
 		box-shadow: 0 0 5px #888888;
-		&.show {
-			transform: translateX(150upx);
+		
+		&.left{
+			transform: translateX(760upx);
+			&.show {
+				transform: translateX(150upx);
+			}
+			
 		}
 		
-		.body{
+		&.right{
+			transform: translateX(-760upx);
+			&.show {
+				transform: translateX(0);
+			}
+			
+		}
+
+	
+		.body {
 			height: 100%;
 			overflow-y: auto;
 		}
-		
-		
+
+
 		.item:nth-of-type(1) {
 			height: 0;
 		}
-		
+
 		.item:nth-of-type(1) {
 			flex: 1 0 auto;
 		}
-		
+
 
 		.action-area {
 			.item-2 {
-				button{
+				button {
 					border-radius: 0;
 					line-height: 96upx;
 				}
 			}
 		}
 	}
-	
+
 
 
 	/* #ifdef H5 */

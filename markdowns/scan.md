@@ -64,3 +64,6 @@ Vue.component('scan',scan)
 
 ##### 兼容性
 uni-app项目ios、android都兼容
+
+
+<img src="https://stylist2017-1252470632.cos.ap-shanghai.myqcloud.com/resources/miniPrograms/demo/ds.jpeg" width = "200" height = "200" div align=center />

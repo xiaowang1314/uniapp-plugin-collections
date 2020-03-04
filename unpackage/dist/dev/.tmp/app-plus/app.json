@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/drawer/drawer",
     "pages/inputSearch/inputSearch",
     "pages/table/table",
     "pages/battery/battery",
@@ -27,7 +28,7 @@
     "autoclose": false
   },
   "appname": "uniapp-plugin-collections",
-  "compilerVersion": "2.4.2",
+  "compilerVersion": "2.6.0",
   "usingComponents": {
     "countup": "/components/countUp",
     "validcode": "/components/validCode",
@@ -39,6 +40,7 @@
     "scan": "/components/scan",
     "battery": "/components/battery/battery",
     "m-table": "/components/table/table",
-    "input-search": "/components/inputSearch"
+    "input-search": "/components/inputSearch",
+    "drawer": "/components/drawer/drawer"
   }
 }

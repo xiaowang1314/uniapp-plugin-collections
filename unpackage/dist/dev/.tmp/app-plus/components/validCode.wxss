@@ -30,15 +30,12 @@
 .code-area .flex-box {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     position: relative;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
             justify-content: center;
 }
 .code-area .item {
@@ -50,8 +47,7 @@
     font-weight: bold;
     color: #333333;
     line-height: 100rpx;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     border: 2rpx solid #cccccc;
 }
 .code-area .item:last-child {
@@ -69,7 +65,6 @@
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 2rpx;
     height: 40rpx;

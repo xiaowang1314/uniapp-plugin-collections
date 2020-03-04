@@ -1,1 +1,0 @@
-<import src="/components/screenTextScroll.vue.wxml" /><template name="75f7d07d"><view class="_view M75f7d07d content"><template bindgetCurrentIndex="handleProxy" data-eventid="{{'75f7d07d-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'75f7d07d-0'],$root}}" is="295bd518"></template></view></template>

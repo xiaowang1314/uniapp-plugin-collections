@@ -1,2 +1,0 @@
-<import src="./meteorShower.vue.wxml" />
-    <template is="5c52c9bd" data="{{ ...$root['0'], $root }}"/>

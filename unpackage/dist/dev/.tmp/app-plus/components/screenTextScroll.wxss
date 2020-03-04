@@ -36,8 +36,7 @@
   color: #ffffff;
   border-radius: 6rpx;
   overflow: hidden;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 ._swiper {
   line-height: 44rpx;

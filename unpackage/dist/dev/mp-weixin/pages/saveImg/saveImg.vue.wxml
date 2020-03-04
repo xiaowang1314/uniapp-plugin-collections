@@ -1,1 +1,0 @@
-<import src="/components/saveFile.vue.wxml" /><template name="299b5a6a"><view class="_view M299b5a6a"><template wx:if="{{isShowPhoto}}" bindhide="handleProxy" data-eventid="{{'299b5a6a-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'299b5a6a-0'],$root}}" is="fe6ef86a"></template></view></template>

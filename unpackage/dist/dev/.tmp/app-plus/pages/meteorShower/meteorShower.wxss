@@ -58,8 +58,7 @@
   position: absolute;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: inset 3px 3px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: inset 3px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 .crater1 {
   width: 20px;
@@ -95,12 +94,10 @@
   left: 400px;
   position: relative;
   -webkit-transform-origin: 100% 0;
-      -ms-transform-origin: 100% 0;
           transform-origin: 100% 0;
   -webkit-animation: star-ani 6s infinite ease-out;
           animation: star-ani 6s infinite ease-out;
-  -webkit-box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
-          box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
   opacity: 0;
   z-index: 2;
 }
@@ -114,10 +111,8 @@
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.3);
   -webkit-transform: rotate(-45deg) translate3d(1px, 3px, 0);
           transform: rotate(-45deg) translate3d(1px, 3px, 0);
-  -webkit-box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.1);
-          box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-transform-origin: 0% 100%;
-      -ms-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
   -webkit-animation: shooting-ani 3s infinite ease-out;
           animation: shooting-ani 3s infinite ease-out;

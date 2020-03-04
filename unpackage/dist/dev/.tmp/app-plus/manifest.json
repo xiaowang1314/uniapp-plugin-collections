@@ -45,6 +45,9 @@
       "style": "dark",
       "background": "#F8F8F8"
     },
+    "compatible": {
+      "ignoreVersion": true
+    },
     "distribute": {
       "google": {
         "permissions": [
@@ -81,10 +84,10 @@
         }
       }
     },
-    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/inputSearch/inputSearch\"}",
+    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/saveImg/saveImg\"}",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "2.4.2",
+      "compilerVersion": "2.6.0",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",
@@ -92,5 +95,6 @@
         "flex-direction": "column"
       }
     }
-  }
+  },
+  "usingComponents": {}
 }

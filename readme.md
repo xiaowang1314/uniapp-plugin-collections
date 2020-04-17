@@ -2,6 +2,8 @@
 
 ### 组件
 
+[数字键盘](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/digitKeyboard.md)
+
 [Drawer 抽屉](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/drawer.md)
 
 [输入框模糊搜索](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/inputSearch.md)

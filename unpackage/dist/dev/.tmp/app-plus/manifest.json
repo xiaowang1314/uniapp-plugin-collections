@@ -84,10 +84,10 @@
         }
       }
     },
-    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/saveImg/saveImg\"}",
+    "arguments": "{\"name\":\"统计报表\",\"query\":\"\",\"id\":0,\"pathName\":\"pages/validcode/validcode\"}",
     "allowsInlineMediaPlayback": true,
     "uni-app": {
-      "compilerVersion": "2.6.0",
+      "compilerVersion": "2.6.1",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",

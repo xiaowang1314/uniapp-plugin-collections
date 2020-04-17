@@ -28,7 +28,7 @@
     "autoclose": false
   },
   "appname": "uniapp-plugin-collections",
-  "compilerVersion": "2.6.0",
+  "compilerVersion": "2.6.1",
   "usingComponents": {
     "countup": "/components/countUp",
     "validcode": "/components/validCode",

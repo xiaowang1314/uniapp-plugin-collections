@@ -21,6 +21,7 @@ import table from './components/table/table.vue'
 //输入框模糊搜索
 import inputSearch from './components/inputSearch.vue'
 import drawer from './components/drawer/drawer.vue'
+import digitKeyboard from './components/digitKeyboard/digitKeyboard.vue'
 
 
 Vue.component('countup', countUp)
@@ -35,6 +36,7 @@ Vue.component('battery', battery)
 Vue.component('m-table', table)
 Vue.component('inputSearch', inputSearch)
 Vue.component('drawer', drawer)
+Vue.component('digitKeyboard', digitKeyboard)
 
 
 App.mpType = 'app'

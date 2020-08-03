@@ -1,32 +1,40 @@
 {
 	"pages": [
+		
 		{
-		    "path" : "pages/digitKeyboard/digitKeyboard",
-		    "style" : {
-				"navigationBarTitleText": "数字键盘"
+			"path": "pages/validcode/validcode",
+			"style": {
+				"navigationBarTitleText": "自定义验证码、密码输入框"
 			}
-		},
-		{
-		    "path" : "pages/drawer/drawer",
-		    "style" : {
-				"navigationBarTitleText": "Drawer 抽屉"
-			}
-		},
-		{
-		    "path" : "pages/inputSearch/inputSearch",
-		    "style" : {
-				"navigationBarTitleText": "输入框模糊搜索"
-			}
-		},
-		{
-		    "path" : "pages/table/table",
-		    "style" : {
+		},{
+			"path": "pages/table/table",
+			"style": {
 				"navigationBarTitleText": "flex实现表格布局"
 			}
 		},
 		{
-		    "path" : "pages/battery/battery",
-		    "style" : {
+			"path": "pages/drawer/drawer",
+			"style": {
+				"navigationBarTitleText": "Drawer 抽屉"
+			}
+		},
+		{
+			"path": "pages/digitKeyboard/digitKeyboard",
+			"style": {
+				"navigationBarTitleText": "数字键盘"
+			}
+		},
+
+		{
+			"path": "pages/inputSearch/inputSearch",
+			"style": {
+				"navigationBarTitleText": "输入框模糊搜索"
+			}
+		},
+
+		{
+			"path": "pages/battery/battery",
+			"style": {
 				"navigationBarTitleText": "模拟电池充电"
 			}
 		},
@@ -56,12 +64,6 @@
 		},
 
 		{
-			"path": "pages/validcode/validcode",
-			"style": {
-				"navigationBarTitleText": "自定义验证码、密码输入框"
-			}
-		},
-		{
 			"path": "pages/loading/loading",
 			"style": {
 				"navigationBarTitleText": "Loading图"
@@ -84,16 +86,15 @@
 			"style": {
 				"navigationBarTitleText": "数字滚动"
 			}
-		}
-	    ,{
-            "path" : "pages/scan/scan",
-            "style" : {
+		}, {
+			"path": "pages/scan/scan",
+			"style": {
 				"navigationBarTitleText": "自定义扫码"
 			}
-        }
+		}
 
-        
-    ],
+
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

@@ -27,7 +27,7 @@
 		<view  class="advance-area">
 			<view class="flex-box tc thead">
 				<view class="item-3">功率范围(瓦)</view>
-				<view class="item-3 setWidth">金额(元)</view>
+				<view class="item-3">金额(元)</view>
 				<view class="item-3">分钟</view>
 			</view>
 			<view class="flex-box table tc">

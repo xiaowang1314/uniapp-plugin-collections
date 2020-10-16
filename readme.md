@@ -2,6 +2,8 @@
 
 ### 组件
 
+[自由拖动按钮](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/dragButton.md)
+
 [数字键盘](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/digitKeyboard.md)
 
 [Drawer 抽屉](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/drawer.md)

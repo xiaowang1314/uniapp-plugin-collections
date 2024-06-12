@@ -138,3 +138,16 @@ exports.digitLength = digitLength;
 exports.float2Fixed = float2Fixed;
 exports.enableBoundaryChecking = enableBoundaryChecking;
 exports['default'] = index;
+
+export {
+	strip,
+	plus,
+	minus,
+	times,
+	divide,
+	round,
+	digitLength,
+	float2Fixed
+}
+
+export default index;

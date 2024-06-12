@@ -19,7 +19,8 @@
 	margin: 0 auto;
 	width: 15%;
 	height: 15%;
-	background-color: #42b983; //可修改颜色
+	/* 可修改颜色 */
+	background-color: #42b983; 
 	border-radius: 100%;
 	-webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
 	animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;

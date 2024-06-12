@@ -11,7 +11,8 @@
 	margin: 1px;
 	border-radius: 50%;
 	border: 5px solid #fff;
-	border-color: #42b983 transparent #42b983 transparent;//可修改颜色
+	/* 可修改颜色 */
+	border-color: #42b983 transparent #42b983 transparent;
 	animation: lds-dual-ring 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {

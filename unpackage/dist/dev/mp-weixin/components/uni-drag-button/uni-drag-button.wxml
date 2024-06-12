@@ -1,0 +1,1 @@
+<view class="scan-fixed data-v-cdc19d16" style="{{'bottom:' + a + ';' + ('right:' + b)}}" bindtouchstart="{{c}}" bindtouchmove="{{d}}" bindtouchend="{{e}}"><text class="icon data-v-cdc19d16">拖动</text></view>

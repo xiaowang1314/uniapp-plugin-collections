@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<m-table />
+		<mTable />
 	</view>	
 </template>
 

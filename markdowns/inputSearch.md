@@ -9,20 +9,9 @@
 
 1.插件代码拷贝
 
-- 下载后把components目录下inputSearch.vue文件拷贝到自己项目目录下
-
-2.插件全局配置
-
-- 在项目里main.js中配置如下代码
-
-```
-import inputSearch from './components/inputSearch.vue'
-
-Vue.component('inputSearch', inputSearch)
-
-```
-
-3.插件使用
+- 下载后把components目录下/inputSearch/inputSearch.vue文件拷贝到自己项目目录下
+ 
+2.插件使用
 
 - vue页面使用
 

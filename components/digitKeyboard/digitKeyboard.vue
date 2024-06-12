@@ -37,7 +37,7 @@
 </template>
 
 <script>
-	import NP from '../../util/numberPrecision/numberPrecision.js'
+	import NP from '@/util/numberPrecision/numberPrecision.js'
 	export default {
 		props: {
 			inputVal: {

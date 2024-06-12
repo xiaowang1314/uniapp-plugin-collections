@@ -1,0 +1,48 @@
+/* flex */
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-box > .item-2 {
+  flex: 0 0 50%;
+}
+.side-nav {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 600rpx;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px #888888;
+}
+.side-nav.left {
+  transform: translateX(760rpx);
+}
+.side-nav.left.show {
+  transform: translateX(150rpx);
+}
+.side-nav.right {
+  transform: translateX(-760rpx);
+}
+.side-nav.right.show {
+  transform: translateX(0);
+}
+.side-nav .body {
+  height: 100%;
+  overflow-y: auto;
+}
+.side-nav .item:nth-of-type(1) {
+  height: 0;
+}
+.side-nav .item:nth-of-type(1) {
+  flex: 1 0 auto;
+}
+.side-nav .action-area .item-2 button {
+  border-radius: 0;
+  line-height: 96rpx;
+}

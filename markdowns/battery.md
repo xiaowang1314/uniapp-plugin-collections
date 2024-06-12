@@ -11,18 +11,7 @@
 
 - 下载后把components目录下/battery/battery.vue文件拷贝到自己项目目录下
 
-2.插件全局配置
-
-- 在项目里main.js中配置如下代码
-
-```
-import battery from './components/battery/battery.vue'
-
-Vue.component('battery',battery)
-
-```
-
-3.插件使用
+2.插件使用
 
 - vue页面使用
 

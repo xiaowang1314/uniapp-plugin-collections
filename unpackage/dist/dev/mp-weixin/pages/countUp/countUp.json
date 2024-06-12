@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "数字滚动",
+  "usingComponents": {
+    "count-up": "../../components/countUp/countUp"
+  }
+}

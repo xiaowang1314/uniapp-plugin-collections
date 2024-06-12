@@ -9,7 +9,8 @@
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
   animation: lds-grid 1.2s linear infinite;
 }
 .lds-grid view:nth-child(1) {

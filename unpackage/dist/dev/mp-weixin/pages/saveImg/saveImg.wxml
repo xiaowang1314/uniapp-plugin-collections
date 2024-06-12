@@ -1,0 +1,1 @@
+<view><save-file wx:if="{{a}}" bindhide="{{b}}" u-i="20c710f4-0" bind:__l="__l" u-p="{{c}}"></save-file></view>

@@ -14,7 +14,8 @@
   border: 6px solid #fff;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #42b983 transparent transparent transparent;//可修改颜色
+  /* 可修改颜色 */
+  border-color: #42b983 transparent transparent transparent;
 }
 .lds-ring view:nth-child(1) {
   animation-delay: -0.45s;

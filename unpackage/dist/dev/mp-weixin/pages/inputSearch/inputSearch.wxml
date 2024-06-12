@@ -1,0 +1,1 @@
+<view class="content"><input-search wx:if="{{b}}" bindselect="{{a}}" u-i="60aad1c4-0" bind:__l="__l" u-p="{{b}}"/></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Loading图",
+  "usingComponents": {
+    "loading": "../../components/loading/loading"
+  }
+}

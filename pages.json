@@ -1,5 +1,20 @@
 {
 	"pages": [{
+			"path": "pages/table/table",
+			"style": {
+				"navigationBarTitleText": "flex实现表格布局"
+			}
+		},{
+			"path": "pages/battery/battery",
+			"style": {
+				"navigationBarTitleText": "模拟电池充电"
+			}
+		},{
+			"path": "pages/validcode/validcode",
+			"style": {
+				"navigationBarTitleText": "自定义验证码、密码输入框"
+			}
+		}, {
 			"path": "pages/dragButton/dragButton",
 			"style": {
 				"navigationBarTitleText": "自由拖动悬浮按钮",
@@ -12,17 +27,7 @@
 
 		},
 
-		{
-			"path": "pages/validcode/validcode",
-			"style": {
-				"navigationBarTitleText": "自定义验证码、密码输入框"
-			}
-		}, {
-			"path": "pages/table/table",
-			"style": {
-				"navigationBarTitleText": "flex实现表格布局"
-			}
-		},
+		
 		{
 			"path": "pages/drawer/drawer",
 			"style": {
@@ -43,12 +48,7 @@
 			}
 		},
 
-		{
-			"path": "pages/battery/battery",
-			"style": {
-				"navigationBarTitleText": "模拟电池充电"
-			}
-		},
+		
 		{
 			"path": "pages/typewriter/typewriter",
 			"style": {

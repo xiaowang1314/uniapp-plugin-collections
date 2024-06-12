@@ -1,0 +1,1 @@
+<view><digit-keyboard wx:if="{{a}}" bindcancel="{{b}}" bindconfirm="{{c}}" u-i="0c1c1ebc-0" bind:__l="__l" u-p="{{d}}"/></view>

@@ -12,8 +12,10 @@
   height: 0;
   margin: 6px;
   box-sizing: border-box;
-  border: 26px solid #42b983;//可修改颜色
-  border-color: #42b983 transparent #42b983 transparent;//可修改颜色
+  /* 可修改颜色 */
+  border: 26px solid #42b983;
+  /* 可修改颜色 */
+  border-color: #42b983 transparent #42b983 transparent;
   animation: lds-hourglass 1.2s infinite;
 }
 @keyframes lds-hourglass {

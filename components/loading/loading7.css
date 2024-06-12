@@ -8,7 +8,8 @@
   position: absolute;
   width: 5px;
   height: 5px;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
   border-radius: 50%;
   animation: lds-default 1.2s linear infinite;
 }

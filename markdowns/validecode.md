@@ -9,20 +9,10 @@
 
 1.插件代码拷贝
 
-- 下载后把components目录下validCode.vue文件拷贝到自己项目目录下
+- 下载后把components目录下/validCode/validCode.vue文件拷贝到自己项目目录下
 
-2.插件全局配置
 
-- 在项目里main.js中配置如下代码
-
-```
-import validCode from './components/validCode.vue'
-
-Vue.component('validcode',validCode)
-
-```
-
-3.插件使用
+2.插件使用
 
 - vue页面使用
 
@@ -30,9 +20,9 @@ Vue.component('validcode',validCode)
 <template>
 	<view class="content">
 		<view>验证码：</view>
-		<validcode ref="code" :maxlength="4" :isPwd="false" @finish="getCode" ></validcode>
+		<validCode ref="code" :maxlength="4" :isPwd="false" @finish="getCode" ></validCode>
 		<view>密码:</view>
-		<validcode ref="pwd" :maxlength="6" :isPwd="true" @finish="getPwd"></validcode>
+		<validCode ref="pwd" :maxlength="6" :isPwd="true" @finish="getPwd"></validCode>
 		<button type="primary" @tap="clearCode">清空验证码</button>
 		<button type="primary" @tap="clearPwd">清空密码</button>
 		

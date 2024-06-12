@@ -1,0 +1,1 @@
+<view class="content"><screen-text-scroll wx:if="{{b}}" bindgetCurrentIndex="{{a}}" u-i="bf2f7410-0" bind:__l="__l" u-p="{{b}}"/></view>

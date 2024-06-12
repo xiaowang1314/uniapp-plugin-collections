@@ -2,7 +2,8 @@
 	width: 40px;
 	height: 40px;
 	display: inline-block;
-	background-color: #42b983; //可修改颜色
+	/* 可修改颜色 */
+	background-color: #42b983; 
 
 	border-radius: 100%;
 	-webkit-animation: sk-scaleout 1.0s infinite ease-in-out;

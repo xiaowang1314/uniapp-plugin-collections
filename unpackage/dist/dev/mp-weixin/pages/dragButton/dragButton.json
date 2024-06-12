@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自由拖动悬浮按钮",
+  "usingComponents": {
+    "uni-drag-button": "../../components/uni-drag-button/uni-drag-button"
+  }
+}

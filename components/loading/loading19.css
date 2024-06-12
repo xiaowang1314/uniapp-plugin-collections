@@ -7,7 +7,8 @@
 .spinner19 > view {
   width: 18px;
   height: 18px;
-  background-color: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background-color: #42b983;
 
   border-radius: 100%;
   display: inline-block;

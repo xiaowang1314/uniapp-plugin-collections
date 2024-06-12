@@ -9,27 +9,17 @@
 
 1.插件代码拷贝
 
-- 下载后把components目录下table/table.vue文件拷贝到自己项目目录下
+- 下载后把components目录下mTable/mTable.vue文件拷贝到自己项目目录下
 
-2.插件全局配置
 
-- 在项目里main.js中配置如下代码
-
-```
-import table from './components/table/table.vue'
-
-Vue.component('m-table',table)
-
-```
-
-3.插件使用
+2.插件使用
 
 - vue页面使用
 
 ```
 <template>
 	<view>
-		<m-table />
+		<mTable />
 	</view>	
 </template>
 ```

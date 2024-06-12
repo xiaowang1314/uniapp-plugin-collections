@@ -1,0 +1,1 @@
+<view class="battery-area data-v-7c24360e"><view wx:for="{{a}}" wx:for-item="i" wx:key="a" class="line data-v-7c24360e"></view></view>

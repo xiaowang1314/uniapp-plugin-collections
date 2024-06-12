@@ -18,7 +18,8 @@
   width: 5px;
   height: 14px;
   border-radius: 20%;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
 }
 .lds-spinner view:nth-child(1) {
   transform: rotate(0deg);

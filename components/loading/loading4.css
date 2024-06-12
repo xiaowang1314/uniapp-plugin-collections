@@ -12,7 +12,8 @@
   position: absolute;
   width: 26px;
   height: 26px;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
   animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .lds-heart view:after,
@@ -22,7 +23,8 @@
   display: block;
   width: 26px;
   height: 26px;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
 }
 .lds-heart view:before {
   left: -17px;

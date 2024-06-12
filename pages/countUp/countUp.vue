@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<countup :num="num" color="#ff9e50" width='13' height='23' fontSize='23'></countup>
+		<countUp :num="num" color="#ff9e50" width='13' height='23' fontSize='23'></countUp>
 		<button @tap="add">Add</button>
 		<button @tap="reduce">Reduce</button>
 	</view>

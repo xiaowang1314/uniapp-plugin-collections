@@ -1,0 +1,1 @@
+<view class="{{['side-nav', c, d, e]}}"><view class="item"><view class="body"><slot/></view></view><view class="item"><view class="flex-box action-area"><view class="item-2"><button type="warn" bindtap="{{a}}">取消</button></view><view class="item-2"><button type="primary" bindtap="{{b}}">确定</button></view></view></view></view>

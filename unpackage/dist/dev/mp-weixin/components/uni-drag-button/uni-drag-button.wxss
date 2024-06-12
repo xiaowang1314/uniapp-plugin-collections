@@ -1,0 +1,17 @@
+.scan-fixed.data-v-cdc19d16 {
+  position: fixed;
+  z-index: 9999;
+  background: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.icon.data-v-cdc19d16 {
+  color: #d43030;
+  font-size: 40rpx;
+  font-weight: bold;
+}

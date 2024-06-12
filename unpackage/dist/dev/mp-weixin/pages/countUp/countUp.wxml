@@ -1,0 +1,1 @@
+<view><count-up wx:if="{{a}}" u-i="caaf14e4-0" bind:__l="__l" u-p="{{a}}"></count-up><button bindtap="{{b}}">Add</button><button bindtap="{{c}}">Reduce</button></view>

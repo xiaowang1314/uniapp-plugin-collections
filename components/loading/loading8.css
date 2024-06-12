@@ -10,7 +10,8 @@
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 .lds-ellipsis view:nth-child(1) {

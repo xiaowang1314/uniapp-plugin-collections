@@ -11,18 +11,8 @@
 
 - 下载后把components目录下waterfall2.vue文件拷贝到自己项目目录下
 
-2.插件全局配置
 
-- 在项目里main.js中配置如下代码
-
-```
-import waterfall2 from './components/waterfall2.vue'
-
-Vue.component('waterfall2',waterfall2)
-
-```
-
-3.插件使用
+2.插件使用
 
 - vue页面使用
 

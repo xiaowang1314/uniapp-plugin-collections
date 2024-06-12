@@ -20,18 +20,8 @@
 
 - 下载后把components目录下saveFile.vue文件拷贝到自己项目目录下
 
-2.插件全局配置
 
-- 在项目里main.js中配置如下代码
-
-```
-import savefile from './components/saveFile.vue'
-
-Vue.component('savefile',savefile)
-
-```
-
-3.插件使用
+2.插件使用
 
 
 - vue页面使用
@@ -40,7 +30,7 @@ Vue.component('savefile',savefile)
 <template>
 	<view>
 		<!-- 预览图片 -->
-		<savefile v-if="isShowPhoto" :url="qrUrl" @hide="hidePhoto"></savefile>
+		<saveFile v-if="isShowPhoto" :url="qrUrl" @hide="hidePhoto"></saveFile>
 	</view>
 </template>
 

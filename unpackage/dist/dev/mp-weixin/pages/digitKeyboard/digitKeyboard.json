@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "数字键盘",
+  "usingComponents": {
+    "digit-keyboard": "../../components/digitKeyboard/digitKeyboard"
+  }
+}

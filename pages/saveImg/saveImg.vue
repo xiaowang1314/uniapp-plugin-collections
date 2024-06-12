@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<!-- 预览图片 -->
-		<savefile v-if="isShowPhoto" :url="qrUrl" @hide="hidePhoto"></savefile>
+		<saveFile v-if="isShowPhoto" :url="qrUrl" @hide="hidePhoto"></saveFile>
 	</view>
 </template>
 

@@ -15,7 +15,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #42b983;//可修改颜色
+  /* 可修改颜色 */
+  background: #42b983;
   margin: -3px 0 0 -3px;
 }
 .lds-roller view:nth-child(1) {

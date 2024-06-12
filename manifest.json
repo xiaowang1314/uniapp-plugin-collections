@@ -6,9 +6,9 @@
     "versionCode" : "100",
     "transformPx" : false,
     "app-plus" : {
-		"compatible":{
-			"ignoreVersion": true //true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
-		},
+        "compatible" : {
+            "ignoreVersion" : true //true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
+        },
         /* 5+App特有相关 */
         "splashscreen" : {
             "autoclose" : true,
@@ -72,5 +72,6 @@
                 }
             }
         }
-    }
+    },
+    "vueVersion" : "3"
 }

@@ -9,7 +9,8 @@
 	height: 51px;
 	margin: 6px;
 	border-radius: 50%;
-	background: #42b983; //可修改颜色
+	/* 可修改颜色 */
+	background: #42b983; 
 	animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 

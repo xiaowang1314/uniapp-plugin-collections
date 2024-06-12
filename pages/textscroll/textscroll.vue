@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<textscroll :list="list" @getCurrentIndex="getIndex" />
+		<screenTextScroll :list="list" @getCurrentIndex="getIndex" />
 	</view>
 </template>
 

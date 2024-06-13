@@ -38,6 +38,8 @@
 [Loading图-总有一款适合你](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/loading.md)
 
 
+[选择车牌号](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/licensePlate.md)
+
 
 ### 常见问题
 

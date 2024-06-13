@@ -3,12 +3,6 @@
 	<view class="license-plate-container">
 		<view class="item"></view>
 		<view class="item">
-			<view class="close-box">
-				<image :src="imgs[0]" class="close-img"></image>
-			</view>
-			<view class="title-box">
-				输入车牌号，离场时可享受<text class="hour">免费停车2小时</text>
-			</view>
 			<view class="input-box">
 				<view :class="['item',{'active':index == 0}]" @tap="showKeyboard(0)">{{licensePlateId[0]}}</view>
 				<view :class="['item',{'active':index == 1}]" @tap="showKeyboard(1)">{{licensePlateId[1]}}</view>
@@ -19,31 +13,30 @@
 				<view :class="['item',{'active':index == 6}]" @tap="showKeyboard(6)">{{licensePlateId[6]}}</view>
 				<view :class="['item',{'active':index == 7}]" @tap="showKeyboard(7)">{{licensePlateId[7]}}</view>
 			</view>
-			<view class="tip">请如实填写，以免影响停车费用结算</view>
-			<view :class="['send-btn',{'active':licensePlateId.join('').length == 8}]" @tap="send">确认提交</view>
+			<view :class="['send-btn',{'active':licensePlateId.join('').length >= 7}]" @tap="send">确认提交</view>
 			<view v-if="isShowKeyboad1 || isShowKeyboad2 || isShowKeyboad3" class="keyboard-box">
 				<view class="keyboard-close-box" @tap="hideKeyboard">
-					<image :src="imgs[1]" class="hide-img"></image>
+					<image src="@/static/licensePlate/arrow-bottom.png" class="hide-img"></image>
 				</view>
 				<view v-if="isShowKeyboad1" class="keyboard-content">
 					<view v-for="(item,i) in licensePlateFirst" :key="i" class="item" @tap="keyboardSelect(item)">
 						{{item}}</view>
 					<view class="del-btn" @tap="delLicensePlate">
-						<image :src="imgs[2]" class="del-img"></image>
+						<image src="@/static/licensePlate/del.png" class="del-img"></image>
 					</view>
 				</view>
 				<view v-if="isShowKeyboad2" class="keyboard-content">
 					<view v-for="(item,i) in licensePlateteTwo" :key="i" :class="['item',{'disable':disableGet(item)}]"
 						@tap="keyboardSelect(item)">{{item}}</view>
 					<view class="item" @tap="delLicensePlate">
-						<image :src="imgs[2]" class="del-img"></image>
+						<image src="@/static/licensePlate/del.png" class="del-img"></image>
 					</view>
 				</view>
 				<view v-if="isShowKeyboad3" class="keyboard-content">
 					<view v-for="(item,i) in licensePlateteThree" :key="i" class="item" @tap="keyboardSelect(item)">
 						{{item}}</view>
 					<view class="item" @tap="delLicensePlate">
-						<image :src="imgs[2]" class="del-img"></image>
+						<image src="@/static/licensePlate/del.png" class="del-img"></image>
 					</view>
 				</view>
 			</view>
@@ -56,13 +49,15 @@
 		mapState
 	} from 'vuex';
 	export default {
+		props:{
+			// 默认车牌号
+			licensePlateDefault:{
+				type:String,
+				default:""
+			}
+		},
 		data() {
 			return {
-				imgs: [
-					'https://frontend-c.oss-cn-hangzhou.aliyuncs.com/wz-mini-program/chargeDetail/licensePlate/close.png',
-					'https://frontend-c.oss-cn-hangzhou.aliyuncs.com/wz-mini-program/chargeDetail/licensePlate/arrow-bottom.png',
-					'https://frontend-c.oss-cn-hangzhou.aliyuncs.com/wz-mini-program/chargeDetail/licensePlate/del.png'
-				],
 				isShowKeyboad1: false,
 				isShowKeyboad2: false,
 				isShowKeyboad3: false,
@@ -94,8 +89,13 @@
 		methods: {
 			init() {
 				let {
-					index
+					index,
+					licensePlateDefault
 				} = this;
+				if(licensePlateDefault){
+					this.licensePlateId = licensePlateDefault.split("");
+					return;	
+				}
 				this.showKeyboard(index);
 			},
 			// 键盘选择
@@ -171,23 +171,16 @@
 					licensePlateId
 				} = this;
 				let licensePlate = licensePlateId.join('');
-				if (licensePlate.length < 8) return;
-				console.log(licensePlate)
+				if (licensePlate.length < 7) return;
+				this.$emit("success",licensePlate);
 				
 			}
 		}
 	}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 	.license-plate-container {
-		position: fixed;
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		z-index: 101;
-		background-color: rgba(0, 0, 0, 0.7);
 		display: flex;
 		flex-direction: column;
 
@@ -201,48 +194,6 @@
 				min-height: 994rpx;
 				background: #FFFFFF;
 				border-radius: 40rpx 40rpx 0px 0px;
-				background-image: url("https://frontend-c.oss-cn-hangzhou.aliyuncs.com/wz-mini-program/chargeDetail/licensePlate/bg.png");
-				background-repeat: no-repeat;
-				background-size: 750rpx 310rpx;
-
-				&::after {
-					content: "";
-					position: absolute;
-					left: 0;
-					top: -238rpx;
-					width: 100%;
-					height: 400rpx;
-					background-image: url("https://frontend-c.oss-cn-hangzhou.aliyuncs.com/wz-mini-program/chargeDetail/licensePlate/car-bg.png");
-					background-size: 750rpx 400rpx;
-				}
-
-				.close-box {
-					position: absolute;
-					top: 0rpx;
-					right: 7rpx;
-					padding: 38rpx;
-
-					.close-img {
-						width: 24rpx;
-						height: 24rpx;
-					}
-				}
-
-				.title-box {
-					padding-left: 40rpx;
-					font-family: PingFangSC, PingFang SC;
-					font-weight: 500;
-					font-size: 34rpx;
-					color: #222222;
-					line-height: 44rpx;
-					margin-top: 235rpx;
-
-					.hour {
-						font-weight: 600;
-						color: #FD291A;
-						margin-left: 8rpx;
-					}
-				}
 
 				.input-box {
 					display: flex;
@@ -270,15 +221,6 @@
 							background: rgba(125, 211, 6, 0.08);
 						}
 					}
-				}
-
-				.tip {
-					padding-left: 40rpx;
-					font-family: PingFangSC, PingFang SC;
-					font-weight: 400;
-					font-size: 24rpx;
-					color: #FD631A;
-					line-height: 44rpx;
 				}
 
 				.send-btn {

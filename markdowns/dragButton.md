@@ -3,7 +3,7 @@
 [github地址，喜欢的可以star下哦](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/dragButton.md)
 
 ### 插件预览图
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/dragButton.gif)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/dragButton.gif)
 
 #### 使用教程
 

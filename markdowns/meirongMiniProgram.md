@@ -11,5 +11,5 @@
 
 #### 页面展示
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/yibaimei1.png)
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/yibaimei2.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/yibaimei1.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/yibaimei2.png)

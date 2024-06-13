@@ -3,7 +3,7 @@
 [github地址，喜欢的可以star下哦](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/markdowns/inputSearch.md)
 
 ### 插件预览图
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/search.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/search.png)
 
 #### 使用教程
 

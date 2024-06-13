@@ -6,7 +6,7 @@
 
 新手可能遇到过这个的问题
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/uniapp-weixin.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/weixin/uniapp-weixin.png)
 
 #### 操作步骤
 
@@ -16,26 +16,26 @@
 
 #### 步骤一
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/wx-step-1.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/weixin/wx-step-1.png)
 
 #### 步骤二
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/wx-step-2.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/weixin/wx-step-2.png)
 
 
 #### 步骤三
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/wx-step-3.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/weixin/wx-step-3.png)
 
 
 #### 步骤四
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/wx-step-4.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/weixin/wx-step-4.png)
 
 
 #### 步骤五
 
-![](https://github.com/xiaowang1314/u-validcode/blob/master/static/weixin/wx-step-5.png)
+![](https://github.com/xiaowang1314/uniapp-plugin-collections/blob/master/static/weixin/wx-step-5.png)
 
 
 这样就代表运行成功了，赶快去试试吧

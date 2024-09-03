@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择车牌号",
+  "usingComponents": {
+    "license-plate": "../../components/licensePlate/licensePlate"
+  }
+}

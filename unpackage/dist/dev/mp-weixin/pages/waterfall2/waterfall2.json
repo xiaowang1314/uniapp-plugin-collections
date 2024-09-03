@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "瀑布流布局2",
-  "usingComponents": {}
+  "usingComponents": {
+    "waterfall2": "../../components/waterfall2/waterfall2"
+  }
 }

@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "flex实现表格布局",
-  "usingComponents": {}
+  "usingComponents": {
+    "m-table": "../../components/mTable/mTable"
+  }
 }

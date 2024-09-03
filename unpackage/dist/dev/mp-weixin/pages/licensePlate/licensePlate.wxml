@@ -1,0 +1,1 @@
+<view><license-plate wx:if="{{b}}" bindsuccess="{{a}}" u-i="2e0ab018-0" bind:__l="__l" u-p="{{b}}"/></view>

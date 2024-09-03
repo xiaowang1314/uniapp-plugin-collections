@@ -6,11 +6,15 @@ const _sfc_main = {
   }
 };
 if (!Array) {
-  const _component_m_table = common_vendor.resolveComponent("m-table");
-  _component_m_table();
+  const _easycom_mTable2 = common_vendor.resolveComponent("mTable");
+  _easycom_mTable2();
+}
+const _easycom_mTable = () => "../../components/mTable/mTable.js";
+if (!Math) {
+  _easycom_mTable();
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {};
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/potatow/Desktop/work/uniapp-plugin-collections/pages/table/table.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render]]);
 wx.createPage(MiniProgramPage);

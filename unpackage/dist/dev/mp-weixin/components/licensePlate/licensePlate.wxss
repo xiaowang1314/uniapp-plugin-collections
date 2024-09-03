@@ -1,0 +1,130 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.license-plate-container {
+  display: flex;
+  flex-direction: column;
+}
+.license-plate-container > .item:nth-of-type(1) {
+  flex: 1;
+}
+.license-plate-container > .item:nth-of-type(2) {
+  position: relative;
+  min-height: 994rpx;
+  background: #FFFFFF;
+  border-radius: 40rpx 40rpx 0px 0px;
+}
+.license-plate-container > .item:nth-of-type(2) .input-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 29rpx 40rpx;
+  box-sizing: border-box;
+}
+.license-plate-container > .item:nth-of-type(2) .input-box > .item {
+  width: 70rpx;
+  height: 88rpx;
+  background: #F7F7F7;
+  border-radius: 6rpx;
+  border: 1rpx solid #DBDBDB;
+  transform: rotateZ(360deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: PingFangSC, PingFang SC;
+  font-weight: 600;
+  font-size: 44rpx;
+  color: #222222;
+}
+.license-plate-container > .item:nth-of-type(2) .input-box > .item.active {
+  border: 2rpx solid #1FA71F;
+  background: rgba(125, 211, 6, 0.08);
+}
+.license-plate-container > .item:nth-of-type(2) .send-btn {
+  margin: 50rpx auto 20rpx;
+  width: 710rpx;
+  height: 96rpx;
+  background: #E6E6E6;
+  border-radius: 48rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PingFangSC, PingFang SC;
+  font-weight: 500;
+  font-size: 40rpx;
+  color: #FFFFFF;
+}
+.license-plate-container > .item:nth-of-type(2) .send-btn.active {
+  background: linear-gradient(90deg, #77C708 0%, #34B834 100%);
+}
+.license-plate-container .keyboard-box {
+  background: #E5E5E5;
+  margin-bottom: 64rpx;
+}
+.license-plate-container .keyboard-box .keyboard-close-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  height: 68rpx;
+  border-top: 1rpx solid #EEEEEE;
+  transform: rotateZ(360deg);
+}
+.license-plate-container .keyboard-box .keyboard-close-box .hide-img {
+  width: 50rpx;
+  height: 50rpx;
+}
+.license-plate-container .keyboard-box .keyboard-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14rpx 10rpx 2rpx;
+  box-sizing: border-box;
+}
+.license-plate-container .keyboard-box .keyboard-content .item,
+.license-plate-container .keyboard-box .keyboard-content .del-btn {
+  width: 70rpx;
+  height: 90rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  margin-bottom: 12rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: PingFangTC, PingFangTC;
+  font-weight: 600;
+  font-size: 32rpx;
+  color: #111111;
+}
+.license-plate-container .keyboard-box .keyboard-content .item.disable,
+.license-plate-container .keyboard-box .keyboard-content .del-btn.disable {
+  color: #CCCCCC;
+}
+.license-plate-container .keyboard-box .keyboard-content .del-btn {
+  width: 143rpx;
+}
+.license-plate-container .keyboard-box .keyboard-content .del-img {
+  width: 60rpx;
+  height: 50rpx;
+}

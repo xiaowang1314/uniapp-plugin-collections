@@ -3,5 +3,23 @@
   "projectname": "uniapp-plugin-collections",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/modal/modal",
+          "pathName": "pages/modal/modal",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "统计报表",
+          "pathName": "pages/dragButton/dragButton",
+          "query": ""
+        }
+      ]
+    }
   }
 }

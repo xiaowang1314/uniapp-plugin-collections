@@ -1,0 +1,1 @@
+<view><button type="primary" bindtap="{{a}}">显示</button><modal wx:if="{{b}}" u-s="{{['d']}}" bindcancel="{{c}}" bindok="{{d}}" u-i="17570cd4-0" bind:__l="__l" u-p="{{e}}">这是提示内容</modal></view>

@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "输入框模糊搜索",
-  "usingComponents": {}
+  "usingComponents": {
+    "input-search": "../../components/inputSearch/inputSearch"
+  }
 }

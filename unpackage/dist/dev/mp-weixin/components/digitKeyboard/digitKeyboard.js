@@ -99,5 +99,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     w: common_vendor.o(($event) => $options.modifyNum("clear"))
   };
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-6a74be83"], ["__file", "/Users/potatow/Desktop/work/uniapp-plugin-collections/components/digitKeyboard/digitKeyboard.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-6a74be83"]]);
 wx.createComponent(Component);

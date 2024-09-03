@@ -1,0 +1,1 @@
+<view class="input-group"><input placeholder="{{a}}" bindinput="{{b}}" bindblur="{{c}}" value="{{d}}"/><view class="ul"><view wx:for="{{e}}" wx:for-item="item" wx:key="b" class="li" bindtap="{{item.c}}">{{item.a}}</view></view></view>

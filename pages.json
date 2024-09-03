@@ -105,6 +105,13 @@
 			"style": {
 				"navigationBarTitleText": "自定义扫码"
 			}
+		},
+		{
+			"path" : "pages/modal/modal",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 
 
